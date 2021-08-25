@@ -37,7 +37,7 @@
   "HideDesktopMenuButton": false,
   "IsReadonly": false,
   "LogoHeight": 36,
-  "MainMenuLayoutType": 0,
+  "MainMenuLayoutType": 5,
   "MobileSettings": {
     "$type": "BarsUp.Designer.RmsMobileSettings, BarsUp.Designer.Workspace",
     "Display": "Мобильное приложение",
