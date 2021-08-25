@@ -1,6 +1,20 @@
 ﻿{
   "$type": "BarsUp.Designer.Workspace.Elements.RmsSolution, BarsUp.Designer.Workspace",
-  "AppliedMigrations": [],
+  "AppliedMigrations": [
+    "PermissionSingleToMultiMigration",
+    "TooltipLastUidToFullPathMigration",
+    "PublicationProfileRemoteListToSingleMigration",
+    "ModuleMenuForRoutesCacheDropMigration",
+    "ControlFilterReplaceMigration",
+    "BlocklyUidMigration",
+    "DropFormViewServiceCacheMigration",
+    "DropEntityDomainServiceInterceptorCacheMigration",
+    "ExcelExportMigration",
+    "MobileMigration",
+    "DropListFormServiceCacheMigration",
+    "DropListServiceCacheMigration",
+    "DropMultiAddCacheMigration20210402"
+  ],
   "AuthorizationMethods": [
     {
       "$type": "BarsUp.Designer.DefaultAuthorizationMethod, BarsUp.Designer.Workspace",
