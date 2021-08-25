@@ -1,0 +1,11 @@
+﻿{
+  "$type": "BarsUp.Designer.Services.BranchMerge.Differs.Additional.Blocky.BlocklyToActualize, BarsUp.Designer",
+  "DescriptorUid": "B4.Rms.Descriptor.BlocklyToActualize",
+  "Display": "Блокли-свойства, которые нужно актуализировать, перегенерировав их код",
+  "ElementsWithBlocklyProps": {
+    "$type": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib],[System.Collections.Generic.List`1[[BarsUp.Designer.Services.ChildElementDiscover.ChildElementDiscoverPath, BarsUp.Designer]], System.Private.CoreLib]], System.Private.CoreLib"
+  },
+  "IsHidden": true,
+  "Name": "BlocklyToActualize",
+  "Uid": "2e141a8a-187c-4d92-8531-6228a962e4a8"
+}
