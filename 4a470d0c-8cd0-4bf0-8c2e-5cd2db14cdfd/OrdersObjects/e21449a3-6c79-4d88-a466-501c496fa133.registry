@@ -1,0 +1,434 @@
+﻿{
+  "$type": "BarsUp.Designer.View.Registry, BarsUp.Designer.View",
+  "Actions": [
+    {
+      "$type": "BarsUp.Designer.View.Actions.RefreshAction, BarsUp.Designer.View",
+      "Actions": [],
+      "Display": "Обновить",
+      "Hidden": false,
+      "Icon": "icon-arrow-refresh",
+      "IgnoreMakeInactive": false,
+      "Location": 0,
+      "PermissionCompositionType": 0,
+      "PermissionsList": [],
+      "Uid": "e29ca320-5454-4209-b5fd-69d1e43b48d2"
+    },
+    {
+      "$type": "BarsUp.Designer.View.Actions.ListViewRowAction, BarsUp.Designer.View",
+      "Actions": [],
+      "Click": {
+        "$type": "BarsUp.Designer.View.Forms.Events.ButtonClickEvent, BarsUp.Designer.View",
+        "Data": {},
+        "Xml": "<block type=\"rms.Handler\" id=\"1\" deletable=\"false\" ctx.uid=\"BarsUp.Designer.View.Actions.ListViewRowAction, BarsUp.Designer.View\" ctx.type=\"\" ctx.display=\"Действие на строке списка (кнопка)\" ctx.data=\"Base64:eyJhcmdzIjpbIml0ZW0iLCJlIl19\" x=\"250\" y=\"40\"><statement name=\"handler\"><block type=\"rms.form.Open\" id=\"2\" inline=\"false\" ctx.uid=\"\" ctx.type=\"\" ctx.display=\"null\" ctx.data=\"Base64:eyJGb3JtIjp7IkF0dHJpYnV0ZXMiOlt7IktleSI6IkVuYWJsZVN0YXRlUGVybWlzc2lvbkFzcGVjdCIsIlR5cGVJZCI6IkJhcnNVcC5EZXNpZ25lci5Nb2R1bGVzLkI0U3RhdGVzLkVuYWJsZVN0YXRlUGVybWlzc2lvbkFzcGVjdEF0dHJpYnV0ZSwgQmFyc1VwLkRlc2lnbmVyLk1vZHVsZXMuQjRTdGF0ZXMsIFZlcnNpb249MC4wLjAuMCwgQ3VsdHVyZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tlbj1udWxsIiwiVWlkIjoiQmFyc1VwLkRlc2lnbmVyLk1vZHVsZXMuQjRTdGF0ZXMuRW5hYmxlU3RhdGVQZXJtaXNzaW9uQXNwZWN0QXR0cmlidXRlLCBCYXJzVXAuRGVzaWduZXIuTW9kdWxlcy5CNFN0YXRlcyIsIlZhbHVlIjpmYWxzZX0seyJLZXkiOiJhdXRvU2Nyb2xsIiwiVHlwZUlkIjoiQmFyc1VwLkRlc2lnbmVyLlZpZXcuQXR0cmlidXRlcy5BdXRvU2Nyb2xsQXR0cmlidXRlLCBCYXJzVXAuRGVzaWduZXIuVmlldywgVmVyc2lvbj0wLjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPW51bGwiLCJVaWQiOiJCYXJzVXAuRGVzaWduZXIuVmlldy5BdHRyaWJ1dGVzLkF1dG9TY3JvbGxBdHRyaWJ1dGUsIEJhcnNVcC5EZXNpZ25lci5WaWV3IiwiVmFsdWUiOmZhbHNlfSx7IktleSI6ImJvZHlQYWRkaW5nQm90dG9tIiwiVHlwZUlkIjoiQmFyc1VwLkRlc2lnbmVyLlZpZXcuQXR0cmlidXRlcy5Cb2R5UGFkZGluZ0JvdHRvbUNvbnRyb2xBdHRyaWJ1dGUsIEJhcnNVcC5EZXNpZ25lci5WaWV3LCBWZXJzaW9uPTAuMC4wLjAsIEN1bHR1cmU9bmV1dHJhbCwgUHVibGljS2V5VG9rZW49bnVsbCIsIlVpZCI6IkJhcnNVcC5EZXNpZ25lci5WaWV3LkF0dHJpYnV0ZXMuQm9keVBhZGRpbmdCb3R0b21Db250cm9sQXR0cmlidXRlLCBCYXJzVXAuRGVzaWduZXIuVmlldyIsIlZhbHVlIjowfSx7IktleSI6ImJvZHlQYWRkaW5nTGVmdCIsIlR5cGVJZCI6IkJhcnNVcC5EZXNpZ25lci5WaWV3LkF0dHJpYnV0ZXMuQm9keVBhZGRpbmdMZWZ0Q29udHJvbEF0dHJpYnV0ZSwgQmFyc1VwLkRlc2lnbmVyLlZpZXcsIFZlcnNpb249MC4wLjAuMCwgQ3VsdHVyZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tlbj1udWxsIiwiVWlkIjoiQmFyc1VwLkRlc2lnbmVyLlZpZXcuQXR0cmlidXRlcy5Cb2R5UGFkZGluZ0xlZnRDb250cm9sQXR0cmlidXRlLCBCYXJzVXAuRGVzaWduZXIuVmlldyIsIlZhbHVlIjowfSx7IktleSI6ImJvZHlQYWRkaW5nUmlnaHQiLCJUeXBlSWQiOiJCYXJzVXAuRGVzaWduZXIuVmlldy5BdHRyaWJ1dGVzLkJvZHlQYWRkaW5nUmlnaHRDb250cm9sQXR0cmlidXRlLCBCYXJzVXAuRGVzaWduZXIuVmlldywgVmVyc2lvbj0wLjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPW51bGwiLCJVaWQiOiJCYXJzVXAuRGVzaWduZXIuVmlldy5BdHRyaWJ1dGVzLkJvZHlQYWRkaW5nUmlnaHRDb250cm9sQXR0cmlidXRlLCBCYXJzVXAuRGVzaWduZXIuVmlldyIsIlZhbHVlIjowfSx7IktleSI6ImJvZHlQYWRkaW5nVG9wIiwiVHlwZUlkIjoiQmFyc1VwLkRlc2lnbmVyLlZpZXcuQXR0cmlidXRlcy5Cb2R5UGFkZGluZ1RvcENvbnRyb2xBdHRyaWJ1dGUsIEJhcnNVcC5EZXNpZ25lci5WaWV3LCBWZXJzaW9uPTAuMC4wLjAsIEN1bHR1cmU9bmV1dHJhbCwgUHVibGljS2V5VG9rZW49bnVsbCIsIlVpZCI6IkJhcnNVcC5EZXNpZ25lci5WaWV3LkF0dHJpYnV0ZXMuQm9keVBhZGRpbmdUb3BDb250cm9sQXR0cmlidXRlLCBCYXJzVXAuRGVzaWduZXIuVmlldyIsIlZhbHVlIjowfSx7IktleSI6InJlZ2lvbiIsIlR5cGVJZCI6IkJhcnNVcC5EZXNpZ25lci5WaWV3LkF0dHJpYnV0ZXMuQm9yZGVyUmVnaW9uQ29udHJvbEF0dHJpYnV0ZSwgQmFyc1VwLkRlc2lnbmVyLlZpZXcsIFZlcnNpb249MC4wLjAuMCwgQ3VsdHVyZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tlbj1udWxsIiwiVWlkIjoiQmFyc1VwLkRlc2lnbmVyLlZpZXcuQXR0cmlidXRlcy5Cb3JkZXJSZWdpb25Db250cm9sQXR0cmlidXRlLCBCYXJzVXAuRGVzaWduZXIuVmlldyIsIlZhbHVlIjowfSx7IktleSI6IkNsb3NlRm9ybUJ1dHRvbiIsIlNob3ciOnRydWUsIlR5cGVJZCI6IkJhcnNVcC5EZXNpZ25lci5WaWV3LkF0dHJpYnV0ZXMuQ2xvc2VGb3JtQnV0dG9uQXR0cmlidXRlLCBCYXJzVXAuRGVzaWduZXIuVmlldywgVmVyc2lvbj0wLjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPW51bGwiLCJVaWQiOiJCYXJzVXAuRGVzaWduZXIuVmlldy5BdHRyaWJ1dGVzLkNsb3NlRm9ybUJ1dHRvbkF0dHJpYnV0ZSwgQmFyc1VwLkRlc2lnbmVyLlZpZXcifSx7IktleSI6IkRlbnlTdGF0ZVRvb2xiYXJJdGVtIiwiVHlwZUlkIjoiQmFyc1VwLkRlc2lnbmVyLlZpZXcuQXR0cmlidXRlcy5EZW55U3RhdGVUb29sYmFySXRlbUNvbnRyb2xBdHRyaWJ1dGUsIEJhcnNVcC5EZXNpZ25lci5WaWV3LCBWZXJzaW9uPTAuMC4wLjAsIEN1bHR1cmU9bmV1dHJhbCwgUHVibGljS2V5VG9rZW49bnVsbCIsIlVpZCI6IkJhcnNVcC5EZXNpZ25lci5WaWV3LkF0dHJpYnV0ZXMuRGVueVN0YXRlVG9vbGJhckl0ZW1Db250cm9sQXR0cmlidXRlLCBCYXJzVXAuRGVzaWduZXIuVmlldyIsIlZhbHVlIjpmYWxzZX0seyJLZXkiOiJmbGV4IiwiVHlwZUlkIjoiQmFyc1VwLkRlc2lnbmVyLlZpZXcuQXR0cmlidXRlcy5GbGV4Q29udHJvbEF0dHJpYnV0ZSwgQmFyc1VwLkRlc2lnbmVyLlZpZXcsIFZlcnNpb249MC4wLjAuMCwgQ3VsdHVyZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tlbj1udWxsIiwiVWlkIjoiQmFyc1VwLkRlc2lnbmVyLlZpZXcuQXR0cmlidXRlcy5GbGV4Q29udHJvbEF0dHJpYnV0ZSwgQmFyc1VwLkRlc2lnbmVyLlZpZXciLCJWYWx1ZSI6MH0seyJLZXkiOiJFeHBvcnRUb0V4Y2VsRm9ybUF0dHJpYnV0ZSIsIlR5cGVJZCI6IkJhcnNVcC5EZXNpZ25lci5WaWV3LkF0dHJpYnV0ZXMuRm9ybS5FeHBvcnRUb0V4Y2VsRm9ybUF0dHJpYnV0ZSwgQmFyc1VwLkRlc2lnbmVyLlZpZXcsIFZlcnNpb249MC4wLjAuMCwgQ3VsdHVyZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tlbj1udWxsIiwiVWlkIjoiQmFyc1VwLkRlc2lnbmVyLlZpZXcuQXR0cmlidXRlcy5Gb3JtLkV4cG9ydFRvRXhjZWxGb3JtQXR0cmlidXRlLCBCYXJzVXAuRGVzaWduZXIuVmlldyIsIlZhbHVlIjpmYWxzZX0seyJDcmVhdGVUaXRsZSI6Ilx1MDQyMVx1MDQzZVx1MDQzN1x1MDQzNFx1MDQzMFx1MDQzZFx1MDQzOFx1MDQzNSBcdTA0MzdcdTA0MzBcdTA0M2FcdTA0MzBcdTA0MzdcdTA0MzAiLCJFZGl0VGl0bGUiOm51bGwsIkVkaXRUaXRsZUZpZWxkIjp7IkFic29sdXRlVWlkIjoiY2FjNGNiODItNTc3Zi00NjgyLWJiZDctYmY3ZDcwZmJmZWUxJDJmM2RlMDcyLTMzZjYtNDkyYy04MDE2LWE1NTU5OGY2OWYzMiIsIkF0dHJpYnV0ZXMiOltdLCJEaXNwbGF5IjoiXHUwNDFkXHUwNDNlXHUwNDNjXHUwNDM1XHUwNDQwIiwiTmFtZSI6bnVsbCwiVWlkIjoiMmYzZGUwNzItMzNmNi00OTJjLTgwMTYtYTU1NTk4ZjY5ZjMyIn0sIktleSI6IkZvcm1UaXRsZSIsIlR5cGVJZCI6IkJhcnNVcC5EZXNpZ25lci5WaWV3LkF0dHJpYnV0ZXMuRm9ybVRpdGxlQXR0cmlidXRlLCBCYXJzVXAuRGVzaWduZXIuVmlldywgVmVyc2lvbj0wLjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPW51bGwiLCJVaWQiOiJCYXJzVXAuRGVzaWduZXIuVmlldy5BdHRyaWJ1dGVzLkZvcm1UaXRsZUF0dHJpYnV0ZSwgQmFyc1VwLkRlc2lnbmVyLlZpZXcifSx7IktleSI6ImhlaWdodCIsIlR5cGVJZCI6IkJhcnNVcC5EZXNpZ25lci5WaWV3LkF0dHJpYnV0ZXMuSGVpZ2h0Q29udHJvbEF0dHJpYnV0ZSwgQmFyc1VwLkRlc2lnbmVyLlZpZXcsIFZlcnNpb249MC4wLjAuMCwgQ3VsdHVyZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tlbj1udWxsIiwiVWlkIjoiQmFyc1VwLkRlc2lnbmVyLlZpZXcuQXR0cmlidXRlcy5IZWlnaHRDb250cm9sQXR0cmlidXRlLCBCYXJzVXAuRGVzaWduZXIuVmlldyIsIlZhbHVlIjowfSx7IktleSI6Imlnbm9yZVZlcnNpb25pbmdEaXNhYmxpbmciLCJUeXBlSWQiOiJCYXJzVXAuRGVzaWduZXIuVmlldy5BdHRyaWJ1dGVzLklnbm9yZVZlcnNpb25pbmdEaXNhYmxpbmdBdHRyaWJ1dGUsIEJhcnNVcC5EZXNpZ25lci5WaWV3LCBWZXJzaW9uPTAuMC4wLjAsIEN1bHR1cmU9bmV1dHJhbCwgUHVibGljS2V5VG9rZW49bnVsbCIsIlVpZCI6IkJhcnNVcC5EZXNpZ25lci5WaWV3LkF0dHJpYnV0ZXMuSWdub3JlVmVyc2lvbmluZ0Rpc2FibGluZ0F0dHJpYnV0ZSwgQmFyc1VwLkRlc2lnbmVyLlZpZXciLCJWYWx1ZSI6bnVsbH0seyJLZXkiOiJsYXlvdXQuYWxpZ24iLCJUeXBlSWQiOiJCYXJzVXAuRGVzaWduZXIuVmlldy5BdHRyaWJ1dGVzLkxheW91dEFsaWduQ29udHJvbEF0dHJpYnV0ZSwgQmFyc1VwLkRlc2lnbmVyLlZpZXcsIFZlcnNpb249MC4wLjAuMCwgQ3VsdHVyZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tlbj1udWxsIiwiVWlkIjoiQmFyc1VwLkRlc2lnbmVyLlZpZXcuQXR0cmlidXRlcy5MYXlvdXRBbGlnbkNvbnRyb2xBdHRyaWJ1dGUsIEJhcnNVcC5EZXNpZ25lci5WaWV3IiwiVmFsdWUiOjN9LHsiS2V5IjoibGF5b3V0LnR5cGUiLCJUeXBlSWQiOiJCYXJzVXAuRGVzaWduZXIuVmlldy5BdHRyaWJ1dGVzLkxheW91dENvbnRyb2xBdHRyaWJ1dGUsIEJhcnNVcC5EZXNpZ25lci5WaWV3LCBWZXJzaW9uPTAuMC4wLjAsIEN1bHR1cmU9bmV1dHJhbCwgUHVibGljS2V5VG9rZW49bnVsbCIsIlVpZCI6IkJhcnNVcC5EZXNpZ25lci5WaWV3LkF0dHJpYnV0ZXMuTGF5b3V0Q29udHJvbEF0dHJpYnV0ZSwgQmFyc1VwLkRlc2lnbmVyLlZpZXciLCJWYWx1ZSI6N30seyJLZXkiOiJsYXlvdXQucGFjayIsIlR5cGVJZCI6IkJhcnNVcC5EZXNpZ25lci5WaWV3LkF0dHJpYnV0ZXMuTGF5b3V0UGFja0NvbnRyb2xBdHRyaWJ1dGUsIEJhcnNVcC5EZXNpZ25lci5WaWV3LCBWZXJzaW9uPTAuMC4wLjAsIEN1bHR1cmU9bmV1dHJhbCwgUHVibGljS2V5VG9rZW49bnVsbCIsIlVpZCI6IkJhcnNVcC5EZXNpZ25lci5WaWV3LkF0dHJpYnV0ZXMuTGF5b3V0UGFja0NvbnRyb2xBdHRyaWJ1dGUsIEJhcnNVcC5EZXNpZ25lci5WaWV3IiwiVmFsdWUiOm51bGx9LHsiS2V5IjoibWFyZ2luQm90dG9tIiwiVHlwZUlkIjoiQmFyc1VwLkRlc2lnbmVyLlZpZXcuQXR0cmlidXRlcy5NYXJnaW5Cb3R0b21Db250cm9sQXR0cmlidXRlLCBCYXJzVXAuRGVzaWduZXIuVmlldywgVmVyc2lvbj0wLjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPW51bGwiLCJVaWQiOiJCYXJzVXAuRGVzaWduZXIuVmlldy5BdHRyaWJ1dGVzLk1hcmdpbkJvdHRvbUNvbnRyb2xBdHRyaWJ1dGUsIEJhcnNVcC5EZXNpZ25lci5WaWV3IiwiVmFsdWUiOjB9LHsiS2V5IjoibWFyZ2luTGVmdCIsIlR5cGVJZCI6IkJhcnNVcC5EZXNpZ25lci5WaWV3LkF0dHJpYnV0ZXMuTWFyZ2luTGVmdENvbnRyb2xBdHRyaWJ1dGUsIEJhcnNVcC5EZXNpZ25lci5WaWV3LCBWZXJzaW9uPTAuMC4wLjAsIEN1bHR1cmU9bmV1dHJhbCwgUHVibGljS2V5VG9rZW49bnVsbCIsIlVpZCI6IkJhcnNVcC5EZXNpZ25lci5WaWV3LkF0dHJpYnV0ZXMuTWFyZ2luTGVmdENvbnRyb2xBdHRyaWJ1dGUsIEJhcnNVcC5EZXNpZ25lci5WaWV3IiwiVmFsdWUiOjB9LHsiS2V5IjoibWFyZ2luUmlnaHQiLCJUeXBlSWQiOiJCYXJzVXAuRGVzaWduZXIuVmlldy5BdHRyaWJ1dGVzLk1hcmdpblJpZ2h0Q29udHJvbEF0dHJpYnV0ZSwgQmFyc1VwLkRlc2lnbmVyLlZpZXcsIFZlcnNpb249MC4wLjAuMCwgQ3VsdHVyZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tlbj1udWxsIiwiVWlkIjoiQmFyc1VwLkRlc2lnbmVyLlZpZXcuQXR0cmlidXRlcy5NYXJnaW5SaWdodENvbnRyb2xBdHRyaWJ1dGUsIEJhcnNVcC5EZXNpZ25lci5WaWV3IiwiVmFsdWUiOjB9LHsiS2V5IjoibWFyZ2luVG9wIiwiVHlwZUlkIjoiQmFyc1VwLkRlc2lnbmVyLlZpZXcuQXR0cmlidXRlcy5NYXJnaW5Ub3BDb250cm9sQXR0cmlidXRlLCBCYXJzVXAuRGVzaWduZXIuVmlldywgVmVyc2lvbj0wLjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPW51bGwiLCJVaWQiOiJCYXJzVXAuRGVzaWduZXIuVmlldy5BdHRyaWJ1dGVzLk1hcmdpblRvcENvbnRyb2xBdHRyaWJ1dGUsIEJhcnNVcC5EZXNpZ25lci5WaWV3IiwiVmFsdWUiOjB9LHsiS2V5IjoicGFkZGluZ0JvdHRvbSIsIlR5cGVJZCI6IkJhcnNVcC5EZXNpZ25lci5WaWV3LkF0dHJpYnV0ZXMuUGFkZGluZ0JvdHRvbUNvbnRyb2xBdHRyaWJ1dGUsIEJhcnNVcC5EZXNpZ25lci5WaWV3LCBWZXJzaW9uPTAuMC4wLjAsIEN1bHR1cmU9bmV1dHJhbCwgUHVibGljS2V5VG9rZW49bnVsbCIsIlVpZCI6IkJhcnNVcC5EZXNpZ25lci5WaWV3LkF0dHJpYnV0ZXMuUGFkZGluZ0JvdHRvbUNvbnRyb2xBdHRyaWJ1dGUsIEJhcnNVcC5EZXNpZ25lci5WaWV3IiwiVmFsdWUiOjB9LHsiS2V5IjoicGFkZGluZ0xlZnQiLCJUeXBlSWQiOiJCYXJzVXAuRGVzaWduZXIuVmlldy5BdHRyaWJ1dGVzLlBhZGRpbmdMZWZ0Q29udHJvbEF0dHJpYnV0ZSwgQmFyc1VwLkRlc2lnbmVyLlZpZXcsIFZlcnNpb249MC4wLjAuMCwgQ3VsdHVyZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tlbj1udWxsIiwiVWlkIjoiQmFyc1VwLkRlc2lnbmVyLlZpZXcuQXR0cmlidXRlcy5QYWRkaW5nTGVmdENvbnRyb2xBdHRyaWJ1dGUsIEJhcnNVcC5EZXNpZ25lci5WaWV3IiwiVmFsdWUiOjB9LHsiS2V5IjoicGFkZGluZ1JpZ2h0IiwiVHlwZUlkIjoiQmFyc1VwLkRlc2lnbmVyLlZpZXcuQXR0cmlidXRlcy5QYWRkaW5nUmlnaHRDb250cm9sQXR0cmlidXRlLCBCYXJzVXAuRGVzaWduZXIuVmlldywgVmVyc2lvbj0wLjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPW51bGwiLCJVaWQiOiJCYXJzVXAuRGVzaWduZXIuVmlldy5BdHRyaWJ1dGVzLlBhZGRpbmdSaWdodENvbnRyb2xBdHRyaWJ1dGUsIEJhcnNVcC5EZXNpZ25lci5WaWV3IiwiVmFsdWUiOjB9LHsiS2V5IjoicGFkZGluZ1RvcCIsIlR5cGVJZCI6IkJhcnNVcC5EZXNpZ25lci5WaWV3LkF0dHJpYnV0ZXMuUGFkZGluZ1RvcENvbnRyb2xBdHRyaWJ1dGUsIEJhcnNVcC5EZXNpZ25lci5WaWV3LCBWZXJzaW9uPTAuMC4wLjAsIEN1bHR1cmU9bmV1dHJhbCwgUHVibGljS2V5VG9rZW49bnVsbCIsIlVpZCI6IkJhcnNVcC5EZXNpZ25lci5WaWV3LkF0dHJpYnV0ZXMuUGFkZGluZ1RvcENvbnRyb2xBdHRyaWJ1dGUsIEJhcnNVcC5EZXNpZ25lci5WaWV3IiwiVmFsdWUiOjB9LHsiS2V5IjoiUGVybWlzc2lvbkZvcm1Db250cm9sIiwiUGVybWlzc2lvbiI6bnVsbCwiUGVybWlzc2lvbkFjY2Vzc1R5cGUiOjAsIlBlcm1pc3Npb25Db21wb3NpdGlvblR5cGUiOjAsIlBlcm1pc3Npb25zTGlzdCI6W10sIlR5cGVJZCI6IkJhcnNVcC5EZXNpZ25lci5WaWV3LkF0dHJpYnV0ZXMuUGVybWlzc2lvbkZvcm1Db250cm9sQXR0cmlidXRlLCBCYXJzVXAuRGVzaWduZXIuVmlldywgVmVyc2lvbj0wLjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPW51bGwiLCJVaWQiOiJCYXJzVXAuRGVzaWduZXIuVmlldy5BdHRyaWJ1dGVzLlBlcm1pc3Npb25Gb3JtQ29udHJvbEF0dHJpYnV0ZSwgQmFyc1VwLkRlc2lnbmVyLlZpZXcifSx7IktleSI6IlNhdmVGb3JtQnV0dG9uIiwiU2hvdyI6dHJ1ZSwiVHlwZUlkIjoiQmFyc1VwLkRlc2lnbmVyLlZpZXcuQXR0cmlidXRlcy5TYXZlRm9ybUJ1dHRvbkF0dHJpYnV0ZSwgQmFyc1VwLkRlc2lnbmVyLlZpZXcsIFZlcnNpb249MC4wLjAuMCwgQ3VsdHVyZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tlbj1udWxsIiwiVWlkIjoiQmFyc1VwLkRlc2lnbmVyLlZpZXcuQXR0cmlidXRlcy5TYXZlRm9ybUJ1dHRvbkF0dHJpYnV0ZSwgQmFyc1VwLkRlc2lnbmVyLlZpZXcifSx7IktleSI6IkZvcm1TdWJtaXRUaW1lb3V0IiwiVGltZW91dCI6MjAsIlR5cGVJZCI6IkJhcnNVcC5EZXNpZ25lci5WaWV3LkF0dHJpYnV0ZXMuU3VibWl0VGltZW91dEF0dHJpYnV0ZSwgQmFyc1VwLkRlc2lnbmVyLlZpZXcsIFZlcnNpb249MC4wLjAuMCwgQ3VsdHVyZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tlbj1udWxsIiwiVWlkIjoiQmFyc1VwLkRlc2lnbmVyLlZpZXcuQXR0cmlidXRlcy5TdWJtaXRUaW1lb3V0QXR0cmlidXRlLCBCYXJzVXAuRGVzaWduZXIuVmlldyJ9LHsiS2V5IjoidGl0bGUiLCJUeXBlSWQiOiJCYXJzVXAuRGVzaWduZXIuVmlldy5BdHRyaWJ1dGVzLlRpdGxlQ29udHJvbEF0dHJpYnV0ZSwgQmFyc1VwLkRlc2lnbmVyLlZpZXcsIFZlcnNpb249MC4wLjAuMCwgQ3VsdHVyZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tlbj1udWxsIiwiVWlkIjoiQmFyc1VwLkRlc2lnbmVyLlZpZXcuQXR0cmlidXRlcy5UaXRsZUNvbnRyb2xBdHRyaWJ1dGUsIEJhcnNVcC5EZXNpZ25lci5WaWV3IiwiVmFsdWUiOm51bGx9LHsiS2V5IjoiVmFsaWRhdGVVbnNhdmVkQ2hhbmdlcyIsIlR5cGVJZCI6IkJhcnNVcC5EZXNpZ25lci5WaWV3LkF0dHJpYnV0ZXMuVmFsaWRhdGVVbnNhdmVkQ2hhbmdlc0F0dHJpYnV0ZSwgQmFyc1VwLkRlc2lnbmVyLlZpZXcsIFZlcnNpb249MC4wLjAuMCwgQ3VsdHVyZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tlbj1udWxsIiwiVWlkIjoiQmFyc1VwLkRlc2lnbmVyLlZpZXcuQXR0cmlidXRlcy5WYWxpZGF0ZVVuc2F2ZWRDaGFuZ2VzQXR0cmlidXRlLCBCYXJzVXAuRGVzaWduZXIuVmlldyIsIlZhbHVlIjpmYWxzZX0seyJLZXkiOiJ3aWR0aCIsIlR5cGVJZCI6IkJhcnNVcC5EZXNpZ25lci5WaWV3LkF0dHJpYnV0ZXMuV2lkdGhDb250cm9sQXR0cmlidXRlLCBCYXJzVXAuRGVzaWduZXIuVmlldywgVmVyc2lvbj0wLjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPW51bGwiLCJVaWQiOiJCYXJzVXAuRGVzaWduZXIuVmlldy5BdHRyaWJ1dGVzLldpZHRoQ29udHJvbEF0dHJpYnV0ZSwgQmFyc1VwLkRlc2lnbmVyLlZpZXciLCJWYWx1ZSI6MH0seyJIZWlnaHQiOjYwMCwiS2V5IjoiV2luZG93U2l6ZSIsIk1pbkhlaWdodCI6bnVsbCwiTWluV2lkdGgiOm51bGwsIlR5cGVJZCI6IkJhcnNVcC5EZXNpZ25lci5WaWV3LkF0dHJpYnV0ZXMuV2luZG93U2l6ZUF0dHJpYnV0ZSwgQmFyc1VwLkRlc2lnbmVyLlZpZXcsIFZlcnNpb249MC4wLjAuMCwgQ3VsdHVyZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tlbj1udWxsIiwiVWlkIjoiQmFyc1VwLkRlc2lnbmVyLlZpZXcuQXR0cmlidXRlcy5XaW5kb3dTaXplQXR0cmlidXRlLCBCYXJzVXAuRGVzaWduZXIuVmlldyIsIldpZHRoIjo3MDB9XSwiRGlzcGxheSI6Ilx1MDQxN1x1MDQzMFx1MDQzYVx1MDQzMFx1MDQzNyIsIklkIjoiZXh0TW9kZWw3NTEzLTM2IiwiTmFtZSI6Ik9yZGVyc0VkaXRvciIsIlByb3BlcnRpZXMiOnsiRGVzY3JpcHRvclVpZCI6IkI0LlJtcy5EZXNjcmlwdG9yLkZvcm0ifSwiVWlkIjoiYjNkMGM2ZTMtNjQxMC00YzhiLWIzNTktZGE2ZWZjMDI0OGU5In0sIk1vZHVsZVVpZCI6bnVsbH0=\"><mutation items=\"1\"></mutation><field name=\"FORM\">Заказ</field><field name=\"OPEN_TYPE\">0</field><field name=\"READ_ONLY\">FALSE</field><field name=\"P0\">           </field><value name=\"ID\"><block type=\"rms.list.SelectedRecordProperty\" id=\"3\" ctx.uid=\"e21449a3-6c79-4d88-a466-501c496fa133\" ctx.type=\"Form.Element$BarsUp.Designer.View.Registry, BarsUp.Designer.View\" ctx.display=\"Заказы.Объект\" ctx.data=\"Base64:eyJpc1Bpdm90IjpmYWxzZSwiTGlzdFVpZCI6ImUyMTQ0OWEzLTZjNzktNGQ4OC1hNDY2LTUwMWM0OTZmYTEzMyJ9\"><field name=\"COLUMN\">Zakaz_Id</field></block></value></block></statement></block>"
+      },
+      "Data": {},
+      "Display": "Открыть заказ",
+      "GeneratedJs": "function(item, e){\ntry {\n    var _self = this, _args = Array.prototype.slice.call(arguments);\n    var grid = this.getDataGrid && this.getDataGrid() ? this.getDataGrid() : ( this.is && (this.is('grid') || this.is('treepanel')) ? this : (this.up ? this.up('grid') || this.up('treepanel') : null)),\n      sel = grid && grid.getSelectionModel().getSelection()[0],\n      fld = sel && sel.get('Zakaz_Id'),\n      grid1 = B4.utils.FormHelper.findNearestListView(typeof _self === 'undefined' ? this : _self),\n      ctxKey = (grid1 && grid1.ctxKey) || this.getCurrentContextKey(),\n      dataVariables = new B4.variables.Container();\n      grid1 && grid1.data && grid1.data.getVariables().forEach(v => dataVariables.set(v.code, v.value));\n  var inWindow = false;\n  var parentComponentWithVersionAttribute = B4.utils.FormHelper.findNearestParentWithAttribute(grid1, 'versionScope');\n  var parentComponentWithChangeSetAttribute = B4.utils.FormHelper.findNearestParentWithAttribute(grid1, 'changeSet');\n  B4.Navigation.openForm(\"OrdersEditor\", fld, inWindow, false, {\n     dataVariables: dataVariables,\n     RmsDataGridAlias: this.viewAlias,\n     RmsDataGridId: grid1 ? grid1.getId() : null,\n     ctxKey: ctxKey,\n     isDataGridEditor: !Ext.isEmpty(grid1),\n     versionScope: parentComponentWithVersionAttribute != null ? Ext.decode(Ext.encode(parentComponentWithVersionAttribute.versionScope)) : null,\n     changeSet: parentComponentWithChangeSetAttribute != null ? Ext.decode(Ext.encode(parentComponentWithChangeSetAttribute.changeSet)) : null,\n     maximizable: true,\n     viewStack: grid1 && grid1.viewStack ? [...grid1.viewStack] : []\n  });\n\n} catch (_e__r__r) { console.warn(\"Ошибка в событии `Действие на строке списка (кнопка)` элемента `b608817a-c7c5-4c6c-9e07-cbb9abf0bb0b`\"); throw _e__r__r; }\n}\n",
+      "Hidden": false,
+      "Icon": "fad fa-clipboard-list-check",
+      "IgnoreMakeInactive": false,
+      "Location": 0,
+      "PermissionCompositionType": 0,
+      "PermissionsList": [],
+      "Uid": "b608817a-c7c5-4c6c-9e07-cbb9abf0bb0b",
+      "Width": 0,
+      "Xml": "<block type=\"rms.Handler\" id=\"1\" deletable=\"false\" ctx.uid=\"BarsUp.Designer.View.Actions.ListViewRowAction, BarsUp.Designer.View\" ctx.type=\"\" ctx.display=\"Действие на строке списка (кнопка)\" ctx.data=\"Base64:eyJhcmdzIjpbIml0ZW0iLCJlIl19\" x=\"250\" y=\"40\"><statement name=\"handler\"><block type=\"rms.form.Open\" id=\"2\" inline=\"false\" ctx.uid=\"\" ctx.type=\"\" ctx.display=\"null\" ctx.data=\"Base64:eyJGb3JtIjp7IkF0dHJpYnV0ZXMiOlt7IktleSI6IkVuYWJsZVN0YXRlUGVybWlzc2lvbkFzcGVjdCIsIlR5cGVJZCI6IkJhcnNVcC5EZXNpZ25lci5Nb2R1bGVzLkI0U3RhdGVzLkVuYWJsZVN0YXRlUGVybWlzc2lvbkFzcGVjdEF0dHJpYnV0ZSwgQmFyc1VwLkRlc2lnbmVyLk1vZHVsZXMuQjRTdGF0ZXMsIFZlcnNpb249MC4wLjAuMCwgQ3VsdHVyZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tlbj1udWxsIiwiVWlkIjoiQmFyc1VwLkRlc2lnbmVyLk1vZHVsZXMuQjRTdGF0ZXMuRW5hYmxlU3RhdGVQZXJtaXNzaW9uQXNwZWN0QXR0cmlidXRlLCBCYXJzVXAuRGVzaWduZXIuTW9kdWxlcy5CNFN0YXRlcyIsIlZhbHVlIjpmYWxzZX0seyJLZXkiOiJhdXRvU2Nyb2xsIiwiVHlwZUlkIjoiQmFyc1VwLkRlc2lnbmVyLlZpZXcuQXR0cmlidXRlcy5BdXRvU2Nyb2xsQXR0cmlidXRlLCBCYXJzVXAuRGVzaWduZXIuVmlldywgVmVyc2lvbj0wLjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPW51bGwiLCJVaWQiOiJCYXJzVXAuRGVzaWduZXIuVmlldy5BdHRyaWJ1dGVzLkF1dG9TY3JvbGxBdHRyaWJ1dGUsIEJhcnNVcC5EZXNpZ25lci5WaWV3IiwiVmFsdWUiOmZhbHNlfSx7IktleSI6ImJvZHlQYWRkaW5nQm90dG9tIiwiVHlwZUlkIjoiQmFyc1VwLkRlc2lnbmVyLlZpZXcuQXR0cmlidXRlcy5Cb2R5UGFkZGluZ0JvdHRvbUNvbnRyb2xBdHRyaWJ1dGUsIEJhcnNVcC5EZXNpZ25lci5WaWV3LCBWZXJzaW9uPTAuMC4wLjAsIEN1bHR1cmU9bmV1dHJhbCwgUHVibGljS2V5VG9rZW49bnVsbCIsIlVpZCI6IkJhcnNVcC5EZXNpZ25lci5WaWV3LkF0dHJpYnV0ZXMuQm9keVBhZGRpbmdCb3R0b21Db250cm9sQXR0cmlidXRlLCBCYXJzVXAuRGVzaWduZXIuVmlldyIsIlZhbHVlIjowfSx7IktleSI6ImJvZHlQYWRkaW5nTGVmdCIsIlR5cGVJZCI6IkJhcnNVcC5EZXNpZ25lci5WaWV3LkF0dHJpYnV0ZXMuQm9keVBhZGRpbmdMZWZ0Q29udHJvbEF0dHJpYnV0ZSwgQmFyc1VwLkRlc2lnbmVyLlZpZXcsIFZlcnNpb249MC4wLjAuMCwgQ3VsdHVyZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tlbj1udWxsIiwiVWlkIjoiQmFyc1VwLkRlc2lnbmVyLlZpZXcuQXR0cmlidXRlcy5Cb2R5UGFkZGluZ0xlZnRDb250cm9sQXR0cmlidXRlLCBCYXJzVXAuRGVzaWduZXIuVmlldyIsIlZhbHVlIjowfSx7IktleSI6ImJvZHlQYWRkaW5nUmlnaHQiLCJUeXBlSWQiOiJCYXJzVXAuRGVzaWduZXIuVmlldy5BdHRyaWJ1dGVzLkJvZHlQYWRkaW5nUmlnaHRDb250cm9sQXR0cmlidXRlLCBCYXJzVXAuRGVzaWduZXIuVmlldywgVmVyc2lvbj0wLjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPW51bGwiLCJVaWQiOiJCYXJzVXAuRGVzaWduZXIuVmlldy5BdHRyaWJ1dGVzLkJvZHlQYWRkaW5nUmlnaHRDb250cm9sQXR0cmlidXRlLCBCYXJzVXAuRGVzaWduZXIuVmlldyIsIlZhbHVlIjowfSx7IktleSI6ImJvZHlQYWRkaW5nVG9wIiwiVHlwZUlkIjoiQmFyc1VwLkRlc2lnbmVyLlZpZXcuQXR0cmlidXRlcy5Cb2R5UGFkZGluZ1RvcENvbnRyb2xBdHRyaWJ1dGUsIEJhcnNVcC5EZXNpZ25lci5WaWV3LCBWZXJzaW9uPTAuMC4wLjAsIEN1bHR1cmU9bmV1dHJhbCwgUHVibGljS2V5VG9rZW49bnVsbCIsIlVpZCI6IkJhcnNVcC5EZXNpZ25lci5WaWV3LkF0dHJpYnV0ZXMuQm9keVBhZGRpbmdUb3BDb250cm9sQXR0cmlidXRlLCBCYXJzVXAuRGVzaWduZXIuVmlldyIsIlZhbHVlIjowfSx7IktleSI6InJlZ2lvbiIsIlR5cGVJZCI6IkJhcnNVcC5EZXNpZ25lci5WaWV3LkF0dHJpYnV0ZXMuQm9yZGVyUmVnaW9uQ29udHJvbEF0dHJpYnV0ZSwgQmFyc1VwLkRlc2lnbmVyLlZpZXcsIFZlcnNpb249MC4wLjAuMCwgQ3VsdHVyZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tlbj1udWxsIiwiVWlkIjoiQmFyc1VwLkRlc2lnbmVyLlZpZXcuQXR0cmlidXRlcy5Cb3JkZXJSZWdpb25Db250cm9sQXR0cmlidXRlLCBCYXJzVXAuRGVzaWduZXIuVmlldyIsIlZhbHVlIjowfSx7IktleSI6IkNsb3NlRm9ybUJ1dHRvbiIsIlNob3ciOnRydWUsIlR5cGVJZCI6IkJhcnNVcC5EZXNpZ25lci5WaWV3LkF0dHJpYnV0ZXMuQ2xvc2VGb3JtQnV0dG9uQXR0cmlidXRlLCBCYXJzVXAuRGVzaWduZXIuVmlldywgVmVyc2lvbj0wLjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPW51bGwiLCJVaWQiOiJCYXJzVXAuRGVzaWduZXIuVmlldy5BdHRyaWJ1dGVzLkNsb3NlRm9ybUJ1dHRvbkF0dHJpYnV0ZSwgQmFyc1VwLkRlc2lnbmVyLlZpZXcifSx7IktleSI6IkRlbnlTdGF0ZVRvb2xiYXJJdGVtIiwiVHlwZUlkIjoiQmFyc1VwLkRlc2lnbmVyLlZpZXcuQXR0cmlidXRlcy5EZW55U3RhdGVUb29sYmFySXRlbUNvbnRyb2xBdHRyaWJ1dGUsIEJhcnNVcC5EZXNpZ25lci5WaWV3LCBWZXJzaW9uPTAuMC4wLjAsIEN1bHR1cmU9bmV1dHJhbCwgUHVibGljS2V5VG9rZW49bnVsbCIsIlVpZCI6IkJhcnNVcC5EZXNpZ25lci5WaWV3LkF0dHJpYnV0ZXMuRGVueVN0YXRlVG9vbGJhckl0ZW1Db250cm9sQXR0cmlidXRlLCBCYXJzVXAuRGVzaWduZXIuVmlldyIsIlZhbHVlIjpmYWxzZX0seyJLZXkiOiJmbGV4IiwiVHlwZUlkIjoiQmFyc1VwLkRlc2lnbmVyLlZpZXcuQXR0cmlidXRlcy5GbGV4Q29udHJvbEF0dHJpYnV0ZSwgQmFyc1VwLkRlc2lnbmVyLlZpZXcsIFZlcnNpb249MC4wLjAuMCwgQ3VsdHVyZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tlbj1udWxsIiwiVWlkIjoiQmFyc1VwLkRlc2lnbmVyLlZpZXcuQXR0cmlidXRlcy5GbGV4Q29udHJvbEF0dHJpYnV0ZSwgQmFyc1VwLkRlc2lnbmVyLlZpZXciLCJWYWx1ZSI6MH0seyJLZXkiOiJFeHBvcnRUb0V4Y2VsRm9ybUF0dHJpYnV0ZSIsIlR5cGVJZCI6IkJhcnNVcC5EZXNpZ25lci5WaWV3LkF0dHJpYnV0ZXMuRm9ybS5FeHBvcnRUb0V4Y2VsRm9ybUF0dHJpYnV0ZSwgQmFyc1VwLkRlc2lnbmVyLlZpZXcsIFZlcnNpb249MC4wLjAuMCwgQ3VsdHVyZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tlbj1udWxsIiwiVWlkIjoiQmFyc1VwLkRlc2lnbmVyLlZpZXcuQXR0cmlidXRlcy5Gb3JtLkV4cG9ydFRvRXhjZWxGb3JtQXR0cmlidXRlLCBCYXJzVXAuRGVzaWduZXIuVmlldyIsIlZhbHVlIjpmYWxzZX0seyJDcmVhdGVUaXRsZSI6Ilx1MDQyMVx1MDQzZVx1MDQzN1x1MDQzNFx1MDQzMFx1MDQzZFx1MDQzOFx1MDQzNSBcdTA0MzdcdTA0MzBcdTA0M2FcdTA0MzBcdTA0MzdcdTA0MzAiLCJFZGl0VGl0bGUiOm51bGwsIkVkaXRUaXRsZUZpZWxkIjp7IkFic29sdXRlVWlkIjoiY2FjNGNiODItNTc3Zi00NjgyLWJiZDctYmY3ZDcwZmJmZWUxJDJmM2RlMDcyLTMzZjYtNDkyYy04MDE2LWE1NTU5OGY2OWYzMiIsIkF0dHJpYnV0ZXMiOltdLCJEaXNwbGF5IjoiXHUwNDFkXHUwNDNlXHUwNDNjXHUwNDM1XHUwNDQwIiwiTmFtZSI6bnVsbCwiVWlkIjoiMmYzZGUwNzItMzNmNi00OTJjLTgwMTYtYTU1NTk4ZjY5ZjMyIn0sIktleSI6IkZvcm1UaXRsZSIsIlR5cGVJZCI6IkJhcnNVcC5EZXNpZ25lci5WaWV3LkF0dHJpYnV0ZXMuRm9ybVRpdGxlQXR0cmlidXRlLCBCYXJzVXAuRGVzaWduZXIuVmlldywgVmVyc2lvbj0wLjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPW51bGwiLCJVaWQiOiJCYXJzVXAuRGVzaWduZXIuVmlldy5BdHRyaWJ1dGVzLkZvcm1UaXRsZUF0dHJpYnV0ZSwgQmFyc1VwLkRlc2lnbmVyLlZpZXcifSx7IktleSI6ImhlaWdodCIsIlR5cGVJZCI6IkJhcnNVcC5EZXNpZ25lci5WaWV3LkF0dHJpYnV0ZXMuSGVpZ2h0Q29udHJvbEF0dHJpYnV0ZSwgQmFyc1VwLkRlc2lnbmVyLlZpZXcsIFZlcnNpb249MC4wLjAuMCwgQ3VsdHVyZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tlbj1udWxsIiwiVWlkIjoiQmFyc1VwLkRlc2lnbmVyLlZpZXcuQXR0cmlidXRlcy5IZWlnaHRDb250cm9sQXR0cmlidXRlLCBCYXJzVXAuRGVzaWduZXIuVmlldyIsIlZhbHVlIjowfSx7IktleSI6Imlnbm9yZVZlcnNpb25pbmdEaXNhYmxpbmciLCJUeXBlSWQiOiJCYXJzVXAuRGVzaWduZXIuVmlldy5BdHRyaWJ1dGVzLklnbm9yZVZlcnNpb25pbmdEaXNhYmxpbmdBdHRyaWJ1dGUsIEJhcnNVcC5EZXNpZ25lci5WaWV3LCBWZXJzaW9uPTAuMC4wLjAsIEN1bHR1cmU9bmV1dHJhbCwgUHVibGljS2V5VG9rZW49bnVsbCIsIlVpZCI6IkJhcnNVcC5EZXNpZ25lci5WaWV3LkF0dHJpYnV0ZXMuSWdub3JlVmVyc2lvbmluZ0Rpc2FibGluZ0F0dHJpYnV0ZSwgQmFyc1VwLkRlc2lnbmVyLlZpZXciLCJWYWx1ZSI6bnVsbH0seyJLZXkiOiJsYXlvdXQuYWxpZ24iLCJUeXBlSWQiOiJCYXJzVXAuRGVzaWduZXIuVmlldy5BdHRyaWJ1dGVzLkxheW91dEFsaWduQ29udHJvbEF0dHJpYnV0ZSwgQmFyc1VwLkRlc2lnbmVyLlZpZXcsIFZlcnNpb249MC4wLjAuMCwgQ3VsdHVyZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tlbj1udWxsIiwiVWlkIjoiQmFyc1VwLkRlc2lnbmVyLlZpZXcuQXR0cmlidXRlcy5MYXlvdXRBbGlnbkNvbnRyb2xBdHRyaWJ1dGUsIEJhcnNVcC5EZXNpZ25lci5WaWV3IiwiVmFsdWUiOjN9LHsiS2V5IjoibGF5b3V0LnR5cGUiLCJUeXBlSWQiOiJCYXJzVXAuRGVzaWduZXIuVmlldy5BdHRyaWJ1dGVzLkxheW91dENvbnRyb2xBdHRyaWJ1dGUsIEJhcnNVcC5EZXNpZ25lci5WaWV3LCBWZXJzaW9uPTAuMC4wLjAsIEN1bHR1cmU9bmV1dHJhbCwgUHVibGljS2V5VG9rZW49bnVsbCIsIlVpZCI6IkJhcnNVcC5EZXNpZ25lci5WaWV3LkF0dHJpYnV0ZXMuTGF5b3V0Q29udHJvbEF0dHJpYnV0ZSwgQmFyc1VwLkRlc2lnbmVyLlZpZXciLCJWYWx1ZSI6N30seyJLZXkiOiJsYXlvdXQucGFjayIsIlR5cGVJZCI6IkJhcnNVcC5EZXNpZ25lci5WaWV3LkF0dHJpYnV0ZXMuTGF5b3V0UGFja0NvbnRyb2xBdHRyaWJ1dGUsIEJhcnNVcC5EZXNpZ25lci5WaWV3LCBWZXJzaW9uPTAuMC4wLjAsIEN1bHR1cmU9bmV1dHJhbCwgUHVibGljS2V5VG9rZW49bnVsbCIsIlVpZCI6IkJhcnNVcC5EZXNpZ25lci5WaWV3LkF0dHJpYnV0ZXMuTGF5b3V0UGFja0NvbnRyb2xBdHRyaWJ1dGUsIEJhcnNVcC5EZXNpZ25lci5WaWV3IiwiVmFsdWUiOm51bGx9LHsiS2V5IjoibWFyZ2luQm90dG9tIiwiVHlwZUlkIjoiQmFyc1VwLkRlc2lnbmVyLlZpZXcuQXR0cmlidXRlcy5NYXJnaW5Cb3R0b21Db250cm9sQXR0cmlidXRlLCBCYXJzVXAuRGVzaWduZXIuVmlldywgVmVyc2lvbj0wLjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPW51bGwiLCJVaWQiOiJCYXJzVXAuRGVzaWduZXIuVmlldy5BdHRyaWJ1dGVzLk1hcmdpbkJvdHRvbUNvbnRyb2xBdHRyaWJ1dGUsIEJhcnNVcC5EZXNpZ25lci5WaWV3IiwiVmFsdWUiOjB9LHsiS2V5IjoibWFyZ2luTGVmdCIsIlR5cGVJZCI6IkJhcnNVcC5EZXNpZ25lci5WaWV3LkF0dHJpYnV0ZXMuTWFyZ2luTGVmdENvbnRyb2xBdHRyaWJ1dGUsIEJhcnNVcC5EZXNpZ25lci5WaWV3LCBWZXJzaW9uPTAuMC4wLjAsIEN1bHR1cmU9bmV1dHJhbCwgUHVibGljS2V5VG9rZW49bnVsbCIsIlVpZCI6IkJhcnNVcC5EZXNpZ25lci5WaWV3LkF0dHJpYnV0ZXMuTWFyZ2luTGVmdENvbnRyb2xBdHRyaWJ1dGUsIEJhcnNVcC5EZXNpZ25lci5WaWV3IiwiVmFsdWUiOjB9LHsiS2V5IjoibWFyZ2luUmlnaHQiLCJUeXBlSWQiOiJCYXJzVXAuRGVzaWduZXIuVmlldy5BdHRyaWJ1dGVzLk1hcmdpblJpZ2h0Q29udHJvbEF0dHJpYnV0ZSwgQmFyc1VwLkRlc2lnbmVyLlZpZXcsIFZlcnNpb249MC4wLjAuMCwgQ3VsdHVyZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tlbj1udWxsIiwiVWlkIjoiQmFyc1VwLkRlc2lnbmVyLlZpZXcuQXR0cmlidXRlcy5NYXJnaW5SaWdodENvbnRyb2xBdHRyaWJ1dGUsIEJhcnNVcC5EZXNpZ25lci5WaWV3IiwiVmFsdWUiOjB9LHsiS2V5IjoibWFyZ2luVG9wIiwiVHlwZUlkIjoiQmFyc1VwLkRlc2lnbmVyLlZpZXcuQXR0cmlidXRlcy5NYXJnaW5Ub3BDb250cm9sQXR0cmlidXRlLCBCYXJzVXAuRGVzaWduZXIuVmlldywgVmVyc2lvbj0wLjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPW51bGwiLCJVaWQiOiJCYXJzVXAuRGVzaWduZXIuVmlldy5BdHRyaWJ1dGVzLk1hcmdpblRvcENvbnRyb2xBdHRyaWJ1dGUsIEJhcnNVcC5EZXNpZ25lci5WaWV3IiwiVmFsdWUiOjB9LHsiS2V5IjoicGFkZGluZ0JvdHRvbSIsIlR5cGVJZCI6IkJhcnNVcC5EZXNpZ25lci5WaWV3LkF0dHJpYnV0ZXMuUGFkZGluZ0JvdHRvbUNvbnRyb2xBdHRyaWJ1dGUsIEJhcnNVcC5EZXNpZ25lci5WaWV3LCBWZXJzaW9uPTAuMC4wLjAsIEN1bHR1cmU9bmV1dHJhbCwgUHVibGljS2V5VG9rZW49bnVsbCIsIlVpZCI6IkJhcnNVcC5EZXNpZ25lci5WaWV3LkF0dHJpYnV0ZXMuUGFkZGluZ0JvdHRvbUNvbnRyb2xBdHRyaWJ1dGUsIEJhcnNVcC5EZXNpZ25lci5WaWV3IiwiVmFsdWUiOjB9LHsiS2V5IjoicGFkZGluZ0xlZnQiLCJUeXBlSWQiOiJCYXJzVXAuRGVzaWduZXIuVmlldy5BdHRyaWJ1dGVzLlBhZGRpbmdMZWZ0Q29udHJvbEF0dHJpYnV0ZSwgQmFyc1VwLkRlc2lnbmVyLlZpZXcsIFZlcnNpb249MC4wLjAuMCwgQ3VsdHVyZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tlbj1udWxsIiwiVWlkIjoiQmFyc1VwLkRlc2lnbmVyLlZpZXcuQXR0cmlidXRlcy5QYWRkaW5nTGVmdENvbnRyb2xBdHRyaWJ1dGUsIEJhcnNVcC5EZXNpZ25lci5WaWV3IiwiVmFsdWUiOjB9LHsiS2V5IjoicGFkZGluZ1JpZ2h0IiwiVHlwZUlkIjoiQmFyc1VwLkRlc2lnbmVyLlZpZXcuQXR0cmlidXRlcy5QYWRkaW5nUmlnaHRDb250cm9sQXR0cmlidXRlLCBCYXJzVXAuRGVzaWduZXIuVmlldywgVmVyc2lvbj0wLjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPW51bGwiLCJVaWQiOiJCYXJzVXAuRGVzaWduZXIuVmlldy5BdHRyaWJ1dGVzLlBhZGRpbmdSaWdodENvbnRyb2xBdHRyaWJ1dGUsIEJhcnNVcC5EZXNpZ25lci5WaWV3IiwiVmFsdWUiOjB9LHsiS2V5IjoicGFkZGluZ1RvcCIsIlR5cGVJZCI6IkJhcnNVcC5EZXNpZ25lci5WaWV3LkF0dHJpYnV0ZXMuUGFkZGluZ1RvcENvbnRyb2xBdHRyaWJ1dGUsIEJhcnNVcC5EZXNpZ25lci5WaWV3LCBWZXJzaW9uPTAuMC4wLjAsIEN1bHR1cmU9bmV1dHJhbCwgUHVibGljS2V5VG9rZW49bnVsbCIsIlVpZCI6IkJhcnNVcC5EZXNpZ25lci5WaWV3LkF0dHJpYnV0ZXMuUGFkZGluZ1RvcENvbnRyb2xBdHRyaWJ1dGUsIEJhcnNVcC5EZXNpZ25lci5WaWV3IiwiVmFsdWUiOjB9LHsiS2V5IjoiUGVybWlzc2lvbkZvcm1Db250cm9sIiwiUGVybWlzc2lvbiI6bnVsbCwiUGVybWlzc2lvbkFjY2Vzc1R5cGUiOjAsIlBlcm1pc3Npb25Db21wb3NpdGlvblR5cGUiOjAsIlBlcm1pc3Npb25zTGlzdCI6W10sIlR5cGVJZCI6IkJhcnNVcC5EZXNpZ25lci5WaWV3LkF0dHJpYnV0ZXMuUGVybWlzc2lvbkZvcm1Db250cm9sQXR0cmlidXRlLCBCYXJzVXAuRGVzaWduZXIuVmlldywgVmVyc2lvbj0wLjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPW51bGwiLCJVaWQiOiJCYXJzVXAuRGVzaWduZXIuVmlldy5BdHRyaWJ1dGVzLlBlcm1pc3Npb25Gb3JtQ29udHJvbEF0dHJpYnV0ZSwgQmFyc1VwLkRlc2lnbmVyLlZpZXcifSx7IktleSI6IlNhdmVGb3JtQnV0dG9uIiwiU2hvdyI6dHJ1ZSwiVHlwZUlkIjoiQmFyc1VwLkRlc2lnbmVyLlZpZXcuQXR0cmlidXRlcy5TYXZlRm9ybUJ1dHRvbkF0dHJpYnV0ZSwgQmFyc1VwLkRlc2lnbmVyLlZpZXcsIFZlcnNpb249MC4wLjAuMCwgQ3VsdHVyZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tlbj1udWxsIiwiVWlkIjoiQmFyc1VwLkRlc2lnbmVyLlZpZXcuQXR0cmlidXRlcy5TYXZlRm9ybUJ1dHRvbkF0dHJpYnV0ZSwgQmFyc1VwLkRlc2lnbmVyLlZpZXcifSx7IktleSI6IkZvcm1TdWJtaXRUaW1lb3V0IiwiVGltZW91dCI6MjAsIlR5cGVJZCI6IkJhcnNVcC5EZXNpZ25lci5WaWV3LkF0dHJpYnV0ZXMuU3VibWl0VGltZW91dEF0dHJpYnV0ZSwgQmFyc1VwLkRlc2lnbmVyLlZpZXcsIFZlcnNpb249MC4wLjAuMCwgQ3VsdHVyZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tlbj1udWxsIiwiVWlkIjoiQmFyc1VwLkRlc2lnbmVyLlZpZXcuQXR0cmlidXRlcy5TdWJtaXRUaW1lb3V0QXR0cmlidXRlLCBCYXJzVXAuRGVzaWduZXIuVmlldyJ9LHsiS2V5IjoidGl0bGUiLCJUeXBlSWQiOiJCYXJzVXAuRGVzaWduZXIuVmlldy5BdHRyaWJ1dGVzLlRpdGxlQ29udHJvbEF0dHJpYnV0ZSwgQmFyc1VwLkRlc2lnbmVyLlZpZXcsIFZlcnNpb249MC4wLjAuMCwgQ3VsdHVyZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tlbj1udWxsIiwiVWlkIjoiQmFyc1VwLkRlc2lnbmVyLlZpZXcuQXR0cmlidXRlcy5UaXRsZUNvbnRyb2xBdHRyaWJ1dGUsIEJhcnNVcC5EZXNpZ25lci5WaWV3IiwiVmFsdWUiOm51bGx9LHsiS2V5IjoiVmFsaWRhdGVVbnNhdmVkQ2hhbmdlcyIsIlR5cGVJZCI6IkJhcnNVcC5EZXNpZ25lci5WaWV3LkF0dHJpYnV0ZXMuVmFsaWRhdGVVbnNhdmVkQ2hhbmdlc0F0dHJpYnV0ZSwgQmFyc1VwLkRlc2lnbmVyLlZpZXcsIFZlcnNpb249MC4wLjAuMCwgQ3VsdHVyZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tlbj1udWxsIiwiVWlkIjoiQmFyc1VwLkRlc2lnbmVyLlZpZXcuQXR0cmlidXRlcy5WYWxpZGF0ZVVuc2F2ZWRDaGFuZ2VzQXR0cmlidXRlLCBCYXJzVXAuRGVzaWduZXIuVmlldyIsIlZhbHVlIjpmYWxzZX0seyJLZXkiOiJ3aWR0aCIsIlR5cGVJZCI6IkJhcnNVcC5EZXNpZ25lci5WaWV3LkF0dHJpYnV0ZXMuV2lkdGhDb250cm9sQXR0cmlidXRlLCBCYXJzVXAuRGVzaWduZXIuVmlldywgVmVyc2lvbj0wLjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPW51bGwiLCJVaWQiOiJCYXJzVXAuRGVzaWduZXIuVmlldy5BdHRyaWJ1dGVzLldpZHRoQ29udHJvbEF0dHJpYnV0ZSwgQmFyc1VwLkRlc2lnbmVyLlZpZXciLCJWYWx1ZSI6MH0seyJIZWlnaHQiOjYwMCwiS2V5IjoiV2luZG93U2l6ZSIsIk1pbkhlaWdodCI6bnVsbCwiTWluV2lkdGgiOm51bGwsIlR5cGVJZCI6IkJhcnNVcC5EZXNpZ25lci5WaWV3LkF0dHJpYnV0ZXMuV2luZG93U2l6ZUF0dHJpYnV0ZSwgQmFyc1VwLkRlc2lnbmVyLlZpZXcsIFZlcnNpb249MC4wLjAuMCwgQ3VsdHVyZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tlbj1udWxsIiwiVWlkIjoiQmFyc1VwLkRlc2lnbmVyLlZpZXcuQXR0cmlidXRlcy5XaW5kb3dTaXplQXR0cmlidXRlLCBCYXJzVXAuRGVzaWduZXIuVmlldyIsIldpZHRoIjo3MDB9XSwiRGlzcGxheSI6Ilx1MDQxN1x1MDQzMFx1MDQzYVx1MDQzMFx1MDQzNyIsIklkIjoiZXh0TW9kZWw3NTEzLTM2IiwiTmFtZSI6Ik9yZGVyc0VkaXRvciIsIlByb3BlcnRpZXMiOnsiRGVzY3JpcHRvclVpZCI6IkI0LlJtcy5EZXNjcmlwdG9yLkZvcm0ifSwiVWlkIjoiYjNkMGM2ZTMtNjQxMC00YzhiLWIzNTktZGE2ZWZjMDI0OGU5In0sIk1vZHVsZVVpZCI6bnVsbH0=\"><mutation items=\"1\"></mutation><field name=\"FORM\">Заказ</field><field name=\"OPEN_TYPE\">0</field><field name=\"READ_ONLY\">FALSE</field><field name=\"P0\">           </field><value name=\"ID\"><block type=\"rms.list.SelectedRecordProperty\" id=\"3\" ctx.uid=\"e21449a3-6c79-4d88-a466-501c496fa133\" ctx.type=\"Form.Element$BarsUp.Designer.View.Registry, BarsUp.Designer.View\" ctx.display=\"Заказы.Объект\" ctx.data=\"Base64:eyJpc1Bpdm90IjpmYWxzZSwiTGlzdFVpZCI6ImUyMTQ0OWEzLTZjNzktNGQ4OC1hNDY2LTUwMWM0OTZmYTEzMyJ9\"><field name=\"COLUMN\">Zakaz_Id</field></block></value></block></statement></block>"
+    }
+  ],
+  "AllowFiltering": true,
+  "AllowSorting": true,
+  "DataSourceUid": "33d98787-d41a-4282-8f79-3b4f1046a7a1",
+  "Description": "Реестр сущностей Заказы Объекты",
+  "DescriptorUid": "B4.Rms.Descriptor.Registry",
+  "Display": "Заказы.Объект",
+  "Elements": [
+    {
+      "$type": "BarsUp.Designer.View.Lists.DataColumn, BarsUp.Designer.View",
+      "Alias": "Zakaz_Client_Organization_Name",
+      "AllowFiltering": true,
+      "AllowInlineEdit": true,
+      "AllowSorting": true,
+      "Columns": [],
+      "Display": "Заказчик",
+      "EnableHeaderMenu": true,
+      "Events": [],
+      "FieldPathUid": "33d98787-d41a-4282-8f79-3b4f1046a7a1$30ef3bf7-35e0-4a5c-9945-9fa7db560dc7$4082c604-c52d-4594-88ad-b59078285797$e0a08ecf-f833-461a-8b0d-8d7e5d4e4778$291234e7-3e4e-49ad-9652-9e47bcf814f4",
+      "Uid": "0b2fa8fd-efe9-46ef-a517-808603ac2275",
+      "Attributes": [
+        {
+          "$type": "BarsUp.Designer.View.Attributes.DecimalPrecisionControlAttribute, BarsUp.Designer.View",
+          "Value": 2
+        },
+        {
+          "$type": "BarsUp.Designer.View.Attributes.FlexControlAttribute, BarsUp.Designer.View",
+          "Value": 1.0
+        },
+        {
+          "$type": "BarsUp.Designer.View.Attributes.Registry.BlocklyRendererRedactorAttribute, BarsUp.Designer.View",
+          "Actions": [],
+          "Data": {},
+          "Hidden": false,
+          "IgnoreMakeInactive": false,
+          "Key": "FieldRenderer",
+          "Location": 0,
+          "PermissionCompositionType": 0,
+          "Renderer": {
+            "$type": "BarsUp.Designer.Core.Elements.RmsElementEvent, BarsUp.Designer.Core",
+            "Data": {}
+          },
+          "Uid": "BarsUp.Designer.View.Attributes.Registry.BlocklyRendererRedactorAttribute, BarsUp.Designer.View"
+        },
+        {
+          "$type": "BarsUp.Designer.View.Attributes.Registry.BlocklySummaryRendererEditorAttribute, BarsUp.Designer.View",
+          "Actions": [],
+          "Data": {},
+          "Hidden": false,
+          "IgnoreMakeInactive": false,
+          "Key": "FieldSummaryRenderer",
+          "Location": 0,
+          "PermissionCompositionType": 0,
+          "Renderer": {
+            "$type": "BarsUp.Designer.Core.Elements.RmsElementEvent, BarsUp.Designer.Core",
+            "Data": {}
+          },
+          "Uid": "BarsUp.Designer.View.Attributes.Registry.BlocklySummaryRendererEditorAttribute, BarsUp.Designer.View"
+        },
+        {
+          "$type": "BarsUp.Designer.View.Attributes.RegistryGroupingSummaryAttribute, BarsUp.Designer.View",
+          "Format": 0,
+          "TextTemplate": "{0}",
+          "Type": 0
+        },
+        {
+          "$type": "BarsUp.Designer.View.Attributes.ViewElementPermissionAttribute, BarsUp.Designer.View",
+          "PermissionCompositionType": 0,
+          "PermissionsList": []
+        }
+      ]
+    },
+    {
+      "$type": "BarsUp.Designer.View.Lists.DataColumn, BarsUp.Designer.View",
+      "Alias": "Zakaz_Number",
+      "AllowFiltering": true,
+      "AllowInlineEdit": true,
+      "AllowSorting": true,
+      "Columns": [],
+      "Display": "Номер",
+      "EnableHeaderMenu": true,
+      "Events": [],
+      "FieldPathUid": "33d98787-d41a-4282-8f79-3b4f1046a7a1$30ef3bf7-35e0-4a5c-9945-9fa7db560dc7$2f3de072-33f6-492c-8016-a55598f69f32",
+      "Uid": "00f99087-3480-4b69-b80a-006906b83439",
+      "Attributes": [
+        {
+          "$type": "BarsUp.Designer.View.Attributes.DecimalPrecisionControlAttribute, BarsUp.Designer.View",
+          "Value": 2
+        },
+        {
+          "$type": "BarsUp.Designer.View.Attributes.Registry.BlocklyRendererRedactorAttribute, BarsUp.Designer.View",
+          "Actions": [],
+          "Data": {},
+          "Hidden": false,
+          "IgnoreMakeInactive": false,
+          "Key": "FieldRenderer",
+          "Location": 0,
+          "PermissionCompositionType": 0,
+          "Renderer": {
+            "$type": "BarsUp.Designer.Core.Elements.RmsElementEvent, BarsUp.Designer.Core",
+            "Data": {}
+          },
+          "Uid": "BarsUp.Designer.View.Attributes.Registry.BlocklyRendererRedactorAttribute, BarsUp.Designer.View"
+        },
+        {
+          "$type": "BarsUp.Designer.View.Attributes.Registry.BlocklySummaryRendererEditorAttribute, BarsUp.Designer.View",
+          "Actions": [],
+          "Data": {},
+          "Hidden": false,
+          "IgnoreMakeInactive": false,
+          "Key": "FieldSummaryRenderer",
+          "Location": 0,
+          "PermissionCompositionType": 0,
+          "Renderer": {
+            "$type": "BarsUp.Designer.Core.Elements.RmsElementEvent, BarsUp.Designer.Core",
+            "Data": {}
+          },
+          "Uid": "BarsUp.Designer.View.Attributes.Registry.BlocklySummaryRendererEditorAttribute, BarsUp.Designer.View"
+        },
+        {
+          "$type": "BarsUp.Designer.View.Attributes.RegistryGroupingSummaryAttribute, BarsUp.Designer.View",
+          "Format": 0,
+          "TextTemplate": "{0}",
+          "Type": 0
+        },
+        {
+          "$type": "BarsUp.Designer.View.Attributes.ViewElementPermissionAttribute, BarsUp.Designer.View",
+          "PermissionCompositionType": 0,
+          "PermissionsList": []
+        },
+        {
+          "$type": "BarsUp.Designer.View.Attributes.WidthControlAttribute, BarsUp.Designer.View",
+          "Value": 150
+        }
+      ]
+    },
+    {
+      "$type": "BarsUp.Designer.View.Lists.DateTimeDataColumn, BarsUp.Designer.View",
+      "Alias": "Zakaz_Date",
+      "AllowFiltering": true,
+      "AllowInlineEdit": true,
+      "AllowSorting": true,
+      "Columns": [],
+      "Display": "Дата",
+      "EnableHeaderMenu": true,
+      "Events": [],
+      "FieldPathUid": "33d98787-d41a-4282-8f79-3b4f1046a7a1$30ef3bf7-35e0-4a5c-9945-9fa7db560dc7$94896f6f-f4a2-4c12-a701-0e988c92f462",
+      "Uid": "53e31121-480d-4a01-a43e-b778c3356566",
+      "Attributes": [
+        {
+          "$type": "BarsUp.Designer.View.Attributes.DecimalPrecisionControlAttribute, BarsUp.Designer.View",
+          "Value": 2
+        },
+        {
+          "$type": "BarsUp.Designer.View.Attributes.Registry.BlocklyRendererRedactorAttribute, BarsUp.Designer.View",
+          "Actions": [],
+          "Data": {},
+          "Hidden": false,
+          "IgnoreMakeInactive": false,
+          "Key": "FieldRenderer",
+          "Location": 0,
+          "PermissionCompositionType": 0,
+          "Renderer": {
+            "$type": "BarsUp.Designer.Core.Elements.RmsElementEvent, BarsUp.Designer.Core",
+            "Data": {}
+          },
+          "Uid": "BarsUp.Designer.View.Attributes.Registry.BlocklyRendererRedactorAttribute, BarsUp.Designer.View"
+        },
+        {
+          "$type": "BarsUp.Designer.View.Attributes.Registry.BlocklySummaryRendererEditorAttribute, BarsUp.Designer.View",
+          "Actions": [],
+          "Data": {},
+          "Hidden": false,
+          "IgnoreMakeInactive": false,
+          "Key": "FieldSummaryRenderer",
+          "Location": 0,
+          "PermissionCompositionType": 0,
+          "Renderer": {
+            "$type": "BarsUp.Designer.Core.Elements.RmsElementEvent, BarsUp.Designer.Core",
+            "Data": {}
+          },
+          "Uid": "BarsUp.Designer.View.Attributes.Registry.BlocklySummaryRendererEditorAttribute, BarsUp.Designer.View"
+        },
+        {
+          "$type": "BarsUp.Designer.View.Attributes.RegistryGroupingSummaryAttribute, BarsUp.Designer.View",
+          "Format": 0,
+          "TextTemplate": "{0}",
+          "Type": 0
+        },
+        {
+          "$type": "BarsUp.Designer.View.Attributes.ViewElementPermissionAttribute, BarsUp.Designer.View",
+          "PermissionCompositionType": 0,
+          "PermissionsList": []
+        },
+        {
+          "$type": "BarsUp.Designer.View.Attributes.WidthControlAttribute, BarsUp.Designer.View",
+          "Value": 120
+        }
+      ]
+    },
+    {
+      "$type": "BarsUp.Designer.View.Lists.DataColumn, BarsUp.Designer.View",
+      "Alias": "Object_Id",
+      "AllowFiltering": true,
+      "AllowInlineEdit": true,
+      "AllowSorting": true,
+      "Columns": [],
+      "Display": "Объект.Идентификатор",
+      "EnableHeaderMenu": true,
+      "Events": [],
+      "FieldPathUid": "33d98787-d41a-4282-8f79-3b4f1046a7a1$f9b75007-4df7-4f66-8407-9646b73f634d$BarsUp.DataAccess.PersistentObject, BarsUp.Abstractions.DataAccess/Id",
+      "Uid": "b81dc3f5-189b-45d4-8c07-912978fc850d",
+      "Attributes": [
+        {
+          "$type": "BarsUp.Designer.View.Attributes.DecimalPrecisionControlAttribute, BarsUp.Designer.View",
+          "Value": 2
+        },
+        {
+          "$type": "BarsUp.Designer.View.Attributes.HiddenControlAttribute, BarsUp.Designer.View",
+          "Value": true
+        },
+        {
+          "$type": "BarsUp.Designer.View.Attributes.Registry.BlocklyRendererRedactorAttribute, BarsUp.Designer.View",
+          "Actions": [],
+          "Data": {},
+          "Hidden": false,
+          "IgnoreMakeInactive": false,
+          "Key": "FieldRenderer",
+          "Location": 0,
+          "PermissionCompositionType": 0,
+          "Renderer": {
+            "$type": "BarsUp.Designer.Core.Elements.RmsElementEvent, BarsUp.Designer.Core",
+            "Data": {}
+          },
+          "Uid": "BarsUp.Designer.View.Attributes.Registry.BlocklyRendererRedactorAttribute, BarsUp.Designer.View"
+        },
+        {
+          "$type": "BarsUp.Designer.View.Attributes.Registry.BlocklySummaryRendererEditorAttribute, BarsUp.Designer.View",
+          "Actions": [],
+          "Data": {},
+          "Hidden": false,
+          "IgnoreMakeInactive": false,
+          "Key": "FieldSummaryRenderer",
+          "Location": 0,
+          "PermissionCompositionType": 0,
+          "Renderer": {
+            "$type": "BarsUp.Designer.Core.Elements.RmsElementEvent, BarsUp.Designer.Core",
+            "Data": {}
+          },
+          "Uid": "BarsUp.Designer.View.Attributes.Registry.BlocklySummaryRendererEditorAttribute, BarsUp.Designer.View"
+        },
+        {
+          "$type": "BarsUp.Designer.View.Attributes.RegistryGroupingSummaryAttribute, BarsUp.Designer.View",
+          "Format": 0,
+          "TextTemplate": "{0}",
+          "Type": 0
+        },
+        {
+          "$type": "BarsUp.Designer.View.Attributes.ViewElementPermissionAttribute, BarsUp.Designer.View",
+          "PermissionCompositionType": 0,
+          "PermissionsList": []
+        }
+      ]
+    },
+    {
+      "$type": "BarsUp.Designer.View.Lists.DataColumn, BarsUp.Designer.View",
+      "Alias": "Zakaz_Id",
+      "AllowFiltering": true,
+      "AllowInlineEdit": true,
+      "AllowSorting": true,
+      "Columns": [],
+      "Display": "Заказ.Идентификатор",
+      "EnableHeaderMenu": true,
+      "Events": [],
+      "FieldPathUid": "33d98787-d41a-4282-8f79-3b4f1046a7a1$30ef3bf7-35e0-4a5c-9945-9fa7db560dc7$BarsUp.DataAccess.PersistentObject, BarsUp.Abstractions.DataAccess/Id",
+      "Uid": "000b7a0b-528d-444c-a4c8-a3732096f758",
+      "Attributes": [
+        {
+          "$type": "BarsUp.Designer.View.Attributes.DecimalPrecisionControlAttribute, BarsUp.Designer.View",
+          "Value": 2
+        },
+        {
+          "$type": "BarsUp.Designer.View.Attributes.HiddenControlAttribute, BarsUp.Designer.View",
+          "Value": true
+        },
+        {
+          "$type": "BarsUp.Designer.View.Attributes.Registry.BlocklyRendererRedactorAttribute, BarsUp.Designer.View",
+          "Actions": [],
+          "Data": {},
+          "Hidden": false,
+          "IgnoreMakeInactive": false,
+          "Key": "FieldRenderer",
+          "Location": 0,
+          "PermissionCompositionType": 0,
+          "Renderer": {
+            "$type": "BarsUp.Designer.Core.Elements.RmsElementEvent, BarsUp.Designer.Core",
+            "Data": {}
+          },
+          "Uid": "BarsUp.Designer.View.Attributes.Registry.BlocklyRendererRedactorAttribute, BarsUp.Designer.View"
+        },
+        {
+          "$type": "BarsUp.Designer.View.Attributes.Registry.BlocklySummaryRendererEditorAttribute, BarsUp.Designer.View",
+          "Actions": [],
+          "Data": {},
+          "Hidden": false,
+          "IgnoreMakeInactive": false,
+          "Key": "FieldSummaryRenderer",
+          "Location": 0,
+          "PermissionCompositionType": 0,
+          "Renderer": {
+            "$type": "BarsUp.Designer.Core.Elements.RmsElementEvent, BarsUp.Designer.Core",
+            "Data": {}
+          },
+          "Uid": "BarsUp.Designer.View.Attributes.Registry.BlocklySummaryRendererEditorAttribute, BarsUp.Designer.View"
+        },
+        {
+          "$type": "BarsUp.Designer.View.Attributes.RegistryGroupingSummaryAttribute, BarsUp.Designer.View",
+          "Format": 0,
+          "TextTemplate": "{0}",
+          "Type": 0
+        },
+        {
+          "$type": "BarsUp.Designer.View.Attributes.ViewElementPermissionAttribute, BarsUp.Designer.View",
+          "PermissionCompositionType": 0,
+          "PermissionsList": []
+        }
+      ]
+    }
+  ],
+  "EnableColumnHide": true,
+  "EnableColumnMove": true,
+  "EnableColumnResize": true,
+  "Events": [],
+  "Name": "ObjectsOrdersList2",
+  "PageSize": 25,
+  "Queries": [],
+  "RegistryTooltips": {
+    "$type": "BarsUp.Designer.View.Elements.Lists.Tooltips.RegistryTooltipsContainer, BarsUp.Designer.View",
+    "CellTooltips": [],
+    "IsNotEmpty": false,
+    "RowTooltips": []
+  },
+  "SelectionMode": 0,
+  "StyleConditions": "[]",
+  "Uid": "e21449a3-6c79-4d88-a466-501c496fa133",
+  "Attributes": [
+    {
+      "$type": "BarsUp.Designer.View.Attributes.DefaultInWindowSizeAttribute, BarsUp.Designer.View",
+      "Height": 500,
+      "Width": 500
+    },
+    {
+      "$type": "BarsUp.Designer.View.Attributes.Registry.EnableConditionalFormattingRegistryAttribute, BarsUp.Designer.View",
+      "Value": true
+    },
+    {
+      "$type": "BarsUp.Designer.View.Attributes.Registry.RegistryViewRowClassBlocklyAttribute, BarsUp.Designer.View",
+      "Actions": [],
+      "Data": {},
+      "Display": "Css-класс строки",
+      "Hidden": false,
+      "IgnoreMakeInactive": false,
+      "Location": 0,
+      "PermissionCompositionType": 0,
+      "Renderer": {
+        "$type": "BarsUp.Designer.Core.Elements.RmsElementEvent, BarsUp.Designer.Core",
+        "Data": {}
+      },
+      "Uid": "BarsUp.Designer.View.Attributes.Registry.RegistryViewRowClassBlocklyAttribute, BarsUp.Designer.View"
+    },
+    {
+      "$type": "BarsUp.Designer.View.Attributes.RegistryDefaultSortSettingsAttribute, BarsUp.Designer.View"
+    },
+    {
+      "$type": "BarsUp.Designer.View.Attributes.RegistryGroupingTypeAttribute, BarsUp.Designer.View",
+      "Type": 1
+    },
+    {
+      "$type": "BarsUp.Designer.View.Attributes.RegistryInlineEditingAttribute, BarsUp.Designer.View",
+      "IsEnabled": false,
+      "Mode": 0
+    },
+    {
+      "$type": "BarsUp.Designer.View.Attributes.RegistryPagingAttribute, BarsUp.Designer.View",
+      "Allow": true,
+      "IsBufferedStore": false,
+      "SeparateTotalCountRequest": false,
+      "Size": 50
+    },
+    {
+      "$type": "BarsUp.Designer.View.Attributes.RegistryQueryBuilderViewTypeAttribute, BarsUp.Designer.View",
+      "Mode": 0
+    },
+    {
+      "$type": "BarsUp.Designer.View.Attributes.RowExpanderAttribute, BarsUp.Designer.View"
+    }
+  ]
+}

@@ -1,0 +1,83 @@
+﻿{
+  "$type": "BarsUp.Designer.Data.Entity, BarsUp.Designer.Data",
+  "BaseType": "3bea8edd-4cf7-419a-bb60-ce54a37ffc46",
+  "DescriptorUid": "B4.Rms.Descriptor.Entity",
+  "Display": "Документы договоров",
+  "Elements": [
+    {
+      "$type": "BarsUp.Designer.Core.TypeSystem.Descriptors.ClassProperty, BarsUp.Designer.Core",
+      "Display": "Сторона 1",
+      "FieldType": "2f3cc7da-d8a3-4c53-b83f-ec26f028202e",
+      "IsVirtual": false,
+      "Name": "Side1",
+      "Uid": "59771e21-b034-45dd-a5a6-d37ac4dd818a",
+      "Attributes": [
+        {
+          "$type": "BarsUp.Designer.Attributes.IsChangeLogEnabledAttribute, BarsUp.Designer.Workspace",
+          "IsChangeLogEnabled": false
+        },
+        {
+          "$type": "BarsUp.Designer.Attributes.IsRequiredAttribute, BarsUp.Designer.Workspace",
+          "IsRequired": false
+        },
+        {
+          "$type": "BarsUp.Designer.Data.Attributes.SignedDataFileLinkAttribute, BarsUp.Designer.Data"
+        },
+        {
+          "$type": "BarsUp.Designer.Data.Attributes.UseCascadePersistAttribute, BarsUp.Designer.Data",
+          "Value": false
+        },
+        {
+          "$type": "BarsUp.Designer.Data.TypeSystem.ChangeLogPropertyDisplayFieldAttribute, BarsUp.Designer.Data"
+        }
+      ]
+    },
+    {
+      "$type": "BarsUp.Designer.Core.TypeSystem.Descriptors.ClassProperty, BarsUp.Designer.Core",
+      "Display": "Сторона 2",
+      "FieldType": "2f3cc7da-d8a3-4c53-b83f-ec26f028202e",
+      "IsVirtual": false,
+      "Name": "Side2",
+      "Uid": "730a1cf2-8fcd-49e4-a712-42ae45a8b8a2",
+      "Attributes": [
+        {
+          "$type": "BarsUp.Designer.Attributes.IsChangeLogEnabledAttribute, BarsUp.Designer.Workspace",
+          "IsChangeLogEnabled": false
+        },
+        {
+          "$type": "BarsUp.Designer.Attributes.IsRequiredAttribute, BarsUp.Designer.Workspace",
+          "IsRequired": false
+        },
+        {
+          "$type": "BarsUp.Designer.Data.Attributes.SignedDataFileLinkAttribute, BarsUp.Designer.Data"
+        },
+        {
+          "$type": "BarsUp.Designer.Data.Attributes.UseCascadePersistAttribute, BarsUp.Designer.Data",
+          "Value": false
+        },
+        {
+          "$type": "BarsUp.Designer.Data.TypeSystem.ChangeLogPropertyDisplayFieldAttribute, BarsUp.Designer.Data"
+        }
+      ]
+    }
+  ],
+  "Events": [],
+  "Indices": [],
+  "Name": "ContractDocuments",
+  "NameForDatabase": "CONTRACTDOCUMENTS",
+  "SubclassKind": 1,
+  "Uid": "71da323f-2f10-4d3f-a416-b408b3ea3f99",
+  "Attributes": [
+    {
+      "$type": "BarsUp.Designer.Data.Attributes.EntityBpmnDrivenAttribute, BarsUp.Designer.Data",
+      "Enabled": false
+    },
+    {
+      "$type": "BarsUp.Designer.Data.Attributes.EntityRecordDescriptionAttribute, BarsUp.Designer.Data"
+    },
+    {
+      "$type": "BarsUp.Designer.Data.Attributes.EntityRegisterAuthorAttribute, BarsUp.Designer.Data",
+      "Value": false
+    }
+  ]
+}

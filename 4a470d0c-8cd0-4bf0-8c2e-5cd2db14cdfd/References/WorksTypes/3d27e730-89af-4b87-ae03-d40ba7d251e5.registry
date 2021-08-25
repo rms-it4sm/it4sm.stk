@@ -1,0 +1,198 @@
+﻿{
+  "$type": "BarsUp.Designer.View.Registry, BarsUp.Designer.View",
+  "Actions": [
+    {
+      "$type": "BarsUp.Designer.View.Actions.RefreshAction, BarsUp.Designer.View",
+      "Actions": [],
+      "Display": "Обновить",
+      "Hidden": false,
+      "Icon": "icon-arrow-refresh",
+      "IgnoreMakeInactive": false,
+      "Location": 0,
+      "PermissionCompositionType": 0,
+      "PermissionsList": [],
+      "Uid": "35d23095-4824-45ee-b3dc-30d4d6990bb8"
+    },
+    {
+      "$type": "BarsUp.Designer.View.Actions.Inline.AddAction, BarsUp.Designer.View",
+      "Actions": [],
+      "Display": "Добавить",
+      "Hidden": false,
+      "Icon": "icon-add",
+      "IgnoreMakeInactive": false,
+      "Location": 0,
+      "PermissionCompositionType": 0,
+      "PermissionsList": [],
+      "Uid": "7144570b-a04a-441c-8311-f8f3e699b589"
+    },
+    {
+      "$type": "BarsUp.Designer.View.Actions.Inline.EditAction, BarsUp.Designer.View",
+      "Actions": [],
+      "Display": "Редактировать",
+      "Hidden": false,
+      "Icon": "icon-edit",
+      "IgnoreMakeInactive": false,
+      "Location": 0,
+      "PermissionCompositionType": 0,
+      "PermissionsList": [],
+      "Uid": "cd0c535f-0f8a-4815-bd44-7cb4a814dfaa"
+    },
+    {
+      "$type": "BarsUp.Designer.View.Actions.Inline.SaveAllAction, BarsUp.Designer.View",
+      "Actions": [],
+      "Display": "Сохранить",
+      "Hidden": false,
+      "Icon": "icon-save",
+      "IgnoreMakeInactive": false,
+      "Location": 0,
+      "PermissionCompositionType": 0,
+      "PermissionsList": [],
+      "Uid": "968455b0-e655-47e9-928e-740abb73c90f"
+    },
+    {
+      "$type": "BarsUp.Designer.View.Actions.DeletionAction, BarsUp.Designer.View",
+      "Actions": [],
+      "Display": "Удалить",
+      "Hidden": false,
+      "Icon": "icon-delete",
+      "IgnoreMakeInactive": false,
+      "Location": 0,
+      "PermissionCompositionType": 0,
+      "PermissionsList": [],
+      "Uid": "4dc0365c-a8ce-48d2-9aed-f83a8510f29c"
+    }
+  ],
+  "AllowFiltering": true,
+  "AllowSorting": true,
+  "DataSourceUid": "7a874dff-d4b4-49ed-8be9-977056ad8fc9",
+  "Description": "Реестр сущностей Виды работ",
+  "DescriptorUid": "B4.Rms.Descriptor.Registry",
+  "Display": "Виды работ",
+  "Elements": [
+    {
+      "$type": "BarsUp.Designer.View.Lists.DataColumn, BarsUp.Designer.View",
+      "Alias": "Name",
+      "AllowFiltering": true,
+      "AllowInlineEdit": true,
+      "AllowSorting": true,
+      "Display": "Наименование",
+      "EnableHeaderMenu": true,
+      "Events": [],
+      "FieldPathUid": "7a874dff-d4b4-49ed-8be9-977056ad8fc9$a9294408-1e36-4617-9972-07c45c83ce2d",
+      "Uid": "e06a800b-b7ab-4b89-becd-52c3a0d48d6b",
+      "Attributes": [
+        {
+          "$type": "BarsUp.Designer.View.Attributes.DecimalPrecisionControlAttribute, BarsUp.Designer.View",
+          "Value": 2
+        },
+        {
+          "$type": "BarsUp.Designer.View.Attributes.FlexControlAttribute, BarsUp.Designer.View",
+          "Value": 1.0
+        },
+        {
+          "$type": "BarsUp.Designer.View.Attributes.Registry.BlocklyRendererRedactorAttribute, BarsUp.Designer.View",
+          "Actions": [],
+          "Data": {},
+          "Hidden": false,
+          "IgnoreMakeInactive": false,
+          "Key": "FieldRenderer",
+          "Location": 0,
+          "PermissionCompositionType": 0,
+          "Renderer": {
+            "$type": "BarsUp.Designer.Core.Elements.RmsElementEvent, BarsUp.Designer.Core",
+            "Data": {}
+          },
+          "Uid": "BarsUp.Designer.View.Attributes.Registry.BlocklyRendererRedactorAttribute, BarsUp.Designer.View"
+        },
+        {
+          "$type": "BarsUp.Designer.View.Attributes.Registry.BlocklySummaryRendererEditorAttribute, BarsUp.Designer.View",
+          "Actions": [],
+          "Data": {},
+          "Hidden": false,
+          "IgnoreMakeInactive": false,
+          "Key": "FieldSummaryRenderer",
+          "Location": 0,
+          "PermissionCompositionType": 0,
+          "Renderer": {
+            "$type": "BarsUp.Designer.Core.Elements.RmsElementEvent, BarsUp.Designer.Core",
+            "Data": {}
+          },
+          "Uid": "BarsUp.Designer.View.Attributes.Registry.BlocklySummaryRendererEditorAttribute, BarsUp.Designer.View"
+        },
+        {
+          "$type": "BarsUp.Designer.View.Attributes.RegistryGroupingSummaryAttribute, BarsUp.Designer.View",
+          "Format": 0,
+          "TextTemplate": "{0}",
+          "Type": 0
+        }
+      ]
+    }
+  ],
+  "EnableColumnHide": true,
+  "EnableColumnMove": true,
+  "EnableColumnResize": true,
+  "Events": [],
+  "Name": "WorksTypesList",
+  "PageSize": 25,
+  "Queries": [],
+  "RegistryTooltips": {
+    "$type": "BarsUp.Designer.View.Elements.Lists.Tooltips.RegistryTooltipsContainer, BarsUp.Designer.View",
+    "CellTooltips": [],
+    "IsNotEmpty": false,
+    "RowTooltips": []
+  },
+  "SelectionMode": 0,
+  "StyleConditions": "[]",
+  "Uid": "3d27e730-89af-4b87-ae03-d40ba7d251e5",
+  "Attributes": [
+    {
+      "$type": "BarsUp.Designer.View.Attributes.DefaultInWindowSizeAttribute, BarsUp.Designer.View",
+      "Height": 500,
+      "Width": 500
+    },
+    {
+      "$type": "BarsUp.Designer.View.Attributes.Registry.EnableConditionalFormattingRegistryAttribute, BarsUp.Designer.View",
+      "Value": true
+    },
+    {
+      "$type": "BarsUp.Designer.View.Attributes.Registry.RegistryViewRowClassBlocklyAttribute, BarsUp.Designer.View",
+      "Actions": [],
+      "Data": {},
+      "Hidden": false,
+      "IgnoreMakeInactive": false,
+      "Location": 0,
+      "PermissionCompositionType": 0,
+      "Renderer": {
+        "$type": "BarsUp.Designer.Core.Elements.RmsElementEvent, BarsUp.Designer.Core",
+        "Data": {}
+      },
+      "Uid": "BarsUp.Designer.View.Attributes.Registry.RegistryViewRowClassBlocklyAttribute, BarsUp.Designer.View"
+    },
+    {
+      "$type": "BarsUp.Designer.View.Attributes.RegistryDefaultSortSettingsAttribute, BarsUp.Designer.View"
+    },
+    {
+      "$type": "BarsUp.Designer.View.Attributes.RegistryGroupingTypeAttribute, BarsUp.Designer.View",
+      "Type": 1
+    },
+    {
+      "$type": "BarsUp.Designer.View.Attributes.RegistryInlineEditingAttribute, BarsUp.Designer.View",
+      "IsEnabled": true,
+      "Mode": 0
+    },
+    {
+      "$type": "BarsUp.Designer.View.Attributes.RegistryPagingAttribute, BarsUp.Designer.View",
+      "Allow": true,
+      "IsBufferedStore": false,
+      "SeparateTotalCountRequest": false,
+      "Size": 50
+    },
+    {
+      "$type": "BarsUp.Designer.View.Attributes.RegistryQueryBuilderViewTypeAttribute, BarsUp.Designer.View",
+      "Mode": 0
+    },
+    {
+      "$type": "BarsUp.Designer.View.Attributes.RowExpanderAttribute, BarsUp.Designer.View"
+    }
+  ]
+}

@@ -1,0 +1,83 @@
+﻿{
+  "$type": "BarsUp.Designer.Data.Entity, BarsUp.Designer.Data",
+  "BaseType": "BarsUp.DataAccess.PersistentObject, BarsUp.Abstractions.DataAccess",
+  "DescriptorUid": "B4.Rms.Descriptor.Entity",
+  "Display": "Связанные организации",
+  "Elements": [
+    {
+      "$type": "BarsUp.Designer.Core.TypeSystem.Descriptors.ClassProperty, BarsUp.Designer.Core",
+      "Display": "Организация",
+      "FieldType": "242b06d2-b239-47ad-b75a-cbf88a4b987b",
+      "IsVirtual": false,
+      "Name": "Organization",
+      "Uid": "42fbc98d-ab6c-474a-8a5e-74f8b1811518",
+      "Attributes": [
+        {
+          "$type": "BarsUp.Designer.Attributes.IsChangeLogEnabledAttribute, BarsUp.Designer.Workspace",
+          "IsChangeLogEnabled": false
+        },
+        {
+          "$type": "BarsUp.Designer.Attributes.IsRequiredAttribute, BarsUp.Designer.Workspace",
+          "IsRequired": false
+        },
+        {
+          "$type": "BarsUp.Designer.Data.Attributes.SignedDataFileLinkAttribute, BarsUp.Designer.Data"
+        },
+        {
+          "$type": "BarsUp.Designer.Data.Attributes.UseCascadePersistAttribute, BarsUp.Designer.Data",
+          "Value": false
+        },
+        {
+          "$type": "BarsUp.Designer.Data.TypeSystem.ChangeLogPropertyDisplayFieldAttribute, BarsUp.Designer.Data"
+        }
+      ]
+    },
+    {
+      "$type": "BarsUp.Designer.Core.TypeSystem.Descriptors.ClassProperty, BarsUp.Designer.Core",
+      "Display": "Связанная организация",
+      "FieldType": "242b06d2-b239-47ad-b75a-cbf88a4b987b",
+      "IsVirtual": false,
+      "Name": "RelatedOrg",
+      "Uid": "21c4785e-e297-40c1-a26a-595bd3238a35",
+      "Attributes": [
+        {
+          "$type": "BarsUp.Designer.Attributes.IsChangeLogEnabledAttribute, BarsUp.Designer.Workspace",
+          "IsChangeLogEnabled": false
+        },
+        {
+          "$type": "BarsUp.Designer.Attributes.IsRequiredAttribute, BarsUp.Designer.Workspace",
+          "IsRequired": false
+        },
+        {
+          "$type": "BarsUp.Designer.Data.Attributes.SignedDataFileLinkAttribute, BarsUp.Designer.Data"
+        },
+        {
+          "$type": "BarsUp.Designer.Data.Attributes.UseCascadePersistAttribute, BarsUp.Designer.Data",
+          "Value": false
+        },
+        {
+          "$type": "BarsUp.Designer.Data.TypeSystem.ChangeLogPropertyDisplayFieldAttribute, BarsUp.Designer.Data"
+        }
+      ]
+    }
+  ],
+  "Events": [],
+  "Indices": [],
+  "Name": "RelatedOrganizations",
+  "NameForDatabase": "RELATEDORGANIZATIONS",
+  "SubclassKind": 1,
+  "Uid": "ba084c30-4998-4494-a718-d6eca64c6140",
+  "Attributes": [
+    {
+      "$type": "BarsUp.Designer.Data.Attributes.EntityBpmnDrivenAttribute, BarsUp.Designer.Data",
+      "Enabled": false
+    },
+    {
+      "$type": "BarsUp.Designer.Data.Attributes.EntityRecordDescriptionAttribute, BarsUp.Designer.Data"
+    },
+    {
+      "$type": "BarsUp.Designer.Data.Attributes.EntityRegisterAuthorAttribute, BarsUp.Designer.Data",
+      "Value": false
+    }
+  ]
+}

@@ -1,0 +1,120 @@
+﻿{
+  "$type": "BarsUp.Designer.Data.Entity, BarsUp.Designer.Data",
+  "BaseType": "BarsUp.DataAccess.PersistentObject, BarsUp.Abstractions.DataAccess",
+  "DescriptorUid": "B4.Rms.Descriptor.Entity",
+  "Display": "Должности подразделения",
+  "Elements": [
+    {
+      "$type": "BarsUp.Designer.Core.TypeSystem.Descriptors.ClassProperty, BarsUp.Designer.Core",
+      "Display": "Подразделение",
+      "FieldType": "493d5e72-6f08-4da0-9fa7-bfd88e202a82",
+      "IsVirtual": false,
+      "Name": "Department",
+      "Uid": "403e67cf-fb18-4e44-8066-e9987352fdc0",
+      "Attributes": [
+        {
+          "$type": "BarsUp.Designer.Attributes.IsChangeLogEnabledAttribute, BarsUp.Designer.Workspace",
+          "IsChangeLogEnabled": false
+        },
+        {
+          "$type": "BarsUp.Designer.Attributes.IsRequiredAttribute, BarsUp.Designer.Workspace",
+          "IsRequired": false
+        },
+        {
+          "$type": "BarsUp.Designer.Data.Attributes.SignedDataFileLinkAttribute, BarsUp.Designer.Data"
+        },
+        {
+          "$type": "BarsUp.Designer.Data.Attributes.UseCascadePersistAttribute, BarsUp.Designer.Data",
+          "Value": false
+        },
+        {
+          "$type": "BarsUp.Designer.Data.TypeSystem.ChangeLogPropertyDisplayFieldAttribute, BarsUp.Designer.Data"
+        }
+      ]
+    },
+    {
+      "$type": "BarsUp.Designer.Core.TypeSystem.Descriptors.ClassProperty, BarsUp.Designer.Core",
+      "Display": "Вид",
+      "FieldType": "c3cd4337-81c8-466a-98ca-872e581dcf97",
+      "IsVirtual": false,
+      "Name": "Type",
+      "Uid": "f176197f-28ae-4253-a228-0f5ef5df9aea",
+      "Attributes": [
+        {
+          "$type": "BarsUp.Designer.Attributes.IsChangeLogEnabledAttribute, BarsUp.Designer.Workspace",
+          "IsChangeLogEnabled": false
+        },
+        {
+          "$type": "BarsUp.Designer.Attributes.IsRequiredAttribute, BarsUp.Designer.Workspace",
+          "IsRequired": false
+        },
+        {
+          "$type": "BarsUp.Designer.Data.Attributes.SignedDataFileLinkAttribute, BarsUp.Designer.Data"
+        },
+        {
+          "$type": "BarsUp.Designer.Data.Attributes.UseCascadePersistAttribute, BarsUp.Designer.Data",
+          "Value": false
+        },
+        {
+          "$type": "BarsUp.Designer.Data.TypeSystem.ChangeLogPropertyDisplayFieldAttribute, BarsUp.Designer.Data"
+        }
+      ]
+    },
+    {
+      "$type": "BarsUp.Designer.Core.TypeSystem.Descriptors.ClassProperty, BarsUp.Designer.Core",
+      "Display": "Должность",
+      "FieldType": "System.String, System.Private.CoreLib",
+      "IsVirtual": false,
+      "Name": "Position",
+      "Uid": "ac773733-14e9-4469-920f-500782bb6cef",
+      "Attributes": [
+        {
+          "$type": "BarsUp.Designer.Attributes.IsChangeLogEnabledAttribute, BarsUp.Designer.Workspace",
+          "IsChangeLogEnabled": false
+        },
+        {
+          "$type": "BarsUp.Designer.Attributes.IsRequiredAttribute, BarsUp.Designer.Workspace",
+          "IsRequired": false
+        },
+        {
+          "$type": "BarsUp.Designer.Core.Attributes.DB.DbFieldIsUniqueAttribute, BarsUp.Designer.Core",
+          "IsUnique": false
+        },
+        {
+          "$type": "BarsUp.Designer.Core.Attributes.DB.DbFieldLengthAttribute, BarsUp.Designer.Core",
+          "Length": 0
+        },
+        {
+          "$type": "BarsUp.Designer.Core.Attributes.DB.DbIsTextBlobAttribute, BarsUp.Designer.Core",
+          "IsTextBlob": false
+        },
+        {
+          "$type": "BarsUp.Designer.Core.Attributes.DB.DbStringDefaultValueAttribute, BarsUp.Designer.Core"
+        },
+        {
+          "$type": "BarsUp.Designer.Data.Attributes.IgnoreClientTimezoneAttribute, BarsUp.Designer.Data",
+          "Value": true
+        }
+      ]
+    }
+  ],
+  "Events": [],
+  "Indices": [],
+  "Name": "DepartmentsPositions",
+  "NameForDatabase": "DEPARTMENTSPOSITIONS",
+  "SubclassKind": 1,
+  "Uid": "1cbc241a-85e4-47db-964b-6bec69dec86c",
+  "Attributes": [
+    {
+      "$type": "BarsUp.Designer.Data.Attributes.EntityBpmnDrivenAttribute, BarsUp.Designer.Data",
+      "Enabled": false
+    },
+    {
+      "$type": "BarsUp.Designer.Data.Attributes.EntityRecordDescriptionAttribute, BarsUp.Designer.Data"
+    },
+    {
+      "$type": "BarsUp.Designer.Data.Attributes.EntityRegisterAuthorAttribute, BarsUp.Designer.Data",
+      "Value": false
+    }
+  ]
+}

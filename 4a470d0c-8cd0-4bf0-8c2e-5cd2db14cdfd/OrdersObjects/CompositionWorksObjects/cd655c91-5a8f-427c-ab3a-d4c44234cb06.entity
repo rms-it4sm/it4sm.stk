@@ -1,0 +1,433 @@
+﻿{
+  "$type": "BarsUp.Designer.Data.Entity, BarsUp.Designer.Data",
+  "BaseType": "BarsUp.DataAccess.PersistentObject, BarsUp.Abstractions.DataAccess",
+  "DescriptorUid": "B4.Rms.Descriptor.Entity",
+  "Display": "Работы объектов",
+  "Elements": [
+    {
+      "$type": "BarsUp.Designer.Core.TypeSystem.Descriptors.ClassProperty, BarsUp.Designer.Core",
+      "Display": "Объект",
+      "FieldType": "aa6ab35e-8dca-491d-8261-0bf3c834ab3b",
+      "IsVirtual": false,
+      "Name": "ObjectWork",
+      "Uid": "e5e6c0c3-2740-40ee-9e6b-c98d69124498",
+      "Attributes": [
+        {
+          "$type": "BarsUp.Designer.Attributes.IsChangeLogEnabledAttribute, BarsUp.Designer.Workspace",
+          "IsChangeLogEnabled": false
+        },
+        {
+          "$type": "BarsUp.Designer.Attributes.IsRequiredAttribute, BarsUp.Designer.Workspace",
+          "IsRequired": false
+        },
+        {
+          "$type": "BarsUp.Designer.Data.Attributes.SignedDataFileLinkAttribute, BarsUp.Designer.Data"
+        },
+        {
+          "$type": "BarsUp.Designer.Data.Attributes.UseCascadePersistAttribute, BarsUp.Designer.Data",
+          "Value": false
+        },
+        {
+          "$type": "BarsUp.Designer.Data.TypeSystem.ChangeLogPropertyDisplayFieldAttribute, BarsUp.Designer.Data"
+        }
+      ]
+    },
+    {
+      "$type": "BarsUp.Designer.Core.TypeSystem.Descriptors.ClassProperty, BarsUp.Designer.Core",
+      "Display": "УДЛ_Вид",
+      "FieldType": "7a874dff-d4b4-49ed-8be9-977056ad8fc9",
+      "IsVirtual": false,
+      "Name": "Type",
+      "Uid": "b59efb24-9b48-404a-98dc-a021166555c2",
+      "Attributes": [
+        {
+          "$type": "BarsUp.Designer.Attributes.IsChangeLogEnabledAttribute, BarsUp.Designer.Workspace",
+          "IsChangeLogEnabled": false
+        },
+        {
+          "$type": "BarsUp.Designer.Attributes.IsRequiredAttribute, BarsUp.Designer.Workspace",
+          "IsRequired": false
+        },
+        {
+          "$type": "BarsUp.Designer.Data.Attributes.SignedDataFileLinkAttribute, BarsUp.Designer.Data"
+        },
+        {
+          "$type": "BarsUp.Designer.Data.Attributes.UseCascadePersistAttribute, BarsUp.Designer.Data",
+          "Value": false
+        },
+        {
+          "$type": "BarsUp.Designer.Data.TypeSystem.ChangeLogPropertyDisplayFieldAttribute, BarsUp.Designer.Data"
+        }
+      ]
+    },
+    {
+      "$type": "BarsUp.Designer.Core.TypeSystem.Descriptors.ClassProperty, BarsUp.Designer.Core",
+      "Display": "Вид работы",
+      "FieldType": "ceb87fbf-759c-4e7f-bc92-3a605d913ad5",
+      "IsVirtual": false,
+      "Name": "WorkType",
+      "Uid": "57b675f7-b7f9-4d88-b390-9185e48c5d6a",
+      "Attributes": [
+        {
+          "$type": "BarsUp.Designer.Attributes.IsChangeLogEnabledAttribute, BarsUp.Designer.Workspace",
+          "IsChangeLogEnabled": false
+        },
+        {
+          "$type": "BarsUp.Designer.Attributes.IsRequiredAttribute, BarsUp.Designer.Workspace",
+          "IsRequired": false
+        },
+        {
+          "$type": "BarsUp.Designer.Data.Attributes.SignedDataFileLinkAttribute, BarsUp.Designer.Data"
+        },
+        {
+          "$type": "BarsUp.Designer.Data.Attributes.UseCascadePersistAttribute, BarsUp.Designer.Data",
+          "Value": false
+        },
+        {
+          "$type": "BarsUp.Designer.Data.TypeSystem.ChangeLogPropertyDisplayFieldAttribute, BarsUp.Designer.Data"
+        }
+      ]
+    },
+    {
+      "$type": "BarsUp.Designer.Core.TypeSystem.Descriptors.ClassProperty, BarsUp.Designer.Core",
+      "Display": "Описание",
+      "FieldType": "System.String, System.Private.CoreLib",
+      "IsVirtual": false,
+      "Name": "Comment",
+      "Uid": "10f45f46-c87b-4130-a5db-673007a24530",
+      "Attributes": [
+        {
+          "$type": "BarsUp.Designer.Attributes.IsChangeLogEnabledAttribute, BarsUp.Designer.Workspace",
+          "IsChangeLogEnabled": false
+        },
+        {
+          "$type": "BarsUp.Designer.Attributes.IsRequiredAttribute, BarsUp.Designer.Workspace",
+          "IsRequired": false
+        },
+        {
+          "$type": "BarsUp.Designer.Core.Attributes.DB.DbFieldIsUniqueAttribute, BarsUp.Designer.Core",
+          "IsUnique": false
+        },
+        {
+          "$type": "BarsUp.Designer.Core.Attributes.DB.DbFieldLengthAttribute, BarsUp.Designer.Core",
+          "Length": 0
+        },
+        {
+          "$type": "BarsUp.Designer.Core.Attributes.DB.DbIsTextBlobAttribute, BarsUp.Designer.Core",
+          "IsTextBlob": false
+        },
+        {
+          "$type": "BarsUp.Designer.Core.Attributes.DB.DbStringDefaultValueAttribute, BarsUp.Designer.Core"
+        },
+        {
+          "$type": "BarsUp.Designer.Data.Attributes.IgnoreClientTimezoneAttribute, BarsUp.Designer.Data",
+          "Value": true
+        }
+      ]
+    },
+    {
+      "$type": "BarsUp.Designer.Core.TypeSystem.Descriptors.ClassProperty, BarsUp.Designer.Core",
+      "Display": "Элемент объекта",
+      "FieldType": "c4895819-2171-42e1-bde2-d4fa83104bbd",
+      "IsVirtual": false,
+      "Name": "ObjectElement",
+      "Uid": "f6e6872c-d834-499f-b973-c3085925579a",
+      "Attributes": [
+        {
+          "$type": "BarsUp.Designer.Attributes.IsChangeLogEnabledAttribute, BarsUp.Designer.Workspace",
+          "IsChangeLogEnabled": false
+        },
+        {
+          "$type": "BarsUp.Designer.Attributes.IsRequiredAttribute, BarsUp.Designer.Workspace",
+          "IsRequired": false
+        },
+        {
+          "$type": "BarsUp.Designer.Data.Attributes.SignedDataFileLinkAttribute, BarsUp.Designer.Data"
+        },
+        {
+          "$type": "BarsUp.Designer.Data.Attributes.UseCascadePersistAttribute, BarsUp.Designer.Data",
+          "Value": false
+        },
+        {
+          "$type": "BarsUp.Designer.Data.TypeSystem.ChangeLogPropertyDisplayFieldAttribute, BarsUp.Designer.Data"
+        }
+      ]
+    },
+    {
+      "$type": "BarsUp.Designer.Core.TypeSystem.Descriptors.ClassProperty, BarsUp.Designer.Core",
+      "Display": "Объем",
+      "FieldType": "System.Nullable[System.Double, System.Private.CoreLib], System.Private.CoreLib",
+      "IsVirtual": false,
+      "Name": "Scope",
+      "Uid": "ab2c72ea-8553-4906-874a-21739d7f69fa",
+      "Attributes": [
+        {
+          "$type": "BarsUp.Designer.Attributes.IsChangeLogEnabledAttribute, BarsUp.Designer.Workspace",
+          "IsChangeLogEnabled": false
+        },
+        {
+          "$type": "BarsUp.Designer.Attributes.IsRequiredAttribute, BarsUp.Designer.Workspace",
+          "IsRequired": false
+        },
+        {
+          "$type": "BarsUp.Designer.Core.Attributes.DB.DbDoubleDefaultValueAttribute, BarsUp.Designer.Core"
+        },
+        {
+          "$type": "BarsUp.Designer.Core.Attributes.DB.DbFieldIsUniqueAttribute, BarsUp.Designer.Core",
+          "IsUnique": false
+        },
+        {
+          "$type": "BarsUp.Designer.Data.Attributes.IgnoreClientTimezoneAttribute, BarsUp.Designer.Data",
+          "Value": true
+        }
+      ]
+    },
+    {
+      "$type": "BarsUp.Designer.Core.TypeSystem.Descriptors.ClassProperty, BarsUp.Designer.Core",
+      "Display": "Ед. изм",
+      "FieldType": "15100549-aaff-4972-981e-964ab1b0ecc6",
+      "IsVirtual": false,
+      "Name": "UnutMeasure",
+      "Uid": "12b03338-f1ad-4000-b788-c630ecc4ad42",
+      "Attributes": [
+        {
+          "$type": "BarsUp.Designer.Attributes.IsChangeLogEnabledAttribute, BarsUp.Designer.Workspace",
+          "IsChangeLogEnabled": false
+        },
+        {
+          "$type": "BarsUp.Designer.Attributes.IsRequiredAttribute, BarsUp.Designer.Workspace",
+          "IsRequired": false
+        },
+        {
+          "$type": "BarsUp.Designer.Data.Attributes.SignedDataFileLinkAttribute, BarsUp.Designer.Data"
+        },
+        {
+          "$type": "BarsUp.Designer.Data.Attributes.UseCascadePersistAttribute, BarsUp.Designer.Data",
+          "Value": false
+        },
+        {
+          "$type": "BarsUp.Designer.Data.TypeSystem.ChangeLogPropertyDisplayFieldAttribute, BarsUp.Designer.Data"
+        }
+      ]
+    },
+    {
+      "$type": "BarsUp.Designer.Core.TypeSystem.Descriptors.ClassProperty, BarsUp.Designer.Core",
+      "Display": "Способ выполнения",
+      "FieldType": "cbca5d3e-8487-448e-8a5d-6d54caf25efe",
+      "IsVirtual": false,
+      "Name": "MethodWork",
+      "Uid": "96ec58e2-95d0-45d4-a271-875601604621",
+      "Attributes": [
+        {
+          "$type": "BarsUp.Designer.Attributes.IsChangeLogEnabledAttribute, BarsUp.Designer.Workspace",
+          "IsChangeLogEnabled": false
+        },
+        {
+          "$type": "BarsUp.Designer.Attributes.IsRequiredAttribute, BarsUp.Designer.Workspace",
+          "IsRequired": false
+        },
+        {
+          "$type": "BarsUp.Designer.Core.Attributes.DB.DbEnumDefaultValueAttribute, BarsUp.Designer.Core"
+        }
+      ]
+    },
+    {
+      "$type": "BarsUp.Designer.Core.TypeSystem.Descriptors.ClassProperty, BarsUp.Designer.Core",
+      "Display": "Подрядчик",
+      "FieldType": "2f3cc7da-d8a3-4c53-b83f-ec26f028202e",
+      "IsVirtual": false,
+      "Name": "ContractorWork",
+      "Uid": "099d9765-3b40-4a3a-a495-856053b6a5b6",
+      "Attributes": [
+        {
+          "$type": "BarsUp.Designer.Attributes.IsChangeLogEnabledAttribute, BarsUp.Designer.Workspace",
+          "IsChangeLogEnabled": false
+        },
+        {
+          "$type": "BarsUp.Designer.Attributes.IsRequiredAttribute, BarsUp.Designer.Workspace",
+          "IsRequired": false
+        },
+        {
+          "$type": "BarsUp.Designer.Data.Attributes.SignedDataFileLinkAttribute, BarsUp.Designer.Data"
+        },
+        {
+          "$type": "BarsUp.Designer.Data.Attributes.UseCascadePersistAttribute, BarsUp.Designer.Data",
+          "Value": false
+        },
+        {
+          "$type": "BarsUp.Designer.Data.TypeSystem.ChangeLogPropertyDisplayFieldAttribute, BarsUp.Designer.Data"
+        }
+      ]
+    },
+    {
+      "$type": "BarsUp.Designer.Core.TypeSystem.Descriptors.ClassProperty, BarsUp.Designer.Core",
+      "Display": "Бригада",
+      "FieldType": "493d5e72-6f08-4da0-9fa7-bfd88e202a82",
+      "IsVirtual": false,
+      "Name": "Brigade",
+      "Uid": "fba91bbb-26f1-4766-9e96-88d0969c671e",
+      "Attributes": [
+        {
+          "$type": "BarsUp.Designer.Attributes.IsChangeLogEnabledAttribute, BarsUp.Designer.Workspace",
+          "IsChangeLogEnabled": false
+        },
+        {
+          "$type": "BarsUp.Designer.Attributes.IsRequiredAttribute, BarsUp.Designer.Workspace",
+          "IsRequired": false
+        },
+        {
+          "$type": "BarsUp.Designer.Data.Attributes.SignedDataFileLinkAttribute, BarsUp.Designer.Data"
+        },
+        {
+          "$type": "BarsUp.Designer.Data.Attributes.UseCascadePersistAttribute, BarsUp.Designer.Data",
+          "Value": false
+        },
+        {
+          "$type": "BarsUp.Designer.Data.TypeSystem.ChangeLogPropertyDisplayFieldAttribute, BarsUp.Designer.Data"
+        }
+      ]
+    },
+    {
+      "$type": "BarsUp.Designer.Core.TypeSystem.Descriptors.ClassProperty, BarsUp.Designer.Core",
+      "Display": "Статус",
+      "FieldType": "BarsUp.Modules.States.State, BarsUp.Modules.States",
+      "IsVirtual": false,
+      "Name": "State",
+      "Uid": "b8bdda97-46ef-4226-a0de-d71feda83cf3",
+      "Attributes": [
+        {
+          "$type": "BarsUp.Designer.Attributes.IsChangeLogEnabledAttribute, BarsUp.Designer.Workspace",
+          "IsChangeLogEnabled": false
+        },
+        {
+          "$type": "BarsUp.Designer.Attributes.IsRequiredAttribute, BarsUp.Designer.Workspace",
+          "IsRequired": false
+        },
+        {
+          "$type": "BarsUp.Designer.Data.Attributes.SignedDataFileLinkAttribute, BarsUp.Designer.Data"
+        },
+        {
+          "$type": "BarsUp.Designer.Data.Attributes.UseCascadePersistAttribute, BarsUp.Designer.Data",
+          "Value": false
+        },
+        {
+          "$type": "BarsUp.Designer.Data.TypeSystem.ChangeLogPropertyDisplayFieldAttribute, BarsUp.Designer.Data"
+        }
+      ]
+    },
+    {
+      "$type": "BarsUp.Designer.Core.TypeSystem.Descriptors.ClassProperty, BarsUp.Designer.Core",
+      "Display": "Начало (план)",
+      "FieldType": "System.Nullable[System.DateTime, System.Private.CoreLib], System.Private.CoreLib",
+      "IsVirtual": false,
+      "Name": "PlanStart",
+      "Uid": "d5cc7e14-1d82-4846-b79a-a4c19a61a2f5",
+      "Attributes": [
+        {
+          "$type": "BarsUp.Designer.Attributes.IsChangeLogEnabledAttribute, BarsUp.Designer.Workspace",
+          "IsChangeLogEnabled": false
+        },
+        {
+          "$type": "BarsUp.Designer.Attributes.IsRequiredAttribute, BarsUp.Designer.Workspace",
+          "IsRequired": false
+        },
+        {
+          "$type": "BarsUp.Designer.Core.Attributes.DB.DbDateTimeDefaultValueAttribute, BarsUp.Designer.Core"
+        },
+        {
+          "$type": "BarsUp.Designer.Core.Attributes.DB.DbFieldIsUniqueAttribute, BarsUp.Designer.Core",
+          "IsUnique": false
+        },
+        {
+          "$type": "BarsUp.Designer.Data.Attributes.IgnoreClientTimezoneAttribute, BarsUp.Designer.Data",
+          "Value": true
+        }
+      ]
+    },
+    {
+      "$type": "BarsUp.Designer.Core.TypeSystem.Descriptors.ClassProperty, BarsUp.Designer.Core",
+      "Display": "Завершение (план)",
+      "FieldType": "System.Nullable[System.DateTime, System.Private.CoreLib], System.Private.CoreLib",
+      "IsVirtual": false,
+      "Name": "PlanFinish",
+      "Uid": "3f80730d-eb09-48e7-a2cc-62cbc1533c16",
+      "Attributes": [
+        {
+          "$type": "BarsUp.Designer.Attributes.IsChangeLogEnabledAttribute, BarsUp.Designer.Workspace",
+          "IsChangeLogEnabled": false
+        },
+        {
+          "$type": "BarsUp.Designer.Attributes.IsRequiredAttribute, BarsUp.Designer.Workspace",
+          "IsRequired": false
+        },
+        {
+          "$type": "BarsUp.Designer.Core.Attributes.DB.DbDateTimeDefaultValueAttribute, BarsUp.Designer.Core"
+        },
+        {
+          "$type": "BarsUp.Designer.Core.Attributes.DB.DbFieldIsUniqueAttribute, BarsUp.Designer.Core",
+          "IsUnique": false
+        },
+        {
+          "$type": "BarsUp.Designer.Data.Attributes.IgnoreClientTimezoneAttribute, BarsUp.Designer.Data",
+          "Value": true
+        }
+      ]
+    },
+    {
+      "$type": "BarsUp.Designer.Core.TypeSystem.Descriptors.ClassProperty, BarsUp.Designer.Core",
+      "Display": "Исполнитель",
+      "FieldType": "System.String, System.Private.CoreLib",
+      "IsVirtual": false,
+      "Name": "Executor",
+      "Uid": "87250b9a-b480-488b-9aa3-eba693e483af",
+      "Attributes": [
+        {
+          "$type": "BarsUp.Designer.Attributes.IsChangeLogEnabledAttribute, BarsUp.Designer.Workspace",
+          "IsChangeLogEnabled": false
+        },
+        {
+          "$type": "BarsUp.Designer.Attributes.IsRequiredAttribute, BarsUp.Designer.Workspace",
+          "IsRequired": false
+        },
+        {
+          "$type": "BarsUp.Designer.Core.Attributes.DB.DbFieldIsUniqueAttribute, BarsUp.Designer.Core",
+          "IsUnique": false
+        },
+        {
+          "$type": "BarsUp.Designer.Core.Attributes.DB.DbFieldLengthAttribute, BarsUp.Designer.Core",
+          "Length": 0
+        },
+        {
+          "$type": "BarsUp.Designer.Core.Attributes.DB.DbIsTextBlobAttribute, BarsUp.Designer.Core",
+          "IsTextBlob": false
+        },
+        {
+          "$type": "BarsUp.Designer.Core.Attributes.DB.DbStringDefaultValueAttribute, BarsUp.Designer.Core"
+        },
+        {
+          "$type": "BarsUp.Designer.Data.Attributes.IgnoreClientTimezoneAttribute, BarsUp.Designer.Data",
+          "Value": true
+        }
+      ]
+    }
+  ],
+  "Events": [],
+  "Indices": [],
+  "Name": "CompositionWorksObjects",
+  "NameForDatabase": "COMPOSITIONWORKSOBJECTS",
+  "SubclassKind": 1,
+  "Uid": "cd655c91-5a8f-427c-ab3a-d4c44234cb06",
+  "Attributes": [
+    {
+      "$type": "BarsUp.Designer.Data.Attributes.EntityBpmnDrivenAttribute, BarsUp.Designer.Data",
+      "Enabled": false
+    },
+    {
+      "$type": "BarsUp.Designer.Data.Attributes.EntityRecordDescriptionAttribute, BarsUp.Designer.Data"
+    },
+    {
+      "$type": "BarsUp.Designer.Data.Attributes.EntityRegisterAuthorAttribute, BarsUp.Designer.Data",
+      "Value": false
+    }
+  ]
+}

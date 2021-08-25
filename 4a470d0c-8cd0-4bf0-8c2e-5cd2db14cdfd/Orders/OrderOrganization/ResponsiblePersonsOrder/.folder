@@ -1,0 +1,7 @@
+﻿{
+  "$type": "BarsUp.Designer.Workspace.Elements.RmsFolder, BarsUp.Designer.Workspace",
+  "DescriptorUid": "B4.Rms.Descriptor.Folder",
+  "Display": "Ответственные лица заказа",
+  "Name": "ResponsiblePersonsOrder",
+  "Uid": "775c0532-b543-4c20-a88e-8b5c392989d4"
+}

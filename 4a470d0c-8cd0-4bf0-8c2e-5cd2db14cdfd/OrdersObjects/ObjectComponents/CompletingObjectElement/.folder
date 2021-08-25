@@ -1,0 +1,7 @@
+﻿{
+  "$type": "BarsUp.Designer.Workspace.Elements.RmsFolder, BarsUp.Designer.Workspace",
+  "DescriptorUid": "B4.Rms.Descriptor.Folder",
+  "Display": "Комплектация элемента объекта",
+  "Name": "CompletingObjectElement",
+  "Uid": "308256a1-4fc3-432b-ad65-e9846f9461ce"
+}

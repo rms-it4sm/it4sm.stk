@@ -1,0 +1,214 @@
+﻿{
+  "$type": "BarsUp.Designer.Data.Entity, BarsUp.Designer.Data",
+  "BaseType": "BarsUp.DataAccess.BaseEntity, BarsUp.Abstractions.DataAccess",
+  "DescriptorUid": "B4.Rms.Descriptor.Entity",
+  "Display": "Заказы",
+  "Elements": [
+    {
+      "$type": "BarsUp.Designer.Core.TypeSystem.Descriptors.ClassProperty, BarsUp.Designer.Core",
+      "Display": "Номер",
+      "FieldType": "System.String, System.Private.CoreLib",
+      "IsVirtual": false,
+      "Name": "Number",
+      "Uid": "2f3de072-33f6-492c-8016-a55598f69f32",
+      "Attributes": [
+        {
+          "$type": "BarsUp.Designer.Attributes.IsChangeLogEnabledAttribute, BarsUp.Designer.Workspace",
+          "IsChangeLogEnabled": false
+        },
+        {
+          "$type": "BarsUp.Designer.Attributes.IsRequiredAttribute, BarsUp.Designer.Workspace",
+          "IsRequired": false
+        },
+        {
+          "$type": "BarsUp.Designer.Core.Attributes.DB.DbFieldIsUniqueAttribute, BarsUp.Designer.Core",
+          "IsUnique": false
+        },
+        {
+          "$type": "BarsUp.Designer.Core.Attributes.DB.DbFieldLengthAttribute, BarsUp.Designer.Core",
+          "Length": 0
+        },
+        {
+          "$type": "BarsUp.Designer.Core.Attributes.DB.DbIsTextBlobAttribute, BarsUp.Designer.Core",
+          "IsTextBlob": false
+        },
+        {
+          "$type": "BarsUp.Designer.Core.Attributes.DB.DbStringDefaultValueAttribute, BarsUp.Designer.Core"
+        },
+        {
+          "$type": "BarsUp.Designer.Data.Attributes.IgnoreClientTimezoneAttribute, BarsUp.Designer.Data",
+          "Value": true
+        }
+      ]
+    },
+    {
+      "$type": "BarsUp.Designer.Core.TypeSystem.Descriptors.ClassProperty, BarsUp.Designer.Core",
+      "Display": "Дата",
+      "FieldType": "System.Nullable[System.DateTime, System.Private.CoreLib], System.Private.CoreLib",
+      "IsVirtual": false,
+      "Name": "Date",
+      "Uid": "94896f6f-f4a2-4c12-a701-0e988c92f462",
+      "Attributes": [
+        {
+          "$type": "BarsUp.Designer.Attributes.IsChangeLogEnabledAttribute, BarsUp.Designer.Workspace",
+          "IsChangeLogEnabled": false
+        },
+        {
+          "$type": "BarsUp.Designer.Attributes.IsRequiredAttribute, BarsUp.Designer.Workspace",
+          "IsRequired": false
+        },
+        {
+          "$type": "BarsUp.Designer.Core.Attributes.DB.DbDateTimeDefaultValueAttribute, BarsUp.Designer.Core"
+        },
+        {
+          "$type": "BarsUp.Designer.Core.Attributes.DB.DbFieldIsUniqueAttribute, BarsUp.Designer.Core",
+          "IsUnique": false
+        },
+        {
+          "$type": "BarsUp.Designer.Data.Attributes.IgnoreClientTimezoneAttribute, BarsUp.Designer.Data",
+          "Value": true
+        }
+      ]
+    },
+    {
+      "$type": "BarsUp.Designer.Core.TypeSystem.Descriptors.ClassProperty, BarsUp.Designer.Core",
+      "Display": "Заказчик",
+      "FieldType": "2f3cc7da-d8a3-4c53-b83f-ec26f028202e",
+      "IsVirtual": false,
+      "Name": "Client",
+      "Uid": "4082c604-c52d-4594-88ad-b59078285797",
+      "Attributes": [
+        {
+          "$type": "BarsUp.Designer.Attributes.IsChangeLogEnabledAttribute, BarsUp.Designer.Workspace",
+          "IsChangeLogEnabled": false
+        },
+        {
+          "$type": "BarsUp.Designer.Attributes.IsRequiredAttribute, BarsUp.Designer.Workspace",
+          "IsRequired": false
+        },
+        {
+          "$type": "BarsUp.Designer.Data.Attributes.SignedDataFileLinkAttribute, BarsUp.Designer.Data"
+        },
+        {
+          "$type": "BarsUp.Designer.Data.Attributes.UseCascadePersistAttribute, BarsUp.Designer.Data",
+          "Value": false
+        },
+        {
+          "$type": "BarsUp.Designer.Data.TypeSystem.ChangeLogPropertyDisplayFieldAttribute, BarsUp.Designer.Data"
+        }
+      ]
+    },
+    {
+      "$type": "BarsUp.Designer.Core.TypeSystem.Descriptors.ClassProperty, BarsUp.Designer.Core",
+      "Display": "Статус",
+      "FieldType": "BarsUp.Modules.States.State, BarsUp.Modules.States",
+      "IsVirtual": false,
+      "Name": "State",
+      "Uid": "2c5ce838-ae20-45bb-8cf8-65848eb4fbec",
+      "Attributes": [
+        {
+          "$type": "BarsUp.Designer.Attributes.IsChangeLogEnabledAttribute, BarsUp.Designer.Workspace",
+          "IsChangeLogEnabled": false
+        },
+        {
+          "$type": "BarsUp.Designer.Attributes.IsRequiredAttribute, BarsUp.Designer.Workspace",
+          "IsRequired": false
+        },
+        {
+          "$type": "BarsUp.Designer.Data.Attributes.SignedDataFileLinkAttribute, BarsUp.Designer.Data"
+        },
+        {
+          "$type": "BarsUp.Designer.Data.Attributes.UseCascadePersistAttribute, BarsUp.Designer.Data",
+          "Value": false
+        },
+        {
+          "$type": "BarsUp.Designer.Data.TypeSystem.ChangeLogPropertyDisplayFieldAttribute, BarsUp.Designer.Data"
+        }
+      ]
+    },
+    {
+      "$type": "BarsUp.Designer.Core.TypeSystem.Descriptors.ClassProperty, BarsUp.Designer.Core",
+      "Display": "Менеджер",
+      "FieldType": "0b83a4c4-1b8b-49d6-b16b-dcb3a373a391",
+      "IsVirtual": false,
+      "Name": "Manager",
+      "Uid": "3ee53bb5-bb60-47aa-8a69-41594431f6e0",
+      "Attributes": [
+        {
+          "$type": "BarsUp.Designer.Attributes.IsChangeLogEnabledAttribute, BarsUp.Designer.Workspace",
+          "IsChangeLogEnabled": false
+        },
+        {
+          "$type": "BarsUp.Designer.Attributes.IsRequiredAttribute, BarsUp.Designer.Workspace",
+          "IsRequired": false
+        },
+        {
+          "$type": "BarsUp.Designer.Data.Attributes.SignedDataFileLinkAttribute, BarsUp.Designer.Data"
+        },
+        {
+          "$type": "BarsUp.Designer.Data.Attributes.UseCascadePersistAttribute, BarsUp.Designer.Data",
+          "Value": false
+        },
+        {
+          "$type": "BarsUp.Designer.Data.TypeSystem.ChangeLogPropertyDisplayFieldAttribute, BarsUp.Designer.Data"
+        }
+      ]
+    },
+    {
+      "$type": "BarsUp.Designer.Core.TypeSystem.Descriptors.ClassProperty, BarsUp.Designer.Core",
+      "Display": "Описание",
+      "FieldType": "System.String, System.Private.CoreLib",
+      "IsVirtual": false,
+      "Name": "Comment",
+      "Uid": "01be0595-d7b3-4466-bf15-f9110b6fa65f",
+      "Attributes": [
+        {
+          "$type": "BarsUp.Designer.Attributes.IsChangeLogEnabledAttribute, BarsUp.Designer.Workspace",
+          "IsChangeLogEnabled": false
+        },
+        {
+          "$type": "BarsUp.Designer.Attributes.IsRequiredAttribute, BarsUp.Designer.Workspace",
+          "IsRequired": false
+        },
+        {
+          "$type": "BarsUp.Designer.Core.Attributes.DB.DbFieldIsUniqueAttribute, BarsUp.Designer.Core",
+          "IsUnique": false
+        },
+        {
+          "$type": "BarsUp.Designer.Core.Attributes.DB.DbFieldLengthAttribute, BarsUp.Designer.Core",
+          "Length": 0
+        },
+        {
+          "$type": "BarsUp.Designer.Core.Attributes.DB.DbIsTextBlobAttribute, BarsUp.Designer.Core",
+          "IsTextBlob": false
+        },
+        {
+          "$type": "BarsUp.Designer.Core.Attributes.DB.DbStringDefaultValueAttribute, BarsUp.Designer.Core"
+        },
+        {
+          "$type": "BarsUp.Designer.Data.Attributes.IgnoreClientTimezoneAttribute, BarsUp.Designer.Data",
+          "Value": true
+        }
+      ]
+    }
+  ],
+  "Events": [],
+  "Indices": [],
+  "Name": "Zakaz",
+  "NameForDatabase": "ORDERS",
+  "SubclassKind": 1,
+  "Uid": "cac4cb82-577f-4682-bbd7-bf7d70fbfee1",
+  "Attributes": [
+    {
+      "$type": "BarsUp.Designer.Data.Attributes.EntityBpmnDrivenAttribute, BarsUp.Designer.Data",
+      "Enabled": false
+    },
+    {
+      "$type": "BarsUp.Designer.Data.Attributes.EntityRecordDescriptionAttribute, BarsUp.Designer.Data"
+    },
+    {
+      "$type": "BarsUp.Designer.Data.Attributes.EntityRegisterAuthorAttribute, BarsUp.Designer.Data",
+      "Value": false
+    }
+  ]
+}

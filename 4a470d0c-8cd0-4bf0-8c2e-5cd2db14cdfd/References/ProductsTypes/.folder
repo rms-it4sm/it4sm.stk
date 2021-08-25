@@ -1,0 +1,7 @@
+﻿{
+  "$type": "BarsUp.Designer.Workspace.Elements.RmsFolder, BarsUp.Designer.Workspace",
+  "DescriptorUid": "B4.Rms.Descriptor.Folder",
+  "Display": "Типы продуктов",
+  "Name": "ProductsTypes",
+  "Uid": "f9580b58-755c-40d6-8c30-89fd3888272c"
+}

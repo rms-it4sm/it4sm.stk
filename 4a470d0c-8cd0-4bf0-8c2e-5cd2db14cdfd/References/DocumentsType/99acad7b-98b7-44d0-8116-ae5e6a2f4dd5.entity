@@ -1,0 +1,64 @@
+﻿{
+  "$type": "BarsUp.Designer.Data.Entity, BarsUp.Designer.Data",
+  "BaseType": "BarsUp.DataAccess.PersistentObject, BarsUp.Abstractions.DataAccess",
+  "DescriptorUid": "B4.Rms.Descriptor.Entity",
+  "Display": "Типы документов",
+  "Elements": [
+    {
+      "$type": "BarsUp.Designer.Core.TypeSystem.Descriptors.ClassProperty, BarsUp.Designer.Core",
+      "Display": "Наименование",
+      "FieldType": "System.String, System.Private.CoreLib",
+      "IsVirtual": false,
+      "Name": "Name",
+      "Uid": "916dab28-f962-427c-b442-8dd1a43355b8",
+      "Attributes": [
+        {
+          "$type": "BarsUp.Designer.Attributes.IsChangeLogEnabledAttribute, BarsUp.Designer.Workspace",
+          "IsChangeLogEnabled": false
+        },
+        {
+          "$type": "BarsUp.Designer.Attributes.IsRequiredAttribute, BarsUp.Designer.Workspace",
+          "IsRequired": false
+        },
+        {
+          "$type": "BarsUp.Designer.Core.Attributes.DB.DbFieldIsUniqueAttribute, BarsUp.Designer.Core",
+          "IsUnique": false
+        },
+        {
+          "$type": "BarsUp.Designer.Core.Attributes.DB.DbFieldLengthAttribute, BarsUp.Designer.Core",
+          "Length": 0
+        },
+        {
+          "$type": "BarsUp.Designer.Core.Attributes.DB.DbIsTextBlobAttribute, BarsUp.Designer.Core",
+          "IsTextBlob": false
+        },
+        {
+          "$type": "BarsUp.Designer.Core.Attributes.DB.DbStringDefaultValueAttribute, BarsUp.Designer.Core"
+        },
+        {
+          "$type": "BarsUp.Designer.Data.Attributes.IgnoreClientTimezoneAttribute, BarsUp.Designer.Data",
+          "Value": true
+        }
+      ]
+    }
+  ],
+  "Events": [],
+  "Indices": [],
+  "Name": "DocumentsType",
+  "NameForDatabase": "CONTRACTSTYPE",
+  "SubclassKind": 1,
+  "Uid": "99acad7b-98b7-44d0-8116-ae5e6a2f4dd5",
+  "Attributes": [
+    {
+      "$type": "BarsUp.Designer.Data.Attributes.EntityBpmnDrivenAttribute, BarsUp.Designer.Data",
+      "Enabled": false
+    },
+    {
+      "$type": "BarsUp.Designer.Data.Attributes.EntityRecordDescriptionAttribute, BarsUp.Designer.Data"
+    },
+    {
+      "$type": "BarsUp.Designer.Data.Attributes.EntityRegisterAuthorAttribute, BarsUp.Designer.Data",
+      "Value": false
+    }
+  ]
+}

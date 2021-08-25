@@ -1,0 +1,7 @@
+﻿{
+  "$type": "BarsUp.Designer.Workspace.Elements.RmsFolder, BarsUp.Designer.Workspace",
+  "DescriptorUid": "B4.Rms.Descriptor.Folder",
+  "Display": "Единицы измерения",
+  "Name": "UnitMeasure",
+  "Uid": "6edbf0ad-42d0-458c-884f-149249da4d8d"
+}

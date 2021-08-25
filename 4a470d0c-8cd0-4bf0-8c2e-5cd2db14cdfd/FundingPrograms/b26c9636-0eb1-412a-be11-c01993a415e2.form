@@ -1,0 +1,210 @@
+﻿{
+  "$type": "BarsUp.Designer.View.Forms.Form, BarsUp.Designer.View",
+  "DataSourceUid": "60a5fdca-979f-4332-9a9e-9a1fbd66665a",
+  "Description": "Форма редактирования сущности Программы финансирования",
+  "DescriptorUid": "B4.Rms.Descriptor.Form",
+  "Display": "Программа финансирования",
+  "Elements": [
+    {
+      "$type": "BarsUp.Designer.View.Forms.Containers.HorizontalContainer, BarsUp.Designer.View",
+      "Elements": [
+        {
+          "$type": "BarsUp.Designer.View.Forms.Containers.VerticalContainer, BarsUp.Designer.View",
+          "Elements": [
+            {
+              "$type": "BarsUp.Designer.View.Forms.Controls.TextField, BarsUp.Designer.View",
+              "Display": "Наименование",
+              "FieldPathUid": "60a5fdca-979f-4332-9a9e-9a1fbd66665a$5b06b53c-a325-441c-862c-df36a87d0ea8",
+              "Uid": "a4fb2f2c-d3cc-4618-9927-7dfb3d2e130f",
+              "Attributes": [
+                {
+                  "$type": "BarsUp.Designer.View.Attributes.LabelAlignControlAttribute, BarsUp.Designer.View",
+                  "Value": 3
+                }
+              ]
+            }
+          ],
+          "Uid": "6357860f-654a-46b5-8969-719afc3fd7cf",
+          "Attributes": [
+            {
+              "$type": "BarsUp.Designer.View.Attributes.ChildMarginBottomControlAttribute, BarsUp.Designer.View",
+              "Value": 5
+            },
+            {
+              "$type": "BarsUp.Designer.View.Attributes.ChildMarginLeftControlAttribute, BarsUp.Designer.View",
+              "Value": 5
+            },
+            {
+              "$type": "BarsUp.Designer.View.Attributes.ChildMarginRightControlAttribute, BarsUp.Designer.View",
+              "Value": 5
+            },
+            {
+              "$type": "BarsUp.Designer.View.Attributes.ChildMarginTopControlAttribute, BarsUp.Designer.View",
+              "Value": 5
+            },
+            {
+              "$type": "BarsUp.Designer.View.Attributes.FlexControlAttribute, BarsUp.Designer.View",
+              "Value": 1.0
+            }
+          ]
+        }
+      ],
+      "Events": [],
+      "Uid": "6644a2de-2892-421f-854c-47c24423f876",
+      "Attributes": []
+    },
+    {
+      "$type": "BarsUp.Designer.View.Forms.Containers.HorizontalContainer, BarsUp.Designer.View",
+      "Elements": [
+        {
+          "$type": "BarsUp.Designer.View.Forms.Containers.VerticalContainer, BarsUp.Designer.View",
+          "Elements": [
+            {
+              "$type": "BarsUp.Designer.View.Forms.Controls.TextAreaField, BarsUp.Designer.View",
+              "Display": "Описание",
+              "FieldPathUid": "60a5fdca-979f-4332-9a9e-9a1fbd66665a$362312bc-a43c-4cd7-8545-9e944431d1cb",
+              "Uid": "16ca362f-e0ed-4abb-9ebc-68219710c8f3",
+              "Attributes": [
+                {
+                  "$type": "BarsUp.Designer.View.Attributes.DataFieldStyleAttribute, BarsUp.Designer.View",
+                  "LabelFontIsBold": false,
+                  "LabelFontIsItalic": false,
+                  "ValueFontIsBold": false,
+                  "ValueFontIsItalic": false
+                },
+                {
+                  "$type": "BarsUp.Designer.View.Attributes.FieldTooltipFieldsAttribute, BarsUp.Designer.View",
+                  "Fields": []
+                },
+                {
+                  "$type": "BarsUp.Designer.View.Attributes.LabelAlignControlAttribute, BarsUp.Designer.View",
+                  "Value": 3
+                }
+              ]
+            }
+          ],
+          "Uid": "a051e1a3-6e7e-4497-8656-ae813d68c15b",
+          "Attributes": [
+            {
+              "$type": "BarsUp.Designer.View.Attributes.ChildMarginBottomControlAttribute, BarsUp.Designer.View",
+              "Value": 5
+            },
+            {
+              "$type": "BarsUp.Designer.View.Attributes.ChildMarginLeftControlAttribute, BarsUp.Designer.View",
+              "Value": 5
+            },
+            {
+              "$type": "BarsUp.Designer.View.Attributes.ChildMarginRightControlAttribute, BarsUp.Designer.View",
+              "Value": 5
+            },
+            {
+              "$type": "BarsUp.Designer.View.Attributes.ChildMarginTopControlAttribute, BarsUp.Designer.View",
+              "Value": 5
+            },
+            {
+              "$type": "BarsUp.Designer.View.Attributes.FlexControlAttribute, BarsUp.Designer.View",
+              "Value": 1.0
+            }
+          ]
+        }
+      ],
+      "Uid": "882fd1cf-d2d0-437c-8a6e-b3c2b3d2c981"
+    },
+    {
+      "$type": "BarsUp.Designer.View.Lists.RegistryControl, BarsUp.Designer.View",
+      "DataSourceUid": "0de41a18-2d17-4f59-b60b-e39e0559c240",
+      "Display": "Оганизации",
+      "ElementDisplay": "Оганизации.Программа финансирования",
+      "ElementUid": "dbf839ff-91bd-4f87-a390-154f8db2a097",
+      "Events": [],
+      "Uid": "c9c0bad9-cce1-48e5-a1ed-220dd4a9b952",
+      "Attributes": [
+        {
+          "$type": "BarsUp.Designer.View.Attributes.BorderRegionControlAttribute, BarsUp.Designer.View",
+          "Value": 0
+        },
+        {
+          "$type": "BarsUp.Designer.View.Attributes.FlexControlAttribute, BarsUp.Designer.View",
+          "Value": 1.0
+        },
+        {
+          "$type": "BarsUp.Designer.View.Attributes.HideTitleAttribute, BarsUp.Designer.View",
+          "Value": false
+        },
+        {
+          "$type": "BarsUp.Designer.View.Attributes.SaveInlineWithParentAttribute, BarsUp.Designer.View",
+          "Value": false
+        },
+        {
+          "$type": "BarsUp.Designer.View.Forms.Controls.DataFilterAttribute, BarsUp.Designer.View",
+          "Filter": {
+            "$type": "BarsUp.DataFilter, BarsUp.Abstractions.Filter",
+            "Filters": [
+              {
+                "$type": "BarsUp.DataFilter, BarsUp.Abstractions.Filter",
+                "DataIndex": "FieldPath://0de41a18-2d17-4f59-b60b-e39e0559c240$f95a256b-5ae1-40f4-aa65-89e63c58f335$BarsUp.DataAccess.PersistentObject, BarsUp.Abstractions.DataAccess/Id",
+                "Group": 0,
+                "IsEmpty": false,
+                "Operand": 0,
+                "Value": "FieldPath://60a5fdca-979f-4332-9a9e-9a1fbd66665a$BarsUp.DataAccess.PersistentObject, BarsUp.Abstractions.DataAccess/Id"
+              }
+            ],
+            "Group": 3,
+            "IsEmpty": false,
+            "Operand": 0
+          }
+        }
+      ]
+    }
+  ],
+  "Events": [],
+  "Name": "FundingProgramsEditor",
+  "Uid": "b26c9636-0eb1-412a-be11-c01993a415e2",
+  "Attributes": [
+    {
+      "$type": "BarsUp.Designer.View.Attributes.BorderRegionControlAttribute, BarsUp.Designer.View",
+      "Value": 0
+    },
+    {
+      "$type": "BarsUp.Designer.View.Attributes.FormTitleAttribute, BarsUp.Designer.View",
+      "CreateTitle": "Добавление программы",
+      "EditTitle": "{0}",
+      "EditTitleField": {
+        "$type": "BarsUp.Designer.Core.TypeSystem.Descriptors.ClassFieldReference, BarsUp.Designer.Core",
+        "AbsoluteUid": "60a5fdca-979f-4332-9a9e-9a1fbd66665a$5b06b53c-a325-441c-862c-df36a87d0ea8",
+        "Display": "Наименование",
+        "Uid": "5b06b53c-a325-441c-862c-df36a87d0ea8"
+      }
+    },
+    {
+      "$type": "BarsUp.Designer.View.Attributes.IgnoreVersioningDisablingAttribute, BarsUp.Designer.View"
+    },
+    {
+      "$type": "BarsUp.Designer.View.Attributes.LayoutAlignControlAttribute, BarsUp.Designer.View",
+      "Value": 3
+    },
+    {
+      "$type": "BarsUp.Designer.View.Attributes.LayoutControlAttribute, BarsUp.Designer.View",
+      "Value": 7
+    },
+    {
+      "$type": "BarsUp.Designer.View.Attributes.PermissionFormControlAttribute, BarsUp.Designer.View",
+      "PermissionAccessType": 0,
+      "PermissionCompositionType": 0,
+      "PermissionsList": []
+    },
+    {
+      "$type": "BarsUp.Designer.View.Attributes.SubmitTimeoutAttribute, BarsUp.Designer.View",
+      "Timeout": 20
+    },
+    {
+      "$type": "BarsUp.Designer.View.Attributes.ValidateUnsavedChangesAttribute, BarsUp.Designer.View",
+      "Value": false
+    },
+    {
+      "$type": "BarsUp.Designer.View.Attributes.WindowSizeAttribute, BarsUp.Designer.View",
+      "Height": 500,
+      "Width": 600
+    }
+  ]
+}

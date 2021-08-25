@@ -1,0 +1,7 @@
+﻿{
+  "$type": "BarsUp.Designer.Workspace.Elements.RmsFolder, BarsUp.Designer.Workspace",
+  "DescriptorUid": "B4.Rms.Descriptor.Folder",
+  "Display": "Профили организаций",
+  "Name": "ProfilesOrganizations",
+  "Uid": "6f5d0833-aaed-4576-af87-414de98d6d6f"
+}

@@ -1,0 +1,7 @@
+﻿{
+  "$type": "BarsUp.Designer.Workspace.Elements.RmsFolder, BarsUp.Designer.Workspace",
+  "DescriptorUid": "B4.Rms.Descriptor.Folder",
+  "Display": "Виды подразделений",
+  "Name": "DepartmentsType",
+  "Uid": "c0d7898e-75fb-4873-bf0b-09f097a7f5f6"
+}

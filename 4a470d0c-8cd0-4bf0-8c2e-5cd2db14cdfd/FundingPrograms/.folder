@@ -1,0 +1,7 @@
+﻿{
+  "$type": "BarsUp.Designer.Workspace.Elements.RmsFolder, BarsUp.Designer.Workspace",
+  "DescriptorUid": "B4.Rms.Descriptor.Folder",
+  "Display": "Программы финансирования",
+  "Name": "FundingPrograms",
+  "Uid": "7b2abbed-1a52-43e2-8362-36d97c2cc644"
+}

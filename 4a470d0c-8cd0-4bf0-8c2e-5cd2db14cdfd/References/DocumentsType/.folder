@@ -1,0 +1,7 @@
+﻿{
+  "$type": "BarsUp.Designer.Workspace.Elements.RmsFolder, BarsUp.Designer.Workspace",
+  "DescriptorUid": "B4.Rms.Descriptor.Folder",
+  "Display": "Типы документов",
+  "Name": "DocumentsType",
+  "Uid": "0f01fc66-0312-4ecd-a8df-fba6329ba27f"
+}

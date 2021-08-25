@@ -1,0 +1,20 @@
+﻿{
+  "$type": "BarsUp.Designer.View.Forms.Panel, BarsUp.Designer.View",
+  "DescriptorUid": "B4.Rms.Descriptor.Panel",
+  "Display": "Карта",
+  "Elements": [
+    {
+      "$type": "BarsUp.Designer.View.Forms.Containers.Container, BarsUp.Designer.View",
+      "Uid": "53800ed4-8b93-4ee1-a6ac-e3cf47c0ed16"
+    }
+  ],
+  "Events": [],
+  "Name": "Map",
+  "Uid": "a5a9b3ff-b146-4ee9-a217-ff1db91e7271",
+  "Attributes": [
+    {
+      "$type": "BarsUp.Designer.View.Attributes.BorderRegionControlAttribute, BarsUp.Designer.View",
+      "Value": 0
+    }
+  ]
+}

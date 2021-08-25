@@ -1,0 +1,178 @@
+﻿{
+  "Code": {
+    "Серверный код": {
+      "CustomFilesCount": 0,
+      "CustomLinesCount": 0,
+      "FilesRate": 1,
+      "GeneratedFilesCount": 0,
+      "GeneratedLinesCount": 0,
+      "LinesRate": 1
+    },
+    "Браузерный код": {
+      "CustomFilesCount": 0,
+      "CustomLinesCount": 0,
+      "FilesRate": 1,
+      "GeneratedFilesCount": 0,
+      "GeneratedLinesCount": 0,
+      "LinesRate": 1
+    },
+    "СУБД": {
+      "CustomFilesCount": 0,
+      "CustomLinesCount": 0,
+      "FilesRate": 1,
+      "GeneratedFilesCount": 0,
+      "GeneratedLinesCount": 0,
+      "LinesRate": 1
+    }
+  },
+  "Elements": {
+    "Бизнес-процесс Camunda": {
+      "Count": 0,
+      "IconCls": "fad fa-ellipsis-h"
+    },
+    "Валидаторы представления": {
+      "Count": 0,
+      "IconCls": "view-validators-16"
+    },
+    "Внешний сервер PostgreSql": {
+      "Count": 0,
+      "IconCls": "fas fa-elephant"
+    },
+    "Дерево": {
+      "Count": 0,
+      "IconCls": "x16 fa-tree-table"
+    },
+    "Задача планировщика": {
+      "Count": 0,
+      "IconCls": "x16 fa-calendar-clock"
+    },
+    "Иерархия": {
+      "Count": 0,
+      "IconCls": "fad fa-folder-tree"
+    },
+    "Интерфейс": {
+      "Count": 0,
+      "IconCls": "fal fa-box"
+    },
+    "Календарь событий": {
+      "Count": 0,
+      "IconCls": "fal fa-calendar-alt"
+    },
+    "Класс": {
+      "Count": 0,
+      "IconCls": "fal fa-cube"
+    },
+    "Клиентский OLAP": {
+      "Count": 0,
+      "IconCls": "far fa-th-list"
+    },
+    "Контракт на отчет": {
+      "Count": 0,
+      "IconCls": "fas fs-file"
+    },
+    "Контракт на роль": {
+      "Count": 0,
+      "IconCls": "fas fs-file"
+    },
+    "Мастер ввода данных": {
+      "Count": 0,
+      "IconCls": "fal fa-wand-magic"
+    },
+    "Меню мобильного приложения": {
+      "Count": 0,
+      "IconCls": "pl fa-icons-menu"
+    },
+    "Меню модуля": {
+      "Count": 1,
+      "IconCls": "pl fa-av-playlist-play"
+    },
+    "Обработчик очереди": {
+      "Count": 0,
+      "IconCls": "far fa-envelope-square"
+    },
+    "Описатель ЗИ": {
+      "Count": 0,
+      "IconCls": "far fa-code-branch"
+    },
+    "Панель компоновки": {
+      "Count": 1,
+      "IconCls": "fal fa-window-maximize"
+    },
+    "Перечисление": {
+      "Count": 1,
+      "IconCls": "fas fa-list-ol"
+    },
+    "Планировщик": {
+      "Count": 0,
+      "IconCls": "pl fa-icons-date-range"
+    },
+    "Последовательность": {
+      "Count": 0,
+      "IconCls": "classifier-16"
+    },
+    "Процесс": {
+      "Count": 0,
+      "IconCls": "far fa-th-list"
+    },
+    "Разрешения модуля": {
+      "Count": 0,
+      "IconCls": "fad fa-shield"
+    },
+    "Реестр": {
+      "Count": 36,
+      "IconCls": "x16 fa-table"
+    },
+    "Сводная таблица": {
+      "Count": 0,
+      "IconCls": "bars fa-table"
+    },
+    "Сервис": {
+      "Count": 0,
+      "IconCls": "pl fa-av-playlist-play"
+    },
+    "Сервис хоста": {
+      "Count": 0,
+      "IconCls": "pl fa-av-playlist-play"
+    },
+    "Сообщение очереди": {
+      "Count": 0,
+      "IconCls": "fas fa-envelope"
+    },
+    "Список": {
+      "Count": 0,
+      "IconCls": "fal fa-list-alt"
+    },
+    "Статический класс (JS)": {
+      "Count": 0,
+      "IconCls": "fas fa-cube"
+    },
+    "Сущность": {
+      "Count": 36,
+      "IconCls": "fas fa-database"
+    },
+    "Форма": {
+      "Count": 0,
+      "IconCls": "fal fa-mobile-android-alt"
+    },
+    "Форма редактирования": {
+      "Count": 20,
+      "IconCls": "x16 fa-form"
+    },
+    "Фрейм": {
+      "Count": 0,
+      "IconCls": "fal fa-window-restore"
+    },
+    "Фрейм AlphaBI": {
+      "Count": 0,
+      "IconCls": "panel-16"
+    },
+    "SQL запрос": {
+      "Count": 0,
+      "IconCls": "x16 fa-sql-query"
+    },
+    "SQL-функция": {
+      "Count": 0,
+      "IconCls": "x16 fa-sql"
+    }
+  }
+}

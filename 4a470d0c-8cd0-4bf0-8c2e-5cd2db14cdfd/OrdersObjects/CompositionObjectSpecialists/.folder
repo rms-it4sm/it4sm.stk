@@ -1,0 +1,7 @@
+﻿{
+  "$type": "BarsUp.Designer.Workspace.Elements.RmsFolder, BarsUp.Designer.Workspace",
+  "DescriptorUid": "B4.Rms.Descriptor.Folder",
+  "Display": "Специалисты объектов",
+  "Name": "CompositionObjectSpecialists",
+  "Uid": "d3b0d26a-d72d-4236-86ea-cb6b5358ae0f"
+}

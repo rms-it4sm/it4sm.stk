@@ -1,0 +1,502 @@
+﻿{
+  "$type": "BarsUp.Designer.Workspace.Elements.RmsModule, BarsUp.Designer.Workspace",
+  "Config": [],
+  "DescriptorUid": "B4.Rms.Descriptor.Module",
+  "Display": "Стройкомлекс",
+  "Name": "Stkomleks",
+  "Namespace": "Bars.Stkomleks",
+  "Packages": [
+    {
+      "$type": "BarsUp.Designer.NuGetPackage, BarsUp.Designer.Workspace",
+      "Description": "Компонент предоставляющий возможность отображения объектов на карте",
+      "Display": "BarsUp.Modules.Leaflet",
+      "Uid": "BarsUp.Modules.Leaflet"
+    },
+    {
+      "$type": "BarsUp.Designer.NuGetPackage, BarsUp.Designer.Workspace",
+      "Display": "BarsUp.Modules.FileSystemStorage",
+      "Uid": "BarsUp.Modules.FileSystemStorage"
+    },
+    {
+      "$type": "BarsUp.Designer.NuGetPackage, BarsUp.Designer.Workspace",
+      "Display": "BarsUp.Modules.FTPStorage",
+      "Uid": "BarsUp.Modules.FTPStorage"
+    }
+  ],
+  "References": [],
+  "Solution": {
+    "$type": "BarsUp.Designer.Workspace.Elements.RmsSolution, BarsUp.Designer.Workspace",
+    "AppliedMigrations": [
+      "PermissionSingleToMultiMigration",
+      "TooltipLastUidToFullPathMigration",
+      "PublicationProfileRemoteListToSingleMigration",
+      "ModuleMenuForRoutesCacheDropMigration",
+      "ControlFilterReplaceMigration",
+      "BlocklyUidMigration",
+      "DropFormViewServiceCacheMigration",
+      "DropEntityDomainServiceInterceptorCacheMigration",
+      "ExcelExportMigration",
+      "MobileMigration",
+      "DropListFormServiceCacheMigration",
+      "DropListServiceCacheMigration",
+      "DropMultiAddCacheMigration20210402"
+    ],
+    "AuthorizationMethods": [
+      {
+        "$type": "BarsUp.Designer.DefaultAuthorizationMethod, BarsUp.Designer.Workspace",
+        "Display": "Авторизация по-умолчанию (логин/пароль)"
+      }
+    ],
+    "CascadeDropView": false,
+    "ChangesScopeIsNotNull": false,
+    "Description": "Управление мобильными бригадами",
+    "DescriptorUid": "B4.Rms.Descriptor.Solution",
+    "DisableCacheTemplatesGeneration": false,
+    "Display": "Стройкомплекс",
+    "ExtJsLabelAlign": 3,
+    "FileManagers": {
+      "$type": "BarsUp.Designer.Workspace.FileManagers.SolutionFileManagersSettings, BarsUp.Designer.Workspace",
+      "Display": "Файловые менеджеры",
+      "Elements": [
+        {
+          "$type": "BarsUp.Designer.Workspace.FileManagers.FileSystemStorage, BarsUp.Designer.Workspace",
+          "Alias": "fs",
+          "Display": "Файловая система 1629466635382",
+          "FileDirectory": ".filestorage",
+          "Name": "FileSystemStorage1629466635382",
+          "Uid": "324d927a-915a-4521-b7a3-03120ebc5fa0",
+          "UseUidInConfig": false
+        }
+      ],
+      "EnableWebDav": false
+    },
+    "HideDesktopMenuButton": false,
+    "IsReadonly": false,
+    "LogoHeight": 36,
+    "MainMenuLayoutType": 0,
+    "MobileSettings": {
+      "$type": "BarsUp.Designer.RmsMobileSettings, BarsUp.Designer.Workspace",
+      "Display": "Мобильное приложение",
+      "Generate": false
+    },
+    "Name": "Stk",
+    "PublicationProfile": {
+      "$type": "BarsUp.Designer.RmsPublicationProfile, BarsUp.Designer.Workspace",
+      "CancelableBuilds": false,
+      "Configuration": {
+        "$type": "BarsUp.Designer.RmsPublicationProfileConfig, BarsUp.Designer.Workspace",
+        "AppSettings": [],
+        "DbName": "app_stk",
+        "DbPassword": "Ljvjajy1344",
+        "DbPort": 5432,
+        "DbServer": "127.0.0.1",
+        "DbUser": "it4sm",
+        "Display": "Конфигурация приложения",
+        "IsDebug": false,
+        "Modules": [
+          {
+            "$type": "BarsUp.Designer.RmsPublicationProfileModuleConfig, BarsUp.Designer.Workspace",
+            "Description": "Модуль для построения файлового хранилища, используя для хранения файловую систему",
+            "Display": "BarsUp.Modules.FileSystemStorage",
+            "Elements": [
+              {
+                "$type": "BarsUp.Designer.RmsAppSettingsElement, BarsUp.Designer.Workspace",
+                "Description": "Каталог в котором хранятся файлы",
+                "Display": "FileDirectory",
+                "Type": {
+                  "CollectionType": null,
+                  "Name": "System.String",
+                  "Properties": null
+                },
+                "Uid": "a4cb63cb-e02f-444f-817f-0aeca647d3cc",
+                "Value": ".fileStorage"
+              }
+            ],
+            "Name": "RmsPublicationProfileModuleConfig1615578793457",
+            "Uid": "2067d2df-0739-480b-8bbb-c91964246b94"
+          },
+          {
+            "$type": "BarsUp.Designer.RmsPublicationProfileModuleConfig, BarsUp.Designer.Workspace",
+            "Description": "Компонент предоставляющий возможность отображения объектов на карте",
+            "Display": "BarsUp.Modules.Leaflet",
+            "Elements": [
+              {
+                "$type": "BarsUp.Designer.RmsAppSettingsElement, BarsUp.Designer.Workspace",
+                "DefaultValue": "Казань",
+                "Description": "Region",
+                "Display": "Region",
+                "Type": {
+                  "CollectionType": null,
+                  "Name": "System.String",
+                  "Properties": null
+                },
+                "Uid": "963531d8-cf60-4caa-8936-82303aceb05b",
+                "Value": "Москва"
+              }
+            ],
+            "Name": "RmsPublicationProfileModuleConfig1616197021560",
+            "Uid": "b4e47122-6986-41f0-8c7f-b6dc4292247e"
+          },
+          {
+            "$type": "BarsUp.Designer.RmsPublicationProfileModuleConfig, BarsUp.Designer.Workspace",
+            "Description": "Модуль безопасности",
+            "Display": "BarsUp.Modules.Security",
+            "Elements": [
+              {
+                "$type": "BarsUp.Designer.RmsAppSettingsElement, BarsUp.Designer.Workspace",
+                "Description": "EnableAuthCookieSameSite",
+                "Display": "EnableAuthCookieSameSite",
+                "Type": {
+                  "CollectionType": null,
+                  "Name": "System.Boolean",
+                  "Properties": []
+                },
+                "Uid": "b0d77f00-ca26-4d88-ac25-81d334782895",
+                "Value": "True"
+              }
+            ],
+            "Name": "RmsPublicationProfileModuleConfig1616197698093",
+            "Uid": "9fb08b96-126f-49bf-819d-cd24d57053a8"
+          },
+          {
+            "$type": "BarsUp.Designer.RmsPublicationProfileModuleConfig, BarsUp.Designer.Workspace",
+            "Description": "Модуль UI-компонентов B4 для ExtJS",
+            "Display": "BarsUp.UI.ExtJs",
+            "Elements": [
+              {
+                "$type": "BarsUp.Designer.RmsAppSettingsElement, BarsUp.Designer.Workspace",
+                "Description": "Текущая UI тема приложения",
+                "Display": "Theme",
+                "Type": {
+                  "CollectionType": null,
+                  "Name": "System.String",
+                  "Properties": null
+                },
+                "Uid": "9c26394d-e7d3-437d-9962-959ac0849693",
+                "Value": "Light"
+              }
+            ],
+            "Name": "RmsPublicationProfileModuleConfig1616197941925",
+            "Uid": "942ebd0a-049e-4666-aade-739deb10a78e"
+          }
+        ]
+      },
+      "DeployTargets": [
+        {
+          "$type": "BarsUp.Designer.IisDeployConfiguration, BarsUp.Designer.Workspace",
+          "AppName": "stk",
+          "Configuration": {
+            "$type": "BarsUp.Designer.RmsPublicationProfileConfig, BarsUp.Designer.Workspace",
+            "AppSettings": [],
+            "DbPort": 5432,
+            "Display": "Конфигурация приложения",
+            "IsDebug": false,
+            "Modules": []
+          },
+          "Display": "Развертывание в IIS",
+          "Host": "127.0.0.1",
+          "IisSiteName": "Default Web Site",
+          "Name": "IisDeployConfiguration",
+          "Password": "qzEV4RGNRAhPienh",
+          "Uid": "a4042d5e-a7c3-4d6c-a1e0-636dffc80954",
+          "User": "WebDeploy"
+        }
+      ],
+      "DeployTargetUid": "a4042d5e-a7c3-4d6c-a1e0-636dffc80954",
+      "DisableQueryConsole": false,
+      "Display": "Профиль публикации",
+      "EditorSaveButtons": 1,
+      "ExplicitCascadePersist": false,
+      "IisDeploy": {
+        "$type": "BarsUp.Designer.IisDeployConfiguration, BarsUp.Designer.Workspace",
+        "Configuration": {
+          "$type": "BarsUp.Designer.RmsPublicationProfileConfig, BarsUp.Designer.Workspace",
+          "AppSettings": [],
+          "DbPort": 0,
+          "IsDebug": false,
+          "Modules": []
+        },
+        "IisSiteName": "Default Web Site"
+      },
+      "MyGetPack": {
+        "$type": "BarsUp.Designer.RmsMyGetPackagerConfiguration, BarsUp.Designer.Workspace",
+        "ApiKey": "fd1cc3f6-578c-4a8d-8d64-9888db08a8da",
+        "Configuration": {
+          "$type": "BarsUp.Designer.RmsPublicationProfileConfig, BarsUp.Designer.Workspace",
+          "AppSettings": [],
+          "DbPort": 0,
+          "IsDebug": false,
+          "Modules": []
+        },
+        "Feed": "rms-projects"
+      },
+      "NginxDeploy": {
+        "$type": "BarsUp.Designer.NginxDeployConfiguration, BarsUp.Designer.Workspace",
+        "Configuration": {
+          "$type": "BarsUp.Designer.RmsPublicationProfileConfig, BarsUp.Designer.Workspace",
+          "AppSettings": [],
+          "DbPort": 0,
+          "IsDebug": false,
+          "Modules": []
+        }
+      },
+      "Remote": {
+        "$type": "BarsUp.Designer.Vcs.RmsElementVcs, BarsUp.Designer.Vcs",
+        "Display": "Система хранения сгенерированного приложения",
+        "Name": "stk.app",
+        "RemoteName": "origin",
+        "RemoteUrl": "https://it4sm.visualstudio.com/DefaultCollection/Stk/_git/Stk.App",
+        "Uid": "eb504951-2463-465e-9bcf-3a6ff7d8db04",
+        "VcsManager": "VCS-BarsUp.Designer.Vcs.VisualStudio.VisualStudio",
+        "VcsProject": "Stk"
+      },
+      "Remotes": [
+        {
+          "$type": "BarsUp.Designer.Vcs.RmsElementVcs, BarsUp.Designer.Vcs",
+          "Display": "По-умолчанию",
+          "Name": "stk.app",
+          "RemoteName": "origin",
+          "RemoteUrl": "https://it4sm.visualstudio.com/DefaultCollection/Stk/_git/Stk.App",
+          "Uid": "eb504951-2463-465e-9bcf-3a6ff7d8db04",
+          "VcsManager": "VCS-BarsUp.Designer.Vcs.VisualStudio.VisualStudio",
+          "VcsProject": "Stk"
+        }
+      ],
+      "RestoreBy": 0,
+      "SeparateTotalCountRequestInRegistries": false,
+      "ShowSaveCloseButton": true,
+      "ShowTotalCount": false,
+      "TestGroupSize": 0,
+      "Uid": "e0012e41-44b7-4714-ac74-10c385b44497",
+      "UseBufferedStoreInRegistries": false,
+      "UseCentralPackageVersionManagement": false,
+      "UseHttpsRedirect": false,
+      "UseNhFutures": false,
+      "WebDeployApp": "Default Web Site\\app"
+    },
+    "PublicationTargets": [
+      {
+        "$type": "BarsUp.Designer.RmsPublicationProfile, BarsUp.Designer.Workspace",
+        "CancelableBuilds": false,
+        "Configuration": {
+          "$type": "BarsUp.Designer.RmsPublicationProfileConfig, BarsUp.Designer.Workspace",
+          "AppSettings": [],
+          "DbName": "app_stk",
+          "DbPassword": "Ljvjajy1344",
+          "DbPort": 5432,
+          "DbServer": "127.0.0.1",
+          "DbUser": "it4sm",
+          "Display": "Конфигурация приложения",
+          "IsDebug": false,
+          "Modules": [
+            {
+              "$type": "BarsUp.Designer.RmsPublicationProfileModuleConfig, BarsUp.Designer.Workspace",
+              "Description": "Модуль для построения файлового хранилища, используя для хранения файловую систему",
+              "Display": "BarsUp.Modules.FileSystemStorage",
+              "Elements": [
+                {
+                  "$type": "BarsUp.Designer.RmsAppSettingsElement, BarsUp.Designer.Workspace",
+                  "Description": "Каталог в котором хранятся файлы",
+                  "Display": "FileDirectory",
+                  "Type": {
+                    "CollectionType": null,
+                    "Name": "System.String",
+                    "Properties": null
+                  },
+                  "Uid": "a4cb63cb-e02f-444f-817f-0aeca647d3cc",
+                  "Value": ".fileStorage"
+                }
+              ],
+              "Name": "RmsPublicationProfileModuleConfig1615578793457",
+              "Uid": "2067d2df-0739-480b-8bbb-c91964246b94"
+            },
+            {
+              "$type": "BarsUp.Designer.RmsPublicationProfileModuleConfig, BarsUp.Designer.Workspace",
+              "Description": "Компонент предоставляющий возможность отображения объектов на карте",
+              "Display": "BarsUp.Modules.Leaflet",
+              "Elements": [
+                {
+                  "$type": "BarsUp.Designer.RmsAppSettingsElement, BarsUp.Designer.Workspace",
+                  "DefaultValue": "Казань",
+                  "Description": "Region",
+                  "Display": "Region",
+                  "Type": {
+                    "CollectionType": null,
+                    "Name": "System.String",
+                    "Properties": null
+                  },
+                  "Uid": "963531d8-cf60-4caa-8936-82303aceb05b",
+                  "Value": "Москва"
+                }
+              ],
+              "Name": "RmsPublicationProfileModuleConfig1616197021560",
+              "Uid": "b4e47122-6986-41f0-8c7f-b6dc4292247e"
+            },
+            {
+              "$type": "BarsUp.Designer.RmsPublicationProfileModuleConfig, BarsUp.Designer.Workspace",
+              "Description": "Модуль безопасности",
+              "Display": "BarsUp.Modules.Security",
+              "Elements": [
+                {
+                  "$type": "BarsUp.Designer.RmsAppSettingsElement, BarsUp.Designer.Workspace",
+                  "Description": "EnableAuthCookieSameSite",
+                  "Display": "EnableAuthCookieSameSite",
+                  "Type": {
+                    "CollectionType": null,
+                    "Name": "System.Boolean",
+                    "Properties": []
+                  },
+                  "Uid": "b0d77f00-ca26-4d88-ac25-81d334782895",
+                  "Value": "True"
+                }
+              ],
+              "Name": "RmsPublicationProfileModuleConfig1616197698093",
+              "Uid": "9fb08b96-126f-49bf-819d-cd24d57053a8"
+            },
+            {
+              "$type": "BarsUp.Designer.RmsPublicationProfileModuleConfig, BarsUp.Designer.Workspace",
+              "Description": "Модуль UI-компонентов B4 для ExtJS",
+              "Display": "BarsUp.UI.ExtJs",
+              "Elements": [
+                {
+                  "$type": "BarsUp.Designer.RmsAppSettingsElement, BarsUp.Designer.Workspace",
+                  "Description": "Текущая UI тема приложения",
+                  "Display": "Theme",
+                  "Type": {
+                    "CollectionType": null,
+                    "Name": "System.String",
+                    "Properties": null
+                  },
+                  "Uid": "9c26394d-e7d3-437d-9962-959ac0849693",
+                  "Value": "Light"
+                }
+              ],
+              "Name": "RmsPublicationProfileModuleConfig1616197941925",
+              "Uid": "942ebd0a-049e-4666-aade-739deb10a78e"
+            }
+          ]
+        },
+        "DeployTargets": [
+          {
+            "$type": "BarsUp.Designer.IisDeployConfiguration, BarsUp.Designer.Workspace",
+            "AppName": "stk",
+            "Configuration": {
+              "$type": "BarsUp.Designer.RmsPublicationProfileConfig, BarsUp.Designer.Workspace",
+              "AppSettings": [],
+              "DbPort": 5432,
+              "Display": "Конфигурация приложения",
+              "IsDebug": false,
+              "Modules": []
+            },
+            "Display": "Развертывание в IIS",
+            "Host": "127.0.0.1",
+            "IisSiteName": "Default Web Site",
+            "Name": "IisDeployConfiguration",
+            "Password": "qzEV4RGNRAhPienh",
+            "Uid": "a4042d5e-a7c3-4d6c-a1e0-636dffc80954",
+            "User": "WebDeploy"
+          }
+        ],
+        "DeployTargetUid": "a4042d5e-a7c3-4d6c-a1e0-636dffc80954",
+        "DisableQueryConsole": false,
+        "Display": "По-умолчанию",
+        "EditorSaveButtons": 1,
+        "ExplicitCascadePersist": false,
+        "IisDeploy": {
+          "$type": "BarsUp.Designer.IisDeployConfiguration, BarsUp.Designer.Workspace",
+          "Configuration": {
+            "$type": "BarsUp.Designer.RmsPublicationProfileConfig, BarsUp.Designer.Workspace",
+            "AppSettings": [],
+            "DbPort": 0,
+            "IsDebug": false,
+            "Modules": []
+          },
+          "IisSiteName": "Default Web Site"
+        },
+        "MyGetPack": {
+          "$type": "BarsUp.Designer.RmsMyGetPackagerConfiguration, BarsUp.Designer.Workspace",
+          "ApiKey": "fd1cc3f6-578c-4a8d-8d64-9888db08a8da",
+          "Configuration": {
+            "$type": "BarsUp.Designer.RmsPublicationProfileConfig, BarsUp.Designer.Workspace",
+            "AppSettings": [],
+            "DbPort": 0,
+            "IsDebug": false,
+            "Modules": []
+          },
+          "Feed": "rms-projects"
+        },
+        "NginxDeploy": {
+          "$type": "BarsUp.Designer.NginxDeployConfiguration, BarsUp.Designer.Workspace",
+          "Configuration": {
+            "$type": "BarsUp.Designer.RmsPublicationProfileConfig, BarsUp.Designer.Workspace",
+            "AppSettings": [],
+            "DbPort": 0,
+            "IsDebug": false,
+            "Modules": []
+          }
+        },
+        "Remote": {
+          "$type": "BarsUp.Designer.Vcs.RmsElementVcs, BarsUp.Designer.Vcs",
+          "Display": "По-умолчанию",
+          "Name": "stk.app",
+          "RemoteName": "origin",
+          "RemoteUrl": "https://it4sm.visualstudio.com/DefaultCollection/Stk/_git/Stk.App",
+          "Uid": "eb504951-2463-465e-9bcf-3a6ff7d8db04",
+          "VcsManager": "VCS-BarsUp.Designer.Vcs.VisualStudio.VisualStudio",
+          "VcsProject": "Stk"
+        },
+        "Remotes": [
+          {
+            "$type": "BarsUp.Designer.Vcs.RmsElementVcs, BarsUp.Designer.Vcs",
+            "Display": "По-умолчанию",
+            "Name": "stk.app",
+            "RemoteName": "origin",
+            "RemoteUrl": "https://it4sm.visualstudio.com/DefaultCollection/Stk/_git/Stk.App",
+            "Uid": "eb504951-2463-465e-9bcf-3a6ff7d8db04",
+            "VcsManager": "VCS-BarsUp.Designer.Vcs.VisualStudio.VisualStudio",
+            "VcsProject": "Stk"
+          }
+        ],
+        "RestoreBy": 0,
+        "SeparateTotalCountRequestInRegistries": false,
+        "ShowSaveCloseButton": true,
+        "ShowTotalCount": false,
+        "TestGroupSize": 0,
+        "Uid": "e0012e41-44b7-4714-ac74-10c385b44497",
+        "UseBufferedStoreInRegistries": false,
+        "UseCentralPackageVersionManagement": false,
+        "UseHttpsRedirect": false,
+        "UseNhFutures": false,
+        "WebDeployApp": "Default Web Site\\app"
+      }
+    ],
+    "Remote": {
+      "$type": "BarsUp.Designer.Vcs.RmsElementVcs, BarsUp.Designer.Vcs",
+      "Display": "Система хранения метаданных",
+      "Name": "stk",
+      "RemoteName": "origin",
+      "RemoteUrl": "https://it4sm.visualstudio.com/DefaultCollection/Stk/_git/Stk",
+      "Uid": "f91977d3-d4d2-4a67-89d3-e823d4551cb6",
+      "VcsManager": "VCS-BarsUp.Designer.Vcs.VisualStudio.VisualStudio",
+      "VcsProject": "Stk"
+    },
+    "Remotes": [
+      {
+        "$type": "BarsUp.Designer.Vcs.RmsElementVcs, BarsUp.Designer.Vcs",
+        "Display": "По-умолчанию",
+        "Name": "stk",
+        "RemoteName": "origin",
+        "RemoteUrl": "https://it4sm.visualstudio.com/DefaultCollection/Stk/_git/Stk",
+        "Uid": "f91977d3-d4d2-4a67-89d3-e823d4551cb6",
+        "VcsManager": "VCS-BarsUp.Designer.Vcs.VisualStudio.VisualStudio",
+        "VcsProject": "Stk"
+      }
+    ],
+    "RmsNugetFeedSetting": [],
+    "ShowChangesScopeSelector": false,
+    "ShowCloseButtonInForms": true,
+    "Uid": "cea32d4f-d3e9-486a-90eb-bfea34f8fd69",
+    "ValidateFormElementsByTargetUid": false
+  },
+  "Uid": "4a470d0c-8cd0-4bf0-8c2e-5cd2db14cdfd"
+}

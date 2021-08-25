@@ -1,0 +1,22 @@
+﻿{
+  "$type": "BarsUp.Designer.Workspace.Elements.Enumeration, BarsUp.Designer.Workspace",
+  "DescriptorUid": "B4.Rms.Descriptor.Enumeration",
+  "Display": "Типы исполнителей работ",
+  "IsFlag": false,
+  "Literals": [
+    {
+      "$type": "BarsUp.Designer.Workspace.Elements.EnumerationLiteral, BarsUp.Designer.Workspace",
+      "Display": "Хоз. способ",
+      "Name": "EconomicMethod",
+      "Value": 1
+    },
+    {
+      "$type": "BarsUp.Designer.Workspace.Elements.EnumerationLiteral, BarsUp.Designer.Workspace",
+      "Display": "Подрядчик",
+      "Name": "ContractingMethod",
+      "Value": 2
+    }
+  ],
+  "Name": "TypesWorkPerformers",
+  "Uid": "cbca5d3e-8487-448e-8a5d-6d54caf25efe"
+}

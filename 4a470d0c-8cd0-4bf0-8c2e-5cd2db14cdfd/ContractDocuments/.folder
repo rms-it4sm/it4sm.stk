@@ -1,0 +1,7 @@
+﻿{
+  "$type": "BarsUp.Designer.Workspace.Elements.RmsFolder, BarsUp.Designer.Workspace",
+  "DescriptorUid": "B4.Rms.Descriptor.Folder",
+  "Display": "Документы договоров",
+  "Name": "ContractDocuments",
+  "Uid": "57e6c432-ff3b-4820-ab4f-7d926068c70a"
+}

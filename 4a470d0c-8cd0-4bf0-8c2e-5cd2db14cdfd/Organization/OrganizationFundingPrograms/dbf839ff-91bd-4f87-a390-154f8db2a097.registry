@@ -1,0 +1,310 @@
+﻿{
+  "$type": "BarsUp.Designer.View.Registry, BarsUp.Designer.View",
+  "Actions": [
+    {
+      "$type": "BarsUp.Designer.View.Actions.RefreshAction, BarsUp.Designer.View",
+      "Actions": [],
+      "Display": "Обновить",
+      "Hidden": false,
+      "Icon": "icon-arrow-refresh",
+      "IgnoreMakeInactive": false,
+      "Location": 0,
+      "PermissionCompositionType": 0,
+      "PermissionsList": [],
+      "Uid": "38a10156-9bd6-4e7f-9a3c-185406e1d0dc"
+    },
+    {
+      "$type": "BarsUp.Designer.View.Actions.ListViewRowAction, BarsUp.Designer.View",
+      "Actions": [],
+      "Click": {
+        "$type": "BarsUp.Designer.View.Forms.Events.ButtonClickEvent, BarsUp.Designer.View",
+        "Data": {},
+        "Xml": "<block type=\"rms.Handler\" id=\"1\" deletable=\"false\" ctx.uid=\"BarsUp.Designer.View.Actions.ListViewRowAction, BarsUp.Designer.View\" ctx.type=\"\" ctx.display=\"Действие на строке списка (кнопка)\" ctx.data=\"Base64:eyJhcmdzIjpbIml0ZW0iLCJlIl19\" x=\"8\" y=\"39\"><statement name=\"handler\"><block type=\"rms.form.Open\" id=\"3\" inline=\"false\" ctx.uid=\"\" ctx.type=\"\" ctx.display=\"null\" ctx.data=\"Base64:eyJGb3JtIjp7IkF0dHJpYnV0ZXMiOlt7IktleSI6InJlZ2lvbiIsIlR5cGVJZCI6IkJhcnNVcC5EZXNpZ25lci5WaWV3LkF0dHJpYnV0ZXMuQm9yZGVyUmVnaW9uQ29udHJvbEF0dHJpYnV0ZSwgQmFyc1VwLkRlc2lnbmVyLlZpZXcsIFZlcnNpb249MC4wLjAuMCwgQ3VsdHVyZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tlbj1udWxsIiwiVWlkIjoiQmFyc1VwLkRlc2lnbmVyLlZpZXcuQXR0cmlidXRlcy5Cb3JkZXJSZWdpb25Db250cm9sQXR0cmlidXRlLCBCYXJzVXAuRGVzaWduZXIuVmlldyIsIlZhbHVlIjowfSx7IkNyZWF0ZVRpdGxlIjoiXHUwNDE0XHUwNDNlXHUwNDMxXHUwNDMwXHUwNDMyXHUwNDNiXHUwNDM1XHUwNDNkXHUwNDM4XHUwNDM1IFx1MDQzZVx1MDQ0MFx1MDQzM1x1MDQzMFx1MDQzZFx1MDQzOFx1MDQzN1x1MDQzMFx1MDQ0Nlx1MDQzOFx1MDQzOCIsIkVkaXRUaXRsZSI6bnVsbCwiRWRpdFRpdGxlRmllbGQiOnsiQWJzb2x1dGVVaWQiOiIyNDJiMDZkMi1iMjM5LTQ3YWQtYjc1YS1jYmY4OGE0Yjk4N2IkMjkxMjM0ZTctM2U0ZS00OWFkLTk2NTItOWU0N2JjZjgxNGY0IiwiQXR0cmlidXRlcyI6W10sIkRpc3BsYXkiOiJcdTA0MWRcdTA0MzBcdTA0MzhcdTA0M2NcdTA0MzVcdTA0M2RcdTA0M2VcdTA0MzJcdTA0MzBcdTA0M2RcdTA0MzhcdTA0MzUiLCJOYW1lIjpudWxsLCJVaWQiOiIyOTEyMzRlNy0zZTRlLTQ5YWQtOTY1Mi05ZTQ3YmNmODE0ZjQifSwiS2V5IjoiRm9ybVRpdGxlIiwiVHlwZUlkIjoiQmFyc1VwLkRlc2lnbmVyLlZpZXcuQXR0cmlidXRlcy5Gb3JtVGl0bGVBdHRyaWJ1dGUsIEJhcnNVcC5EZXNpZ25lci5WaWV3LCBWZXJzaW9uPTAuMC4wLjAsIEN1bHR1cmU9bmV1dHJhbCwgUHVibGljS2V5VG9rZW49bnVsbCIsIlVpZCI6IkJhcnNVcC5EZXNpZ25lci5WaWV3LkF0dHJpYnV0ZXMuRm9ybVRpdGxlQXR0cmlidXRlLCBCYXJzVXAuRGVzaWduZXIuVmlldyJ9LHsiS2V5IjoiaWdub3JlVmVyc2lvbmluZ0Rpc2FibGluZyIsIlR5cGVJZCI6IkJhcnNVcC5EZXNpZ25lci5WaWV3LkF0dHJpYnV0ZXMuSWdub3JlVmVyc2lvbmluZ0Rpc2FibGluZ0F0dHJpYnV0ZSwgQmFyc1VwLkRlc2lnbmVyLlZpZXcsIFZlcnNpb249MC4wLjAuMCwgQ3VsdHVyZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tlbj1udWxsIiwiVWlkIjoiQmFyc1VwLkRlc2lnbmVyLlZpZXcuQXR0cmlidXRlcy5JZ25vcmVWZXJzaW9uaW5nRGlzYWJsaW5nQXR0cmlidXRlLCBCYXJzVXAuRGVzaWduZXIuVmlldyIsIlZhbHVlIjpudWxsfSx7IktleSI6ImxheW91dC5hbGlnbiIsIlR5cGVJZCI6IkJhcnNVcC5EZXNpZ25lci5WaWV3LkF0dHJpYnV0ZXMuTGF5b3V0QWxpZ25Db250cm9sQXR0cmlidXRlLCBCYXJzVXAuRGVzaWduZXIuVmlldywgVmVyc2lvbj0wLjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPW51bGwiLCJVaWQiOiJCYXJzVXAuRGVzaWduZXIuVmlldy5BdHRyaWJ1dGVzLkxheW91dEFsaWduQ29udHJvbEF0dHJpYnV0ZSwgQmFyc1VwLkRlc2lnbmVyLlZpZXciLCJWYWx1ZSI6M30seyJLZXkiOiJsYXlvdXQudHlwZSIsIlR5cGVJZCI6IkJhcnNVcC5EZXNpZ25lci5WaWV3LkF0dHJpYnV0ZXMuTGF5b3V0Q29udHJvbEF0dHJpYnV0ZSwgQmFyc1VwLkRlc2lnbmVyLlZpZXcsIFZlcnNpb249MC4wLjAuMCwgQ3VsdHVyZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tlbj1udWxsIiwiVWlkIjoiQmFyc1VwLkRlc2lnbmVyLlZpZXcuQXR0cmlidXRlcy5MYXlvdXRDb250cm9sQXR0cmlidXRlLCBCYXJzVXAuRGVzaWduZXIuVmlldyIsIlZhbHVlIjo3fSx7IktleSI6IlBlcm1pc3Npb25Gb3JtQ29udHJvbCIsIlBlcm1pc3Npb24iOm51bGwsIlBlcm1pc3Npb25BY2Nlc3NUeXBlIjowLCJQZXJtaXNzaW9uQ29tcG9zaXRpb25UeXBlIjowLCJQZXJtaXNzaW9uc0xpc3QiOltdLCJUeXBlSWQiOiJCYXJzVXAuRGVzaWduZXIuVmlldy5BdHRyaWJ1dGVzLlBlcm1pc3Npb25Gb3JtQ29udHJvbEF0dHJpYnV0ZSwgQmFyc1VwLkRlc2lnbmVyLlZpZXcsIFZlcnNpb249MC4wLjAuMCwgQ3VsdHVyZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tlbj1udWxsIiwiVWlkIjoiQmFyc1VwLkRlc2lnbmVyLlZpZXcuQXR0cmlidXRlcy5QZXJtaXNzaW9uRm9ybUNvbnRyb2xBdHRyaWJ1dGUsIEJhcnNVcC5EZXNpZ25lci5WaWV3In0seyJLZXkiOiJGb3JtU3VibWl0VGltZW91dCIsIlRpbWVvdXQiOjIwLCJUeXBlSWQiOiJCYXJzVXAuRGVzaWduZXIuVmlldy5BdHRyaWJ1dGVzLlN1Ym1pdFRpbWVvdXRBdHRyaWJ1dGUsIEJhcnNVcC5EZXNpZ25lci5WaWV3LCBWZXJzaW9uPTAuMC4wLjAsIEN1bHR1cmU9bmV1dHJhbCwgUHVibGljS2V5VG9rZW49bnVsbCIsIlVpZCI6IkJhcnNVcC5EZXNpZ25lci5WaWV3LkF0dHJpYnV0ZXMuU3VibWl0VGltZW91dEF0dHJpYnV0ZSwgQmFyc1VwLkRlc2lnbmVyLlZpZXcifSx7IktleSI6IlZhbGlkYXRlVW5zYXZlZENoYW5nZXMiLCJUeXBlSWQiOiJCYXJzVXAuRGVzaWduZXIuVmlldy5BdHRyaWJ1dGVzLlZhbGlkYXRlVW5zYXZlZENoYW5nZXNBdHRyaWJ1dGUsIEJhcnNVcC5EZXNpZ25lci5WaWV3LCBWZXJzaW9uPTAuMC4wLjAsIEN1bHR1cmU9bmV1dHJhbCwgUHVibGljS2V5VG9rZW49bnVsbCIsIlVpZCI6IkJhcnNVcC5EZXNpZ25lci5WaWV3LkF0dHJpYnV0ZXMuVmFsaWRhdGVVbnNhdmVkQ2hhbmdlc0F0dHJpYnV0ZSwgQmFyc1VwLkRlc2lnbmVyLlZpZXciLCJWYWx1ZSI6ZmFsc2V9LHsiSGVpZ2h0Ijo2MDAsIktleSI6IldpbmRvd1NpemUiLCJNaW5IZWlnaHQiOm51bGwsIk1pbldpZHRoIjpudWxsLCJUeXBlSWQiOiJCYXJzVXAuRGVzaWduZXIuVmlldy5BdHRyaWJ1dGVzLldpbmRvd1NpemVBdHRyaWJ1dGUsIEJhcnNVcC5EZXNpZ25lci5WaWV3LCBWZXJzaW9uPTAuMC4wLjAsIEN1bHR1cmU9bmV1dHJhbCwgUHVibGljS2V5VG9rZW49bnVsbCIsIlVpZCI6IkJhcnNVcC5EZXNpZ25lci5WaWV3LkF0dHJpYnV0ZXMuV2luZG93U2l6ZUF0dHJpYnV0ZSwgQmFyc1VwLkRlc2lnbmVyLlZpZXciLCJXaWR0aCI6NzAwfV0sIkRpc3BsYXkiOiJcdTA0MWVcdTA0NDBcdTA0MzNcdTA0MzBcdTA0M2RcdTA0MzhcdTA0MzdcdTA0MzBcdTA0NDZcdTA0MzhcdTA0NGYiLCJJZCI6ImV4dE1vZGVsNDcxMC00MyIsIk5hbWUiOiJPcmdhbml6YXRpb25FZGl0b3IiLCJQcm9wZXJ0aWVzIjp7IkRlc2NyaXB0b3JVaWQiOiJCNC5SbXMuRGVzY3JpcHRvci5Gb3JtIn0sIlVpZCI6IjdiZmQ4OTFkLWY3NGUtNDhjNC05MTQxLWU2ODg5NmU5MWNjMyJ9LCJNb2R1bGVVaWQiOm51bGx9\"><mutation items=\"1\"></mutation><field name=\"FORM\">Организация</field><field name=\"OPEN_TYPE\">0</field><field name=\"READ_ONLY\">TRUE</field><field name=\"P0\">           </field><value name=\"ID\"><block type=\"rms.list.SelectedRecordProperty\" id=\"17\" ctx.uid=\"dbf839ff-91bd-4f87-a390-154f8db2a097\" ctx.type=\"Form.Element$BarsUp.Designer.View.Registry, BarsUp.Designer.View\" ctx.display=\"Оганизации.Программа финансирования\" ctx.data=\"Base64:eyJpc1Bpdm90IjpmYWxzZSwiTGlzdFVpZCI6ImRiZjgzOWZmLTkxYmQtNGY4Ny1hMzkwLTE1NGY4ZGIyYTA5NyJ9\"><field name=\"COLUMN\">Id</field></block></value></block></statement></block>"
+      },
+      "Data": {},
+      "Display": "Открыть организацию",
+      "GeneratedJs": "function(item, e){\ntry {\n    var _self = this, _args = Array.prototype.slice.call(arguments);\n    var grid = this.getDataGrid && this.getDataGrid() ? this.getDataGrid() : ( this.is && (this.is('grid') || this.is('treepanel')) ? this : (this.up ? this.up('grid') || this.up('treepanel') : null)),\n      sel = grid && grid.getSelectionModel().getSelection()[0],\n      fld = sel && sel.get('Id'),\n      grid1 = B4.utils.FormHelper.findNearestListView(typeof _self === 'undefined' ? this : _self),\n      ctxKey = (grid1 && grid1.ctxKey) || this.getCurrentContextKey(),\n      dataVariables = new B4.variables.Container();\n      grid1 && grid1.data && grid1.data.getVariables().forEach(v => dataVariables.set(v.code, v.value));\n  var inWindow = false;\n  var parentComponentWithVersionAttribute = B4.utils.FormHelper.findNearestParentWithAttribute(grid1, 'versionScope');\n  var parentComponentWithChangeSetAttribute = B4.utils.FormHelper.findNearestParentWithAttribute(grid1, 'changeSet');\n  B4.Navigation.openForm(\"OrganizationEditor\", fld, inWindow, true, {\n     dataVariables: dataVariables,\n     RmsDataGridAlias: this.viewAlias,\n     RmsDataGridId: grid1 ? grid1.getId() : null,\n     ctxKey: ctxKey,\n     isDataGridEditor: !Ext.isEmpty(grid1),\n     versionScope: parentComponentWithVersionAttribute != null ? Ext.decode(Ext.encode(parentComponentWithVersionAttribute.versionScope)) : null,\n     changeSet: parentComponentWithChangeSetAttribute != null ? Ext.decode(Ext.encode(parentComponentWithChangeSetAttribute.changeSet)) : null,\n     maximizable: true,\n     viewStack: grid1 && grid1.viewStack ? [...grid1.viewStack] : []\n  });\n\n} catch (_e__r__r) { console.warn(\"Ошибка в событии `Действие на строке списка (кнопка)` элемента `d3eafc66-51e2-4b9a-91f9-d3b68d0a4a10`\"); throw _e__r__r; }\n}\n",
+      "Hidden": false,
+      "Icon": "fad fa-building",
+      "IgnoreMakeInactive": false,
+      "Location": 0,
+      "PermissionCompositionType": 0,
+      "PermissionsList": [],
+      "Uid": "d3eafc66-51e2-4b9a-91f9-d3b68d0a4a10",
+      "Width": 0,
+      "Xml": "<block type=\"rms.Handler\" id=\"1\" deletable=\"false\" ctx.uid=\"BarsUp.Designer.View.Actions.ListViewRowAction, BarsUp.Designer.View\" ctx.type=\"\" ctx.display=\"Действие на строке списка (кнопка)\" ctx.data=\"Base64:eyJhcmdzIjpbIml0ZW0iLCJlIl19\" x=\"8\" y=\"39\"><statement name=\"handler\"><block type=\"rms.form.Open\" id=\"3\" inline=\"false\" ctx.uid=\"\" ctx.type=\"\" ctx.display=\"null\" ctx.data=\"Base64:eyJGb3JtIjp7IkF0dHJpYnV0ZXMiOlt7IktleSI6InJlZ2lvbiIsIlR5cGVJZCI6IkJhcnNVcC5EZXNpZ25lci5WaWV3LkF0dHJpYnV0ZXMuQm9yZGVyUmVnaW9uQ29udHJvbEF0dHJpYnV0ZSwgQmFyc1VwLkRlc2lnbmVyLlZpZXcsIFZlcnNpb249MC4wLjAuMCwgQ3VsdHVyZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tlbj1udWxsIiwiVWlkIjoiQmFyc1VwLkRlc2lnbmVyLlZpZXcuQXR0cmlidXRlcy5Cb3JkZXJSZWdpb25Db250cm9sQXR0cmlidXRlLCBCYXJzVXAuRGVzaWduZXIuVmlldyIsIlZhbHVlIjowfSx7IkNyZWF0ZVRpdGxlIjoiXHUwNDE0XHUwNDNlXHUwNDMxXHUwNDMwXHUwNDMyXHUwNDNiXHUwNDM1XHUwNDNkXHUwNDM4XHUwNDM1IFx1MDQzZVx1MDQ0MFx1MDQzM1x1MDQzMFx1MDQzZFx1MDQzOFx1MDQzN1x1MDQzMFx1MDQ0Nlx1MDQzOFx1MDQzOCIsIkVkaXRUaXRsZSI6bnVsbCwiRWRpdFRpdGxlRmllbGQiOnsiQWJzb2x1dGVVaWQiOiIyNDJiMDZkMi1iMjM5LTQ3YWQtYjc1YS1jYmY4OGE0Yjk4N2IkMjkxMjM0ZTctM2U0ZS00OWFkLTk2NTItOWU0N2JjZjgxNGY0IiwiQXR0cmlidXRlcyI6W10sIkRpc3BsYXkiOiJcdTA0MWRcdTA0MzBcdTA0MzhcdTA0M2NcdTA0MzVcdTA0M2RcdTA0M2VcdTA0MzJcdTA0MzBcdTA0M2RcdTA0MzhcdTA0MzUiLCJOYW1lIjpudWxsLCJVaWQiOiIyOTEyMzRlNy0zZTRlLTQ5YWQtOTY1Mi05ZTQ3YmNmODE0ZjQifSwiS2V5IjoiRm9ybVRpdGxlIiwiVHlwZUlkIjoiQmFyc1VwLkRlc2lnbmVyLlZpZXcuQXR0cmlidXRlcy5Gb3JtVGl0bGVBdHRyaWJ1dGUsIEJhcnNVcC5EZXNpZ25lci5WaWV3LCBWZXJzaW9uPTAuMC4wLjAsIEN1bHR1cmU9bmV1dHJhbCwgUHVibGljS2V5VG9rZW49bnVsbCIsIlVpZCI6IkJhcnNVcC5EZXNpZ25lci5WaWV3LkF0dHJpYnV0ZXMuRm9ybVRpdGxlQXR0cmlidXRlLCBCYXJzVXAuRGVzaWduZXIuVmlldyJ9LHsiS2V5IjoiaWdub3JlVmVyc2lvbmluZ0Rpc2FibGluZyIsIlR5cGVJZCI6IkJhcnNVcC5EZXNpZ25lci5WaWV3LkF0dHJpYnV0ZXMuSWdub3JlVmVyc2lvbmluZ0Rpc2FibGluZ0F0dHJpYnV0ZSwgQmFyc1VwLkRlc2lnbmVyLlZpZXcsIFZlcnNpb249MC4wLjAuMCwgQ3VsdHVyZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tlbj1udWxsIiwiVWlkIjoiQmFyc1VwLkRlc2lnbmVyLlZpZXcuQXR0cmlidXRlcy5JZ25vcmVWZXJzaW9uaW5nRGlzYWJsaW5nQXR0cmlidXRlLCBCYXJzVXAuRGVzaWduZXIuVmlldyIsIlZhbHVlIjpudWxsfSx7IktleSI6ImxheW91dC5hbGlnbiIsIlR5cGVJZCI6IkJhcnNVcC5EZXNpZ25lci5WaWV3LkF0dHJpYnV0ZXMuTGF5b3V0QWxpZ25Db250cm9sQXR0cmlidXRlLCBCYXJzVXAuRGVzaWduZXIuVmlldywgVmVyc2lvbj0wLjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPW51bGwiLCJVaWQiOiJCYXJzVXAuRGVzaWduZXIuVmlldy5BdHRyaWJ1dGVzLkxheW91dEFsaWduQ29udHJvbEF0dHJpYnV0ZSwgQmFyc1VwLkRlc2lnbmVyLlZpZXciLCJWYWx1ZSI6M30seyJLZXkiOiJsYXlvdXQudHlwZSIsIlR5cGVJZCI6IkJhcnNVcC5EZXNpZ25lci5WaWV3LkF0dHJpYnV0ZXMuTGF5b3V0Q29udHJvbEF0dHJpYnV0ZSwgQmFyc1VwLkRlc2lnbmVyLlZpZXcsIFZlcnNpb249MC4wLjAuMCwgQ3VsdHVyZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tlbj1udWxsIiwiVWlkIjoiQmFyc1VwLkRlc2lnbmVyLlZpZXcuQXR0cmlidXRlcy5MYXlvdXRDb250cm9sQXR0cmlidXRlLCBCYXJzVXAuRGVzaWduZXIuVmlldyIsIlZhbHVlIjo3fSx7IktleSI6IlBlcm1pc3Npb25Gb3JtQ29udHJvbCIsIlBlcm1pc3Npb24iOm51bGwsIlBlcm1pc3Npb25BY2Nlc3NUeXBlIjowLCJQZXJtaXNzaW9uQ29tcG9zaXRpb25UeXBlIjowLCJQZXJtaXNzaW9uc0xpc3QiOltdLCJUeXBlSWQiOiJCYXJzVXAuRGVzaWduZXIuVmlldy5BdHRyaWJ1dGVzLlBlcm1pc3Npb25Gb3JtQ29udHJvbEF0dHJpYnV0ZSwgQmFyc1VwLkRlc2lnbmVyLlZpZXcsIFZlcnNpb249MC4wLjAuMCwgQ3VsdHVyZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tlbj1udWxsIiwiVWlkIjoiQmFyc1VwLkRlc2lnbmVyLlZpZXcuQXR0cmlidXRlcy5QZXJtaXNzaW9uRm9ybUNvbnRyb2xBdHRyaWJ1dGUsIEJhcnNVcC5EZXNpZ25lci5WaWV3In0seyJLZXkiOiJGb3JtU3VibWl0VGltZW91dCIsIlRpbWVvdXQiOjIwLCJUeXBlSWQiOiJCYXJzVXAuRGVzaWduZXIuVmlldy5BdHRyaWJ1dGVzLlN1Ym1pdFRpbWVvdXRBdHRyaWJ1dGUsIEJhcnNVcC5EZXNpZ25lci5WaWV3LCBWZXJzaW9uPTAuMC4wLjAsIEN1bHR1cmU9bmV1dHJhbCwgUHVibGljS2V5VG9rZW49bnVsbCIsIlVpZCI6IkJhcnNVcC5EZXNpZ25lci5WaWV3LkF0dHJpYnV0ZXMuU3VibWl0VGltZW91dEF0dHJpYnV0ZSwgQmFyc1VwLkRlc2lnbmVyLlZpZXcifSx7IktleSI6IlZhbGlkYXRlVW5zYXZlZENoYW5nZXMiLCJUeXBlSWQiOiJCYXJzVXAuRGVzaWduZXIuVmlldy5BdHRyaWJ1dGVzLlZhbGlkYXRlVW5zYXZlZENoYW5nZXNBdHRyaWJ1dGUsIEJhcnNVcC5EZXNpZ25lci5WaWV3LCBWZXJzaW9uPTAuMC4wLjAsIEN1bHR1cmU9bmV1dHJhbCwgUHVibGljS2V5VG9rZW49bnVsbCIsIlVpZCI6IkJhcnNVcC5EZXNpZ25lci5WaWV3LkF0dHJpYnV0ZXMuVmFsaWRhdGVVbnNhdmVkQ2hhbmdlc0F0dHJpYnV0ZSwgQmFyc1VwLkRlc2lnbmVyLlZpZXciLCJWYWx1ZSI6ZmFsc2V9LHsiSGVpZ2h0Ijo2MDAsIktleSI6IldpbmRvd1NpemUiLCJNaW5IZWlnaHQiOm51bGwsIk1pbldpZHRoIjpudWxsLCJUeXBlSWQiOiJCYXJzVXAuRGVzaWduZXIuVmlldy5BdHRyaWJ1dGVzLldpbmRvd1NpemVBdHRyaWJ1dGUsIEJhcnNVcC5EZXNpZ25lci5WaWV3LCBWZXJzaW9uPTAuMC4wLjAsIEN1bHR1cmU9bmV1dHJhbCwgUHVibGljS2V5VG9rZW49bnVsbCIsIlVpZCI6IkJhcnNVcC5EZXNpZ25lci5WaWV3LkF0dHJpYnV0ZXMuV2luZG93U2l6ZUF0dHJpYnV0ZSwgQmFyc1VwLkRlc2lnbmVyLlZpZXciLCJXaWR0aCI6NzAwfV0sIkRpc3BsYXkiOiJcdTA0MWVcdTA0NDBcdTA0MzNcdTA0MzBcdTA0M2RcdTA0MzhcdTA0MzdcdTA0MzBcdTA0NDZcdTA0MzhcdTA0NGYiLCJJZCI6ImV4dE1vZGVsNDcxMC00MyIsIk5hbWUiOiJPcmdhbml6YXRpb25FZGl0b3IiLCJQcm9wZXJ0aWVzIjp7IkRlc2NyaXB0b3JVaWQiOiJCNC5SbXMuRGVzY3JpcHRvci5Gb3JtIn0sIlVpZCI6IjdiZmQ4OTFkLWY3NGUtNDhjNC05MTQxLWU2ODg5NmU5MWNjMyJ9LCJNb2R1bGVVaWQiOm51bGx9\"><mutation items=\"1\"></mutation><field name=\"FORM\">Организация</field><field name=\"OPEN_TYPE\">0</field><field name=\"READ_ONLY\">TRUE</field><field name=\"P0\">           </field><value name=\"ID\"><block type=\"rms.list.SelectedRecordProperty\" id=\"17\" ctx.uid=\"dbf839ff-91bd-4f87-a390-154f8db2a097\" ctx.type=\"Form.Element$BarsUp.Designer.View.Registry, BarsUp.Designer.View\" ctx.display=\"Оганизации.Программа финансирования\" ctx.data=\"Base64:eyJpc1Bpdm90IjpmYWxzZSwiTGlzdFVpZCI6ImRiZjgzOWZmLTkxYmQtNGY4Ny1hMzkwLTE1NGY4ZGIyYTA5NyJ9\"><field name=\"COLUMN\">Id</field></block></value></block></statement></block>"
+    }
+  ],
+  "AllowFiltering": true,
+  "AllowSorting": true,
+  "DataSourceUid": "0de41a18-2d17-4f59-b60b-e39e0559c240",
+  "Description": "Реестр сущностей Программы финансирования организации",
+  "DescriptorUid": "B4.Rms.Descriptor.Registry",
+  "Display": "Оганизации.Программа финансирования",
+  "Elements": [
+    {
+      "$type": "BarsUp.Designer.View.Lists.DataColumn, BarsUp.Designer.View",
+      "Alias": "FundingPrograms_Id",
+      "AllowFiltering": true,
+      "AllowInlineEdit": true,
+      "AllowSorting": true,
+      "Columns": [],
+      "Display": "Программа финансирования.Идентификатор",
+      "EnableHeaderMenu": true,
+      "Events": [],
+      "FieldPathUid": "0de41a18-2d17-4f59-b60b-e39e0559c240$f95a256b-5ae1-40f4-aa65-89e63c58f335$BarsUp.DataAccess.PersistentObject, BarsUp.Abstractions.DataAccess/Id",
+      "Uid": "44fdf0bc-8985-479a-a1db-83c6efc228a2",
+      "Attributes": [
+        {
+          "$type": "BarsUp.Designer.View.Attributes.DecimalPrecisionControlAttribute, BarsUp.Designer.View",
+          "Value": 2
+        },
+        {
+          "$type": "BarsUp.Designer.View.Attributes.HiddenControlAttribute, BarsUp.Designer.View",
+          "Value": true
+        },
+        {
+          "$type": "BarsUp.Designer.View.Attributes.Registry.BlocklyRendererRedactorAttribute, BarsUp.Designer.View",
+          "Actions": [],
+          "Data": {},
+          "Display": "Метод форматирования",
+          "Hidden": false,
+          "IgnoreMakeInactive": false,
+          "Key": "FieldRenderer",
+          "Location": 0,
+          "PermissionCompositionType": 0,
+          "Renderer": {
+            "$type": "BarsUp.Designer.Core.Elements.RmsElementEvent, BarsUp.Designer.Core",
+            "Data": {}
+          },
+          "Uid": "BarsUp.Designer.View.Attributes.Registry.BlocklyRendererRedactorAttribute, BarsUp.Designer.View"
+        },
+        {
+          "$type": "BarsUp.Designer.View.Attributes.Registry.BlocklySummaryRendererEditorAttribute, BarsUp.Designer.View",
+          "Actions": [],
+          "Data": {},
+          "Display": "Метод форматирования итогов",
+          "Hidden": false,
+          "IgnoreMakeInactive": false,
+          "Key": "FieldSummaryRenderer",
+          "Location": 0,
+          "PermissionCompositionType": 0,
+          "Renderer": {
+            "$type": "BarsUp.Designer.Core.Elements.RmsElementEvent, BarsUp.Designer.Core",
+            "Data": {}
+          },
+          "Uid": "BarsUp.Designer.View.Attributes.Registry.BlocklySummaryRendererEditorAttribute, BarsUp.Designer.View"
+        },
+        {
+          "$type": "BarsUp.Designer.View.Attributes.RegistryGroupingSummaryAttribute, BarsUp.Designer.View",
+          "Format": 0,
+          "TextTemplate": "{0}",
+          "Type": 0
+        },
+        {
+          "$type": "BarsUp.Designer.View.Attributes.ViewElementPermissionAttribute, BarsUp.Designer.View",
+          "PermissionCompositionType": 0,
+          "PermissionsList": []
+        }
+      ]
+    },
+    {
+      "$type": "BarsUp.Designer.View.Lists.DataColumn, BarsUp.Designer.View",
+      "Alias": "Organization_Name",
+      "AllowFiltering": true,
+      "AllowInlineEdit": true,
+      "AllowSorting": true,
+      "Columns": [],
+      "Display": "Наименование",
+      "EnableHeaderMenu": true,
+      "Events": [],
+      "FieldPathUid": "0de41a18-2d17-4f59-b60b-e39e0559c240$a739203f-8f97-4e4a-b804-7d0a5ae76632$291234e7-3e4e-49ad-9652-9e47bcf814f4",
+      "Uid": "07b1ed0a-0d2f-4b22-a863-984e46db9e8f",
+      "Attributes": [
+        {
+          "$type": "BarsUp.Designer.View.Attributes.DecimalPrecisionControlAttribute, BarsUp.Designer.View",
+          "Value": 2
+        },
+        {
+          "$type": "BarsUp.Designer.View.Attributes.Registry.BlocklyRendererRedactorAttribute, BarsUp.Designer.View",
+          "Actions": [],
+          "Data": {},
+          "Display": "Метод форматирования",
+          "Hidden": false,
+          "IgnoreMakeInactive": false,
+          "Key": "FieldRenderer",
+          "Location": 0,
+          "PermissionCompositionType": 0,
+          "Renderer": {
+            "$type": "BarsUp.Designer.Core.Elements.RmsElementEvent, BarsUp.Designer.Core",
+            "Data": {}
+          },
+          "Uid": "BarsUp.Designer.View.Attributes.Registry.BlocklyRendererRedactorAttribute, BarsUp.Designer.View"
+        },
+        {
+          "$type": "BarsUp.Designer.View.Attributes.Registry.BlocklySummaryRendererEditorAttribute, BarsUp.Designer.View",
+          "Actions": [],
+          "Data": {},
+          "Display": "Метод форматирования итогов",
+          "Hidden": false,
+          "IgnoreMakeInactive": false,
+          "Key": "FieldSummaryRenderer",
+          "Location": 0,
+          "PermissionCompositionType": 0,
+          "Renderer": {
+            "$type": "BarsUp.Designer.Core.Elements.RmsElementEvent, BarsUp.Designer.Core",
+            "Data": {}
+          },
+          "Uid": "BarsUp.Designer.View.Attributes.Registry.BlocklySummaryRendererEditorAttribute, BarsUp.Designer.View"
+        },
+        {
+          "$type": "BarsUp.Designer.View.Attributes.RegistryGroupingSummaryAttribute, BarsUp.Designer.View",
+          "Format": 0,
+          "TextTemplate": "{0}",
+          "Type": 0
+        },
+        {
+          "$type": "BarsUp.Designer.View.Attributes.ViewElementPermissionAttribute, BarsUp.Designer.View",
+          "PermissionCompositionType": 0,
+          "PermissionsList": []
+        },
+        {
+          "$type": "BarsUp.Designer.View.Attributes.WidthControlAttribute, BarsUp.Designer.View",
+          "Value": 200
+        }
+      ]
+    },
+    {
+      "$type": "BarsUp.Designer.View.Lists.DataColumn, BarsUp.Designer.View",
+      "Alias": "Organization_Comment",
+      "AllowFiltering": true,
+      "AllowInlineEdit": true,
+      "AllowSorting": true,
+      "Columns": [],
+      "Display": "Описание",
+      "EnableHeaderMenu": true,
+      "Events": [],
+      "FieldPathUid": "0de41a18-2d17-4f59-b60b-e39e0559c240$a739203f-8f97-4e4a-b804-7d0a5ae76632$344fe108-25f3-42b4-a688-72a4f911da37",
+      "Uid": "4c624b37-a4e2-4ce9-a895-b3d5f253b386",
+      "Attributes": [
+        {
+          "$type": "BarsUp.Designer.View.Attributes.DecimalPrecisionControlAttribute, BarsUp.Designer.View",
+          "Value": 2
+        },
+        {
+          "$type": "BarsUp.Designer.View.Attributes.FlexControlAttribute, BarsUp.Designer.View",
+          "Value": 1.0
+        },
+        {
+          "$type": "BarsUp.Designer.View.Attributes.Registry.BlocklyRendererRedactorAttribute, BarsUp.Designer.View",
+          "Actions": [],
+          "Data": {},
+          "Hidden": false,
+          "IgnoreMakeInactive": false,
+          "Key": "FieldRenderer",
+          "Location": 0,
+          "PermissionCompositionType": 0,
+          "Renderer": {
+            "$type": "BarsUp.Designer.Core.Elements.RmsElementEvent, BarsUp.Designer.Core",
+            "Data": {}
+          },
+          "Uid": "BarsUp.Designer.View.Attributes.Registry.BlocklyRendererRedactorAttribute, BarsUp.Designer.View"
+        },
+        {
+          "$type": "BarsUp.Designer.View.Attributes.Registry.BlocklySummaryRendererEditorAttribute, BarsUp.Designer.View",
+          "Actions": [],
+          "Data": {},
+          "Hidden": false,
+          "IgnoreMakeInactive": false,
+          "Key": "FieldSummaryRenderer",
+          "Location": 0,
+          "PermissionCompositionType": 0,
+          "Renderer": {
+            "$type": "BarsUp.Designer.Core.Elements.RmsElementEvent, BarsUp.Designer.Core",
+            "Data": {}
+          },
+          "Uid": "BarsUp.Designer.View.Attributes.Registry.BlocklySummaryRendererEditorAttribute, BarsUp.Designer.View"
+        },
+        {
+          "$type": "BarsUp.Designer.View.Attributes.RegistryGroupingSummaryAttribute, BarsUp.Designer.View",
+          "Format": 0,
+          "TextTemplate": "{0}",
+          "Type": 0
+        },
+        {
+          "$type": "BarsUp.Designer.View.Attributes.ViewElementPermissionAttribute, BarsUp.Designer.View",
+          "PermissionCompositionType": 0,
+          "PermissionsList": []
+        }
+      ]
+    }
+  ],
+  "EnableColumnHide": true,
+  "EnableColumnMove": true,
+  "EnableColumnResize": true,
+  "Events": [],
+  "Name": "OrganizationFundingProgramsList2",
+  "PageSize": 25,
+  "Queries": [],
+  "RegistryTooltips": {
+    "$type": "BarsUp.Designer.View.Elements.Lists.Tooltips.RegistryTooltipsContainer, BarsUp.Designer.View",
+    "CellTooltips": [],
+    "IsNotEmpty": false,
+    "RowTooltips": []
+  },
+  "SelectionMode": 0,
+  "StyleConditions": "[]",
+  "Uid": "dbf839ff-91bd-4f87-a390-154f8db2a097",
+  "Attributes": [
+    {
+      "$type": "BarsUp.Designer.View.Attributes.DefaultInWindowSizeAttribute, BarsUp.Designer.View",
+      "Height": 500,
+      "Width": 500
+    },
+    {
+      "$type": "BarsUp.Designer.View.Attributes.Registry.EnableConditionalFormattingRegistryAttribute, BarsUp.Designer.View",
+      "Value": true
+    },
+    {
+      "$type": "BarsUp.Designer.View.Attributes.Registry.RegistryViewRowClassBlocklyAttribute, BarsUp.Designer.View",
+      "Actions": [],
+      "Data": {},
+      "Display": "Css-класс строки",
+      "Hidden": false,
+      "IgnoreMakeInactive": false,
+      "Location": 0,
+      "PermissionCompositionType": 0,
+      "Renderer": {
+        "$type": "BarsUp.Designer.Core.Elements.RmsElementEvent, BarsUp.Designer.Core",
+        "Data": {}
+      },
+      "Uid": "BarsUp.Designer.View.Attributes.Registry.RegistryViewRowClassBlocklyAttribute, BarsUp.Designer.View"
+    },
+    {
+      "$type": "BarsUp.Designer.View.Attributes.RegistryDefaultSortSettingsAttribute, BarsUp.Designer.View"
+    },
+    {
+      "$type": "BarsUp.Designer.View.Attributes.RegistryGroupingTypeAttribute, BarsUp.Designer.View",
+      "Type": 1
+    },
+    {
+      "$type": "BarsUp.Designer.View.Attributes.RegistryInlineEditingAttribute, BarsUp.Designer.View",
+      "IsEnabled": false,
+      "Mode": 0
+    },
+    {
+      "$type": "BarsUp.Designer.View.Attributes.RegistryPagingAttribute, BarsUp.Designer.View",
+      "Allow": true,
+      "IsBufferedStore": false,
+      "SeparateTotalCountRequest": false,
+      "Size": 50
+    },
+    {
+      "$type": "BarsUp.Designer.View.Attributes.RegistryQueryBuilderViewTypeAttribute, BarsUp.Designer.View",
+      "Mode": 0
+    },
+    {
+      "$type": "BarsUp.Designer.View.Attributes.RowExpanderAttribute, BarsUp.Designer.View"
+    }
+  ]
+}
