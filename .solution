@@ -29,15 +29,18 @@
   "ExtJsLabelAlign": 0,
   "FileManagers": {
     "$type": "BarsUp.Designer.Workspace.FileManagers.SolutionFileManagersSettings, BarsUp.Designer.Workspace",
+    "Display": "Файловые менеджеры",
     "EnableWebDav": false,
     "RemoveToRecycleBin": false,
     "UseFileGallery": true
   },
   "HideDesktopMenuButton": false,
   "IsReadonly": false,
+  "LogoHeight": 36,
   "MainMenuLayoutType": 0,
   "MobileSettings": {
     "$type": "BarsUp.Designer.RmsMobileSettings, BarsUp.Designer.Workspace",
+    "Display": "Мобильное приложение",
     "Generate": false
   },
   "Name": "it4sm.stk",
@@ -49,10 +52,11 @@
       "AppSettings": [],
       "DbName": "app_it4sm.stk",
       "DbPassword": "123",
-      "DbPort": 0,
+      "DbPort": 5432,
       "DbServer": "localhost",
       "DbUser": "bars",
-      "IsDebug": false,
+      "Display": "Конфигурация приложения",
+      "IsDebug": true,
       "Modules": []
     },
     "DeployTargets": [
@@ -62,7 +66,8 @@
         "Configuration": {
           "$type": "BarsUp.Designer.RmsPublicationProfileConfig, BarsUp.Designer.Workspace",
           "AppSettings": [],
-          "DbPort": 0,
+          "DbPort": 5432,
+          "Display": "Конфигурация приложения",
           "IsDebug": false,
           "Modules": []
         },
@@ -126,11 +131,13 @@
     "SeparateTotalCountRequestInRegistries": false,
     "ShowSaveCloseButton": false,
     "ShowTotalCount": false,
+    "TestGroupSize": 0,
     "Uid": "d2d88835-8360-4d14-b18f-fad9eeb48356",
     "UseBufferedStoreInRegistries": false,
     "UseCentralPackageVersionManagement": false,
     "UseHttpsRedirect": false,
-    "UseNhFutures": false
+    "UseNhFutures": false,
+    "WebDeployApp": "Default Web Site\\app"
   },
   "PublicationTargets": [],
   "Remote": {
