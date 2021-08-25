@@ -1,20 +1,20 @@
 ﻿{
   "Code": {
     "Серверный код": {
-      "CustomFilesCount": 0,
-      "CustomLinesCount": 0,
-      "FilesRate": 1,
-      "GeneratedFilesCount": 0,
-      "GeneratedLinesCount": 0,
-      "LinesRate": 1
+      "CustomFilesCount": 4,
+      "CustomLinesCount": 176,
+      "FilesRate": 127,
+      "GeneratedFilesCount": 511,
+      "GeneratedLinesCount": 38653,
+      "LinesRate": 219
     },
     "Браузерный код": {
       "CustomFilesCount": 0,
       "CustomLinesCount": 0,
-      "FilesRate": 1,
-      "GeneratedFilesCount": 0,
-      "GeneratedLinesCount": 0,
-      "LinesRate": 1
+      "FilesRate": 173,
+      "GeneratedFilesCount": 173,
+      "GeneratedLinesCount": 19255,
+      "LinesRate": 19255
     },
     "СУБД": {
       "CustomFilesCount": 0,
@@ -140,7 +140,7 @@
     },
     "Список": {
       "Count": 0,
-      "IconCls": "fas fa-list-alt"
+      "IconCls": "fal fa-list-alt"
     },
     "Статический класс (JS)": {
       "Count": 0,
