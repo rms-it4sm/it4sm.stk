@@ -22,6 +22,10 @@
   "HideDesktopMenuButton": false,
   "IsReadonly": false,
   "MainMenuLayoutType": 0,
+  "MobileSettings": {
+    "$type": "BarsUp.Designer.RmsMobileSettings, BarsUp.Designer.Workspace",
+    "Generate": false
+  },
   "Name": "it4sm.stk",
   "PublicationProfile": {
     "$type": "BarsUp.Designer.RmsPublicationProfile, BarsUp.Designer.Workspace",
