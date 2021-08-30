@@ -148,7 +148,7 @@
     },
     "Список": {
       "Count": 0,
-      "IconCls": "fas fa-list-alt"
+      "IconCls": "fal fa-list-alt"
     },
     "Статический класс (JS)": {
       "Count": 0,
