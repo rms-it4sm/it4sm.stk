@@ -126,6 +126,10 @@
       "Count": 0,
       "IconCls": "fad fa-shield"
     },
+    "Редактор": {
+      "Count": 20,
+      "IconCls": "x16 fa-form"
+    },
     "Реестр": {
       "Count": 36,
       "IconCls": "x16 fa-table"
@@ -161,10 +165,6 @@
     "Форма": {
       "Count": 0,
       "IconCls": "fal fa-mobile-android-alt"
-    },
-    "Форма редактирования": {
-      "Count": 20,
-      "IconCls": "x16 fa-form"
     },
     "Фрейм": {
       "Count": 0,
