@@ -56,7 +56,7 @@
     },
     "Иерархия": {
       "Count": 0,
-      "IconCls": "fad fa-folder-tree"
+      "IconCls": "fad fa-bezier-curve"
     },
     "Интерфейс": {
       "Count": 0,
@@ -68,7 +68,7 @@
     },
     "Класс": {
       "Count": 0,
-      "IconCls": "fal fa-cube"
+      "IconCls": "fad fa-cube"
     },
     "Клиентский OLAP": {
       "Count": 0,
@@ -92,7 +92,7 @@
     },
     "Меню модуля": {
       "Count": 1,
-      "IconCls": "pl fa-av-playlist-play"
+      "IconCls": "fad fa-clipboard-list"
     },
     "Обработчик очереди": {
       "Count": 0,
@@ -108,7 +108,7 @@
     },
     "Перечисление": {
       "Count": 1,
-      "IconCls": "fas fa-list-ol"
+      "IconCls": "fad fa-list-ol"
     },
     "Планировщик": {
       "Count": 0,
@@ -140,11 +140,7 @@
     },
     "Сервис": {
       "Count": 0,
-      "IconCls": "pl fa-av-playlist-play"
-    },
-    "Сервис хоста": {
-      "Count": 0,
-      "IconCls": "pl fa-av-playlist-play"
+      "IconCls": "fad fa-cog"
     },
     "Сообщение очереди": {
       "Count": 0,
@@ -152,7 +148,7 @@
     },
     "Список": {
       "Count": 0,
-      "IconCls": "fas fa-list-alt"
+      "IconCls": "fal fa-list-alt"
     },
     "Статический класс (JS)": {
       "Count": 0,
@@ -160,7 +156,11 @@
     },
     "Сущность": {
       "Count": 36,
-      "IconCls": "fas fa-database"
+      "IconCls": "fad fa-database"
+    },
+    "Фоновый сервис": {
+      "Count": 0,
+      "IconCls": "fad fa-hurricane"
     },
     "Форма": {
       "Count": 0,
